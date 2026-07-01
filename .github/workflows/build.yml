@@ -3,8 +3,6 @@ name: Build APK
 on:
   push:
     branches: [ xposed-module ]
-  pull_request:
-    branches: [ xposed-module ]
   workflow_dispatch:
 
 jobs:
@@ -23,16 +21,11 @@ jobs:
     - name: Make gradlew executable
       run: chmod +x ./gradlew
     
-    - name: Build with Gradle
-      run: ./gradlew clean :app:assembleRelease --stacktrace
-    
-    - name: Check build output
-      run: ls -la app/build/outputs/apk/release/
+    - name: Build Release APK
+      run: ./gradlew :app:assembleRelease
     
     - name: Upload APK
       uses: actions/upload-artifact@v4
-      if: success()
       with:
-        name: app-release-apk
+        name: app-release
         path: app/build/outputs/apk/release/app-release.apk
-        retention-days: 30
