@@ -1,0 +1,513 @@
+{
+  "id": "background",
+  "layoutDirection": "ltr",
+  "layout_width": "match_parent",
+  "layout_height": "match_parent",
+  "type": "constraint",
+  "package": "com.autonavi.minimap",
+  "child": [
+    {
+      "id": "realtime_bus_widget_parent",
+      "layout_width": "match_parent",
+      "layout_height": "156dp",
+      "background": "@drawable\/hiboard_desktop_widget_bg",
+      "padding": "@dimen\/hiboard_widget_padding",
+      "layout_constraintTop_toTopOf": "parent",
+      "layout_constraintBottom_toBottomOf": "parent",
+      "layout_constraintStart_toStartOf": "parent",
+      "layout_constraintEnd_toEndOf": "parent",
+      "type": "constraint",
+      "child": [
+        {
+          "id": "top_layout",
+          "layout_width": "match_parent",
+          "layout_height": "wrap_content",
+          "layout_constraintStart_toStartOf": "parent",
+          "layout_constraintTop_toTopOf": "parent",
+          "layout_constraintEnd_toEndOf": "parent",
+          "type": "constraint",
+          "child": [
+            {
+              "id": "logo_iv",
+              "layout_width": "18dp",
+              "layout_height": "18dp",
+              "src": "@drawable\/icon_hiboard_widget_logo",
+              "layout_constraintStart_toStartOf": "parent",
+              "layout_constraintTop_toTopOf": "parent",
+              "layout_constraintBottom_toBottomOf": "parent",
+              "type": "image"
+            },
+            {
+              "id": "desktop_label_tv",
+              "layout_width": "0dp",
+              "layout_height": "wrap_content",
+              "layout_constraintStart_toEndOf": "logo_iv",
+              "layout_constraintTop_toTopOf": "parent",
+              "layout_constraintBottom_toBottomOf": "parent",
+              "layout_marginStart": "4dp",
+              "gravity": "center_vertical",
+              "text": "@string\/desktop_widget_label",
+              "textColor": "@color\/real_time_bus_hiboard_app_label_color",
+              "layout_weight": 1,
+              "textSize": "12dp",
+              "type": "text"
+            },
+            {
+              "id": "layout_refresh",
+              "layout_width": "wrap_content",
+              "layout_height": "wrap_content",
+              "layout_constraintEnd_toEndOf": "parent",
+              "layout_constraintTop_toTopOf": "parent",
+              "type": "constraint",
+              "child": [
+                {
+                  "id": "refresh_time_label",
+                  "layout_width": "wrap_content",
+                  "layout_height": "wrap_content",
+                  "layout_constraintStart_toStartOf": "parent",
+                  "layout_constraintTop_toTopOf": "parent",
+                  "layout_constraintBottom_toBottomOf": "parent",
+                  "textColor": "@color\/blue_a",
+                  "text": "@string\/real_time_bus_updating_text",
+                  "textSize": "10dp",
+                  "type": "text"
+                },
+                {
+                  "id": "refresh_iv",
+                  "layout_width": "12dp",
+                  "layout_height": "12dp",
+                  "layout_constraintStart_toEndOf": "refresh_time_label",
+                  "layout_constraintEnd_toEndOf": "parent",
+                  "layout_constraintTop_toTopOf": "parent",
+                  "layout_constraintBottom_toBottomOf": "parent",
+                  "layout_marginStart": "5.5dp",
+                  "src": "@drawable\/ic_widget_refresh",
+                  "type": "image"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "search_bar_layout",
+          "layout_width": "match_parent",
+          "layout_height": "24dp",
+          "layout_constraintTop_toBottomOf": "top_layout",
+          "layout_constraintStart_toStartOf": "parent",
+          "layout_constraintEnd_toEndOf": "parent",
+          "layout_marginTop": "4dp",
+          "background": "@drawable\/desktop_widget_search_bar_bg_default",
+          "orientation": "horizontal",
+          "type": "constraint",
+          "child": [
+            {
+              "id": "search_bar_img",
+              "layout_width": "16dp",
+              "layout_height": "16dp",
+              "src": "@drawable\/ic_widget_search_bar",
+              "layout_constraintStart_toStartOf": "parent",
+              "layout_constraintTop_toTopOf": "parent",
+              "layout_constraintBottom_toBottomOf": "parent",
+              "layout_marginStart": "9dp",
+              "type": "image"
+            },
+            {
+              "id": "search_bar_label",
+              "layout_width": "wrap_content",
+              "layout_height": "wrap_content",
+              "layout_constraintStart_toEndOf": "search_bar_img",
+              "layout_constraintTop_toTopOf": "parent",
+              "layout_constraintBottom_toBottomOf": "parent",
+              "layout_marginStart": "4dp",
+              "textSize": "12dp",
+              "layout_weight": 1,
+              "lines": 1,
+              "textColor": "@color\/real_time_bus_widget_search_bar_label",
+              "text": "@string\/real_time_bus_search_bar_text",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "id": "layout_detail_parent",
+          "layout_width": "match_parent",
+          "layout_height": "wrap_content",
+          "layout_constraintStart_toStartOf": "parent",
+          "layout_constraintBottom_toBottomOf": "parent",
+          "layout_constraintTop_toBottomOf": "search_bar_layout",
+          "layout_constraintEnd_toEndOf": "parent",
+          "layout_marginTop": "5dp",
+          "type": "constraint",
+          "child": [
+            {
+              "id": "layout_detail_1",
+              "layout_width": "0dp",
+              "layout_height": "wrap_content",
+              "layout_constraintStart_toStartOf": "parent",
+              "layout_constraintTop_toTopOf": "parent",
+              "layout_constraintEnd_toStartOf": "layout_detail_2",
+              "layout_constraintBottom_toBottomOf": "parent",
+              "layout_constraintHorizontal_weight": 1,
+              "background": "@drawable\/realtime_bus_hiboard_item_bg",
+              "type": "constraint",
+              "child": [
+                {
+                  "id": "item_one_station_name_tv",
+                  "layout_width": "match_parent",
+                  "layout_height": "wrap_content",
+                  "layout_constraintStart_toStartOf": "parent",
+                  "layout_constraintTop_toTopOf": "parent",
+                  "layout_constraintEnd_toEndOf": "parent",
+                  "paddingTop": "@dimen\/hiboard_widget_real_time_bus_item_detail_station_name_padding",
+                  "paddingBottom": "@dimen\/hiboard_widget_real_time_bus_item_detail_station_name_padding",
+                  "paddingStart": "@dimen\/hiboard_widget_real_time_bus_item_padding_left",
+                  "gravity": "center_vertical",
+                  "textColor": "@color\/real_time_bus_hiboard_station_name_color",
+                  "background": "@drawable\/realtime_bus_hiboard_widget_bus_line_name_bg",
+                  "lines": 1,
+                  "ellipsize": "end",
+                  "textSize": "10dp",
+                  "tools:text": "公交-望花路东里",
+                  "type": "text"
+                },
+                {
+                  "id": "item_one_terminal_name_tv",
+                  "layout_width": "match_parent",
+                  "layout_height": "wrap_content",
+                  "layout_constraintStart_toStartOf": "parent",
+                  "layout_constraintTop_toBottomOf": "item_one_bus_line_layout",
+                  "paddingStart": "@dimen\/hiboard_widget_real_time_bus_item_padding_left",
+                  "textColor": "@color\/real_time_bus_hiboard_terminal_name_color",
+                  "lines": 1,
+                  "ellipsize": "end",
+                  "textSize": "8dp",
+                  "lineHeight": "10.53dp",
+                  "tools:text": "开往 展览中心",
+                  "type": "text"
+                },
+                {
+                  "id": "item_one_bus_line_layout",
+                  "layout_width": "wrap_content",
+                  "layout_height": "wrap_content",
+                  "layout_constraintStart_toStartOf": "parent",
+                  "layout_constraintTop_toBottomOf": "item_one_station_name_tv",
+                  "layout_marginTop": "5dp",
+                  "paddingStart": "@dimen\/hiboard_widget_real_time_bus_item_padding_left",
+                  "type": "constraint",
+                  "child": [
+                    {
+                      "id": "item_one_bus_line_key_icon",
+                      "layout_width": "@dimen\/desktop_widget_real_time_bus_item_bus_line_key_icon_width",
+                      "layout_height": "@dimen\/desktop_widget_real_time_bus_item_bus_line_key_icon_height",
+                      "layout_constraintStart_toStartOf": "parent",
+                      "layout_constraintTop_toTopOf": "parent",
+                      "layout_constraintBottom_toBottomOf": "parent",
+                      "forceDarkAllowed": false,
+                      "visibility": "gone",
+                      "type": "image"
+                    },
+                    {
+                      "id": "item_one_bus_line_key_tv",
+                      "layout_width": "match_parent",
+                      "layout_height": "wrap_content",
+                      "layout_constraintStart_toEndOf": "item_one_bus_line_key_icon",
+                      "layout_constraintTop_toTopOf": "parent",
+                      "layout_constraintBottom_toBottomOf": "parent",
+                      "layout_marginStart": "3dp",
+                      "layout_goneMarginStart": "0dp",
+                      "gravity": "center_vertical",
+                      "textColor": "@color\/real_time_bus_hiboard_line_key_color",
+                      "lines": 1,
+                      "ellipsize": "end",
+                      "textSize": "11.2dp",
+                      "lineHeight": "14.58dp",
+                      "tools:text": "604路",
+                      "type": "text"
+                    },
+                    {
+                      "id": "item_one_bus_line_follow",
+                      "layout_width": "match_parent",
+                      "layout_height": "wrap_content",
+                      "layout_constraintStart_toEndOf": "item_one_bus_line_key_tv",
+                      "layout_constraintTop_toTopOf": "parent",
+                      "layout_constraintBottom_toBottomOf": "parent",
+                      "layout_marginStart": "4dp",
+                      "layout_goneMarginStart": "0dp",
+                      "gravity": "center_vertical",
+                      "textColor": "@color\/real_time_bus_follow_label_color",
+                      "lines": 1,
+                      "ellipsize": "end",
+                      "textSize": "6.6dp",
+                      "lineHeight": "14.58dp",
+                      "text": "@string\/real_time_bus_follow_text",
+                      "visibility": "gone",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "id": "item_one_real_time_info_layout",
+                  "layout_width": "match_parent",
+                  "layout_height": "16dp",
+                  "layout_constraintStart_toStartOf": "parent",
+                  "layout_constraintTop_toBottomOf": "item_one_terminal_name_tv",
+                  "layout_marginTop": "4dp",
+                  "forceDarkAllowed": false,
+                  "gravity": "center_vertical",
+                  "paddingStart": "@dimen\/hiboard_widget_real_time_bus_item_padding_left",
+                  "orientation": "horizontal",
+                  "type": "constraint",
+                  "child": [
+                    {
+                      "id": "item_one_real_time_info_icon_iv",
+                      "layout_width": "8dp",
+                      "layout_height": "10dp",
+                      "layout_constraintStart_toStartOf": "parent",
+                      "layout_constraintTop_toTopOf": "parent",
+                      "layout_constraintBottom_toBottomOf": "parent",
+                      "src": "@drawable\/icon_real_time_bus",
+                      "visibility": "gone",
+                      "type": "image"
+                    },
+                    {
+                      "id": "item_one_crowd_level_iv",
+                      "layout_width": "20dp",
+                      "layout_height": "10dp",
+                      "layout_constraintStart_toEndOf": "item_one_real_time_description_tv",
+                      "layout_constraintTop_toTopOf": "parent",
+                      "layout_constraintBottom_toBottomOf": "parent",
+                      "layout_marginStart": "3dp",
+                      "type": "image"
+                    },
+                    {
+                      "id": "item_one_real_time_description_tv",
+                      "layout_width": "wrap_content",
+                      "layout_height": "wrap_content",
+                      "layout_constraintStart_toEndOf": "item_one_real_time_info_icon_iv",
+                      "layout_constraintTop_toTopOf": "parent",
+                      "layout_constraintBottom_toBottomOf": "parent",
+                      "gravity": "center_vertical",
+                      "textColor": "@color\/v3_font_white",
+                      "lines": 1,
+                      "ellipsize": "end",
+                      "textSize": "10dp",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "layout_detail_2",
+              "layout_width": "0dp",
+              "layout_height": "wrap_content",
+              "layout_constraintStart_toEndOf": "layout_detail_1",
+              "layout_constraintEnd_toStartOf": "layout_detail_more",
+              "layout_constraintTop_toTopOf": "parent",
+              "layout_constraintBottom_toBottomOf": "parent",
+              "layout_constraintHorizontal_weight": 1,
+              "layout_marginStart": "5.73dp",
+              "background": "@drawable\/realtime_bus_hiboard_item_bg",
+              "type": "constraint",
+              "child": [
+                {
+                  "id": "item_two_station_name_tv",
+                  "layout_width": "match_parent",
+                  "layout_height": "wrap_content",
+                  "layout_constraintStart_toStartOf": "parent",
+                  "layout_constraintTop_toTopOf": "parent",
+                  "layout_constraintEnd_toEndOf": "parent",
+                  "paddingTop": "@dimen\/hiboard_widget_real_time_bus_item_detail_station_name_padding",
+                  "paddingBottom": "@dimen\/hiboard_widget_real_time_bus_item_detail_station_name_padding",
+                  "paddingStart": "@dimen\/hiboard_widget_real_time_bus_item_padding_left",
+                  "gravity": "center_vertical",
+                  "textColor": "@color\/real_time_bus_hiboard_station_name_color",
+                  "background": "@drawable\/realtime_bus_hiboard_widget_bus_line_name_bg",
+                  "lines": 1,
+                  "ellipsize": "end",
+                  "textSize": "10dp",
+                  "tools:text": "地铁-望京东",
+                  "type": "text"
+                },
+                {
+                  "id": "item_two_terminal_name_tv",
+                  "layout_width": "match_parent",
+                  "layout_height": "wrap_content",
+                  "layout_constraintStart_toStartOf": "parent",
+                  "layout_constraintTop_toBottomOf": "item_two_bus_line_layout",
+                  "paddingStart": "@dimen\/hiboard_widget_real_time_bus_item_padding_left",
+                  "textColor": "@color\/real_time_bus_hiboard_terminal_name_color",
+                  "lines": 1,
+                  "ellipsize": "end",
+                  "textSize": "8dp",
+                  "lineHeight": "10.53dp",
+                  "tools:text": "开往 北京南站",
+                  "type": "text"
+                },
+                {
+                  "id": "item_two_bus_line_layout",
+                  "layout_width": "wrap_content",
+                  "layout_height": "wrap_content",
+                  "layout_constraintStart_toStartOf": "parent",
+                  "layout_constraintTop_toBottomOf": "item_two_station_name_tv",
+                  "layout_marginTop": "5dp",
+                  "paddingStart": "@dimen\/hiboard_widget_real_time_bus_item_padding_left",
+                  "type": "constraint",
+                  "child": [
+                    {
+                      "id": "item_two_bus_line_key_icon",
+                      "layout_width": "@dimen\/desktop_widget_real_time_bus_item_bus_line_key_icon_width",
+                      "layout_height": "@dimen\/desktop_widget_real_time_bus_item_bus_line_key_icon_height",
+                      "layout_constraintStart_toStartOf": "parent",
+                      "layout_constraintTop_toTopOf": "parent",
+                      "layout_constraintBottom_toBottomOf": "parent",
+                      "forceDarkAllowed": false,
+                      "visibility": "gone",
+                      "type": "image"
+                    },
+                    {
+                      "id": "item_two_bus_line_key_tv",
+                      "layout_width": "match_parent",
+                      "layout_height": "wrap_content",
+                      "layout_constraintStart_toEndOf": "item_two_bus_line_key_icon",
+                      "layout_constraintTop_toTopOf": "parent",
+                      "layout_marginStart": "3dp",
+                      "layout_goneMarginStart": "0dp",
+                      "gravity": "center_vertical",
+                      "textColor": "@color\/real_time_bus_hiboard_line_key_color",
+                      "lines": 1,
+                      "ellipsize": "end",
+                      "textSize": "11.2dp",
+                      "lineHeight":"14.58dp",
+                      "tools:text": "14号线",
+                      "type": "text"
+                    },
+                    {
+                      "id": "item_two_bus_line_follow",
+                      "layout_width": "match_parent",
+                      "layout_height": "wrap_content",
+                      "layout_constraintStart_toEndOf": "item_two_bus_line_key_tv",
+                      "layout_constraintTop_toTopOf": "parent",
+                      "layout_constraintBottom_toBottomOf": "parent",
+                      "layout_marginStart": "4dp",
+                      "layout_goneMarginStart": "0dp",
+                      "gravity": "center_vertical",
+                      "textColor": "@color\/real_time_bus_follow_label_color",
+                      "lines": 1,
+                      "ellipsize": "end",
+                      "textSize": "6.6dp",
+                      "lineHeight": "14.58dp",
+                      "text": "@string\/real_time_bus_follow_text",
+                      "visibility": "gone",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "id": "item_two_real_time_info_layout",
+                  "layout_width": "match_parent",
+                  "layout_height": "16dp",
+                  "layout_constraintStart_toStartOf": "parent",
+                  "layout_constraintTop_toBottomOf": "item_two_terminal_name_tv",
+                  "layout_marginTop": "4dp",
+                  "forceDarkAllowed": false,
+                  "gravity": "center_vertical",
+                  "paddingStart": "@dimen\/hiboard_widget_real_time_bus_item_padding_left",
+                  "orientation": "horizontal",
+                  "type": "constraint",
+                  "child": [
+                    {
+                      "id": "item_two_real_time_info_icon_iv",
+                      "layout_width": "8dp",
+                      "layout_height": "10dp",
+                      "layout_constraintStart_toStartOf": "parent",
+                      "layout_constraintTop_toTopOf": "parent",
+                      "layout_constraintBottom_toBottomOf": "parent",
+                      "src": "@drawable\/icon_real_time_bus",
+                      "visibility": "gone",
+                      "type": "image"
+                    },
+                    {
+                      "id": "item_two_crowd_level_iv",
+                      "layout_width": "20dp",
+                      "layout_height": "10dp",
+                      "layout_constraintStart_toEndOf": "item_two_real_time_description_tv",
+                      "layout_constraintTop_toTopOf": "parent",
+                      "layout_constraintBottom_toBottomOf": "parent",
+                      "layout_marginStart": "3dp",
+                      "type": "image"
+                    },
+                    {
+                      "id": "item_two_real_time_description_tv",
+                      "layout_width": "wrap_content",
+                      "layout_height": "wrap_content",
+                      "layout_constraintStart_toEndOf": "item_two_real_time_info_icon_iv",
+                      "layout_constraintTop_toTopOf": "parent",
+                      "layout_constraintBottom_toBottomOf": "parent",
+                      "gravity": "center_vertical",
+                      "textColor": "@color\/v3_font_white",
+                      "lines": 1,
+                      "ellipsize": "end",
+                      "textSize": "10dp",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "layout_detail_more",
+              "layout_width": "23dp",
+              "layout_height": "0dp",
+              "layout_constraintEnd_toEndOf": "parent",
+              "layout_constraintTop_toTopOf": "parent",
+              "layout_constraintBottom_toBottomOf": "parent",
+              "layout_constraintStart_toEndOf": "layout_detail_2",
+              "background": "@drawable\/realtime_bus_hiboard_item_bg",
+              "layout_marginStart": "5.38dp",
+              "type": "constraint",
+              "child": [
+                {
+                  "id": "detail_more_tv",
+                  "layout_width": "match_parent",
+                  "layout_height": "0dp",
+                  "layout_constraintVertical_weight": 1,
+                  "layout_constraintTop_toTopOf": "parent",
+                  "layout_constraintBottom_toTopOf": "detail_more_bottom_bg",
+                  "layout_constraintStart_toStartOf": "parent",
+                  "layout_constraintEnd_toEndOf": "parent",
+                  "text": "@string\/real_time_bus_more",
+                  "textColor": "@color\/real_time_bus_hiboard_more_label_color",
+                  "gravity": "center",
+                  "textSize": "13dp",
+                  "type": "text"
+                },
+                {
+                  "id": "detail_more_bottom_bg",
+                  "layout_width": "match_parent",
+                  "layout_height": "16dp",
+                  "layout_constraintBottom_toBottomOf": "parent",
+                  "background": "@drawable\/realtime_bus_hiboard_widget_more_bg",
+                  "type": "image"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sub_title_label",
+          "layout_width": "match_parent",
+          "layout_height": "@dimen\/desktop_widget_real_time_bus_item_detail_layout_height",
+          "layout_constraintStart_toStartOf": "parent",
+          "layout_constraintTop_toBottomOf": "search_bar_layout",
+          "text": "@string\/no_bus_label",
+          "textSize": "13.3dp",
+          "textColor": "@color\/real_time_bus_hiboard_subtitle_label_color",
+          "layout_marginTop": "6dp",
+          "visibility": "gone",
+          "type": "text"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+	"3d_resource": "video",
+	"3d_support": 1,
+	"3d_tag_pic": "",
+	"bg_pic": [],
+	"danmu": [],
+	"data_type": 0,
+	"detail_flag": 1,
+	"download": {
+		"android": "ANDH>=120000",
+		"gray": 100,
+		"ios": "IOSH>=120000",
+		"md5": "9f018825fff9243ef70eebb82363df24",
+		"modelType": 2,
+		"publish_version": 1731919299986,
+		"realsize": "95537889",
+		"sdk_version": "V2.1.0",
+		"url": "https://voiceip.amap.com/voiceip/voiceip/daily/amap/V2.1.0/385/20241118164158/385_1731919299986.zip",
+		"zip_result": true
+	},
+	"dynamic_type": 1,
+	"example": [],
+	"id": 496,
+	"image": "https://mapdownload.autonavi.com/voiceip/voiceip/daily/platform/20250410112344/ipinfo/6f5ec7405aaed8092ae3dbec976de181.jpeg",
+	"image_long": "",
+	"jump": "",
+	"large_card": {
+		"bg_pic": ""
+	},
+	"middle_card": {
+		"bg_pic": ""
+	},
+	"language":8,
+	"music_source": 0,
+	"name": "日语语音包",
+	"priority": 11,
+	"publish_version": 1731919299986,
+	"share_flag": 1,
+	"shortname": "日语包",
+	"src_code": "496",
+	"subname": "amapJapanese",
+	"subtitle": "日语音包",
+	"support_3d_resource": 0,
+	"title": "日语语音包",
+	"try_url": "",
+	"video_info": {
+		"file_url": "",
+		"pic": ""
+	}
+}

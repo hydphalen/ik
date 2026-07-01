@@ -1,0 +1,144 @@
+{
+  "templateConfig": {
+    "amap_search_suggestion_bar": {
+      "templateName": "amap_search_suggestion_bar",
+      "url": "https://dinamicx.alibabausercontent.com/pub/amap_search_suggestion_bar/1780204268925/amap_search_suggestion_bar.zip",
+      "version": 15
+    },
+    "amap_search_filter_bar_next": {
+      "templateName": "amap_search_filter_bar_next",
+      "url": "https://dinamicx.alibabausercontent.com/pub/amap_search_filter_bar_next/1780409912110/amap_search_filter_bar_next.zip",
+      "version": 126
+    },
+    "amap_uncorrelated_divide": {
+      "templateName": "amap_uncorrelated_divide",
+      "url": "https://dinamicx.alibabausercontent.com/pub/amap_uncorrelated_divide/1767952145066/amap_uncorrelated_divide.zip",
+      "version": 2
+    },
+    "amap_poi_card_universal": {
+      "templateName": "amap_poi_card_universal",
+      "url": "https://dinamicx.alibabausercontent.com/pub/amap_poi_card_universal/1780411485461/amap_poi_card_universal.zip",
+      "version": 321
+    },
+    "amap_poicard_main_nextsearch": {
+      "templateName": "amap_poicard_main_nextsearch",
+      "url": "https://dinamicx.alibabausercontent.com/pub/amap_poicard_main_nextsearch/1774252562246/amap_poicard_main_nextsearch.zip",
+      "version": 68
+    },
+    "amap_poicard_rank_nextsearch": {
+      "templateName": "amap_poicard_rank_nextsearch",
+      "url": "https://dinamicx.alibabausercontent.com/pub/amap_poicard_rank_nextsearch/1768986069420/amap_poicard_rank_nextsearch.zip",
+      "version": 31
+    },
+    "amap_poicard_feed_nextsearch": {
+      "templateName": "amap_poicard_feed_nextsearch",
+      "url": "https://dinamicx.alibabausercontent.com/pub/amap_poicard_feed_nextsearch/1780398830044/amap_poicard_feed_nextsearch.zip",
+      "version": 100
+    },
+    "amap_poicard_swipe_nextsearch": {
+      "templateName": "amap_poicard_swipe_nextsearch",
+      "url": "https://dinamicx.alibabausercontent.com/pub/amap_poicard_swipe_nextsearch/1778644044215/amap_poicard_swipe_nextsearch.zip",
+      "version": 96
+    },
+    "amap_busline_card": {
+      "templateName": "amap_busline_card",
+      "url": "https://dinamicx.alibabausercontent.com/pub/amap_busline_card/1779763450970/amap_busline_card.zip",
+      "version": 47
+    },
+    "amap_busline_card_more": {
+      "templateName": "amap_busline_card_more",
+      "url": "https://dinamicx.alibabausercontent.com/pub/amap_busline_card_more/1770087900560/amap_busline_card_more.zip",
+      "version": 11
+    },
+    "amap_filter_result_selector_card": {
+      "templateName": "amap_filter_result_selector_card",
+      "url": "https://dinamicx.alibabausercontent.com/pub/amap_filter_result_selector_card/1773382352668/amap_filter_result_selector_card.zip",
+      "version": 25
+    },
+    "amap_industry_promotion_card": {
+      "templateName": "amap_industry_promotion_card",
+      "url": "https://dinamicx.alibabausercontent.com/pub/amap_industry_promotion_card/1776085346698/amap_industry_promotion_card.zip",
+      "version": 9
+    },
+    "amap_search_navi_bar_mini_portal": {
+      "templateName": "amap_search_navi_bar_mini_portal",
+      "url": "https://dinamicx.alibabausercontent.com/pub/amap_search_navi_bar_mini_portal/1773751280217/amap_search_navi_bar_mini_portal.zip",
+      "version": 40
+    },
+    "amap_npl_rating_card_a": {
+      "templateName": "amap_npl_rating_card_a",
+      "url": "https://dinamicx.alibabausercontent.com/pub/amap_npl_rating_card_a/1769070005247/amap_npl_rating_card_a.zip",
+      "version": 13
+    },
+    "amap_next_search_aggregation_title": {
+      "templateName": "amap_next_search_aggregation_title",
+      "url": "https://dinamicx.alibabausercontent.com/pub/amap_next_search_aggregation_title/1773648931109/amap_next_search_aggregation_title.zip",
+      "version": 15
+    },
+    "amap_next_search_tab_bar": {
+      "templateName": "amap_next_search_tab_bar",
+      "url": "https://dinamicx.alibabausercontent.com/pub/amap_next_search_tab_bar/1773810518058/amap_next_search_tab_bar.zip",
+      "version": 40
+    },
+    "amap_list_rank_card_ai_ui": {
+      "templateName": "amap_list_rank_card_ai_ui",
+      "url": "https://dinamicx.alibabausercontent.com/pub/amap_list_rank_card_ai_ui/1770712693111/amap_list_rank_card_ai_ui.zip",
+      "version": 11
+    },
+    "amap_poi_good_card": {
+      "templateName": "amap_poi_good_card",
+      "url": "https://dinamicx.alibabausercontent.com/pub/amap_poi_good_card/1780369146389/amap_poi_good_card.zip",
+      "version": 8
+    },
+    "amap_search_operation_filter": {
+      "templateName": "amap_search_operation_filter",
+      "url": "https://dinamicx.alibabausercontent.com/pub/amap_search_operation_filter/1779903353411/amap_search_operation_filter.zip",
+      "version": 21
+    }
+  },
+  "templateSceneConfig": {
+    "start": {
+      "depends": [],
+      "preloadScene": [
+        "search_home_page"
+      ]
+    },
+    "search_home_page": {
+      "depends": [],
+      "preloadScene": [
+        "search_result_list"
+      ]
+    },
+    "search_result_list": {
+      "depends": [
+        "amap_poi_card_universal",
+        "amap_search_filter_bar_next",
+        "amap_poicard_feed_nextsearch",
+        "amap_filter_result_selector_card",
+        "amap_poicard_main_nextsearch",
+        "amap_search_navi_bar_mini_portal",
+        "amap_poicard_rank_nextsearch",
+        "amap_poicard_swipe_nextsearch",
+        "amap_busline_card",
+        "amap_busline_card_more",
+        "amap_industry_promotion_card",
+        "amap_next_search_aggregation_title",
+        "amap_next_search_tab_bar",
+        "amap_list_rank_card_ai_ui",
+        "amap_poi_good_card",
+        "amap_search_operation_filter"
+      ],
+      "preloadScene": [
+        "search_detail_page"
+      ]
+    },
+    "search_detail_page": {
+      "depends": [
+        "detailHeader",
+        "detailContent",
+        "detailFooter"
+      ],
+      "preloadScene": []
+    }
+  }
+}

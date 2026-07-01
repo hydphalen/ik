@@ -1,0 +1,50 @@
+{
+  "stat": "success",
+  "resultCode": 100,
+  "resultMsg": "操作成功",
+  "data": [
+    {
+      "app_type": 1,
+      "package_url": "https://games-static.amap-cdn.com/ALIPUBB7BED93231405-default/68687360/0.0.0.3_android/nebula/68687360_0.0.0.3.amr",
+      "third_platform": null,
+      "preset": 1,
+      "extend_info": {
+        "paramsMap": {
+          "isAppxSupportNativeGame":true
+        }
+      },
+      "auto_install": 0,
+      "nbl_id": "AP_68687360",
+      "patch": null,
+      "app_dist": "CN",
+      "sub_url": [],
+      "app_id": "68687360",
+      "icon_url": "https://gw.alipayobjects.com/zos/rmsportal/rirDfEjfhZjYdneHUDDt.png",
+      "package_nick": "0.8.8",
+      "local_report": 0,
+      "api_permission": "",
+      "release_type": "ONLINE",
+      "version": "0.21.2412102040.51",
+      "main_url": "/www/",
+      "vhost": "https://68687360.h5app.alipay.com",
+      "app_channel": 1,
+      "size": "42864",
+      "unique": "2005",
+      "download_type": 0,
+      "name": "Paladin 小游戏框架资源包",
+      "online": 1,
+      "app_desc": "Paladin 小游戏框架资源包",
+      "down_type": 0
+  }
+  ],
+  "config": {
+    "pr": {
+      "4": "129600",
+      "common": "864000"
+    },
+    "al": 3,
+    "ur": 3600
+  },
+  "removeAppIdList": [],
+  "discardData": {}
+}

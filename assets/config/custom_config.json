@@ -1,0 +1,307 @@
+[
+  {
+    "key": "start_app_whitelist",
+    "value": "{\"2018102561769634\": [\"2017103009621199\"]}"
+  },
+  {
+    "key": "prefetch_config",
+    "value": "{\"2017103009621199\": [\"2018102561769634\"]}"
+  },
+  {
+    "value": "{\"back\":[\"2019103068708979\"]}",
+    "key": "h5_eventThroughWorker"
+  },
+  {
+    "key": "nebulax_app_updater_sync",
+    "value": "yes"
+  },
+  {
+    "key": "config_menu_collect",
+    "value": "{\"black_list\":[\"2019103068708979\"]}"
+  },
+  {
+    "key": "config_menu_feedback",
+    "value": "{\"black_list\":[\"2019103068708979\"]}"
+  },
+  {
+    "key": "h5_enableUnderline",
+    "value": "[\"com.sohu.inputmethod.sogou\",\"com.google.android.inputmethod.pinyin\"]"
+  },
+  {
+    "value": "[{\"device\":\"default\",\"appPath\":\"package:${appPackage}#Intent;action=android.settings.APPLICATION_DETAILS_SETTINGS;end\",\"gpsPath\":\"#Intent;action=android.settings.LOCATION_SOURCE_SETTINGS;end\"},{\"device\":\"ONEPLUS A3010\",\"appPath\":\"package:${appPackage}#Intent;action=android.settings.APPLICATION_DETAILS_SETTINGS;end\",\"gpsPath\":\"#Intent;action=android.settings.LOCATION_SOURCE_SETTINGS;end\"}]",
+    "key": "permission_guide_path_list"
+  },
+  {
+    "key": "h5_uploadFile_whiteList",
+    "value": "[]"
+  },
+  {
+    "key": "ta_saveFile_whiteList",
+    "value":"[\"com.autonavi.minimap/h5/download/temp\",\"com.autonavi.minimap/files/multimedia\",\"com.autonavi.minimap/cache\",\"com.autonavi.minimap/files/h5container/image/temp\",\"com.autonavi.minimap/amapRecord\"]"
+  },
+  {
+    "key": "h5_enableExtendSettingUserInfo",
+    "value": "yes"
+  },
+  {
+    "key":"nebulax_legacyOnlyActions",
+    "value":"[\n  \"addCoupon\",\n  \"ABTestExperimentParam\",\n  \"addAppToHomeStage\",\n  \"aliAutoLogin\",\n  \"APSocialNebulaPlugin.queryEx\",\n  \"autoClick\",\n  \"canAppAddToHomeStage\",\n  \"cdpFeedback\",\n  \"cdpFeedbackForServer\",\n  \"disablePageMonitor\",\n  \"getAuthStatus\",\n  \"getCdpSpaceInfo\",\n  \"getCdpSpaceInfos\",\n  \"getDeviceID\",\n  \"getPPFollowStatus\",\n  \"getServerTime\",\n  \"h5PerformanceInfo\",\n  \"healthKitRequest\",\n  \"hideOptionMenuItem\",\n  \"hideShareMenu\",\n  \"httpRequest\",\n  \"isInstalledApp\",\n  \"measureText\",\n  \"pageMonitor\",\n  \"queryBadgeInfo\",\n  \"queryBadgeInfoBatch\",\n  \"recentUsedTinyAppList\",\n  \"reportData\",\n  \"reportTinyData\",\n  \"request\",\n  \"setAppxVersion\",\n  \"setCustomPopMenu\",\n  \"shouldShowAddComponent\",\n  \"stopForegroundAudio\",\n  \"tinyAppConfig\",\n  \"trackerConfig\",\n  \"registerSync\",\n  \"localLog\",\n \"tradePay\",\n \"mtop\",\n \"sendMtop\",\n \"getTBCode\",\n \"getTBSessionInfo\",\n \"setTBSessionInfo\",\n \"chooseImage\",\n \"BEEVideoCapture\", \n \"chooseVideo\"]"
+  },
+  {
+    "key":"ta_internalAPIList",
+    "value": "[\"getExtConfig\", \"healthKitRequest\", \"resizeNativeKeyBoardInput\", \"showBackHome\", \"rpc\", \"getClientConfig\", \"cdpFeedback\", \"getCdpSpaceInfo\", \"shouldShowAddComponent\", \"questionaireApp2HomeShow\", \"addNotifyListener\", \"closeAddComponentAction\", \"addToHomeWithComponent\", \"getSharedData\", \"setSharedData\", \"getUserInfo\", \"makePhoneCall\",\"disablePageMonitor\",\"handleLoggingAction\",\"antUIGetCascadePicker\",\"postNotification\",\"removeNotifyListener\",\"startApp\",\"addFavorite\",\"tinyAppConfig\",\"remoteLogBatch\",\"getExtConfig\",\"chooseLocation\",\"startAPService\",\"getPluginsVersion\",\"exitTinyApp\",\"getWindowInfo\",\"getAppBaseInfo\",\"getDeviceBaseInfo\",\"getAppAuthorizeSetting\",\"policyAgreePrivacy\",\"setBackPrevented\",\"getSystemSetting\"]"
+  },
+  {
+    "key": "ta_checkNavigateRelation",
+    "value": "1"
+  },
+  {
+    "key": "ta_permissionDialogBlackList",
+    "value": "[\"2018072560844004\",\"2019092967862106\",\"2019103068708979\",\"2019103168632087\",\"2021002140643583\"]"
+  },
+  {
+    "key": "preset_whitelist",
+    "value": "[\"2019103068708979\",\"2021001106630355\"]"
+  },
+  {
+    "key": "ariver_cfg",
+    "value": "{\"tiny_inner\":\"yes\",\"tiny_outer\":\"yes\",\"white_list\":[\"2021001167665774\"]}"
+  },
+  {
+    "key": "page_stack_whitelist",
+    "value": "[\"all\"]"
+  },
+  {
+    "key": "ta_taobao_app_info",
+    "value": "{\"2019030563483138\":{\"appId\":\"5629786\",\"appKey\":\"25031996\",\"licenseEnable\":true},\"2017072607907880\":{\"appId\":\"5629786\",\"appKey\":\"25031996\",\"licenseEnable\":true},\"2018042460048137\":{\"appId\":\"5629786\",\"appKey\":\"25031996\",\"licenseEnable\":true},\"20000067\":{\"appId\":\"5629786\",\"appKey\":\"25031996\",\"licenseEnable\":true},\"2018092061466644\":{\"appId\":\"8028616\",\"appKey\":\"25287412\",\"licenseEnable\":true},\"2018081761068757\":{\"appId\":\"5629786\",\"appKey\":\"25031996\",\"licenseEnable\":true},\"2017071307737205\":{\"appId\":\"5629786\",\"appKey\":\"25031996\",\"licenseEnable\":true},\"2019011562865019\":{\"appId\":\"6375290\",\"appKey\":\"25095243\",\"licenseEnable\":true},\"2019082166253024\":{\"appId\":\"3000000002019601\",\"appKey\":\"27624640\",\"licenseEnable\":false},\"2019082566411011\":{\"appId\":\"3000000002029101\",\"appKey\":\"27694598\",\"licenseEnable\":false},\"2019082566412014\":{\"appId\":\"3000000002015304\",\"appKey\":\"27624821\",\"licenseEnable\":false},\"2019082566411010\":{\"appId\":\"3000000002018901\",\"appKey\":\"27624849\",\"licenseEnable\":false}}"
+  },
+  {
+    "key": "h5_jsapiandPluginsConfig",
+    "value": "{\"plugins\":[\"com.alipay.mobile.beehive.plugin.ChooseImagePlugin\",\"com.alipay.mobile.beehive.plugin.VideoSelectPlugin\",\"com.alipay.mobile.beehive.audio.plugin.BeeH5VoiceRecordPlugin\",\"com.alipay.mobile.h5plugin.H5LocationPlugin\",\"com.alipay.mobile.nebulaappproxy.plugin.tinyapp.TinyAppMTopPlugin\",\"com.alipay.mobile.nebulaappproxy.plugin.auth.H5AliAutoLoginPlugin\",\"com.alipay.mobile.beehive.plugin.H5PhotoPlugin\",\"com.alipay.mobile.beehive.plugins.capture.CapturePlugin\",\"com.alipay.mobile.nebulax.inside.plugin.H5ScanPlugin\"]}"
+  },
+  {
+    "key": "ta_systemInfo_enable_height_adaptation",
+    "value": "2021001106630355,2021001181683641"
+  },
+  {
+    "key": "alipaysAppList",
+    "value": "[\"20000125\"]"
+  },
+  {
+    "key":"h5_competitiveList",
+    "value": "{\"aliWhiteList\":[\"(.*\\\\.)?(tmall|juhuasuan|xiami|taohua|amap|hitao|taobaocdn|alipay|etao|alibaba|aliyun|alimama|alicdn|tbcdn|laiwang|yunos|alipay|alipaydev|alipayobjects|alipay-inc|1688|alitrip|mybank|antfortune|fliggy|feizhu|taopiaopiao|cainiao|alihealth|poketec|aligames|koubei|shuqireader)\\\\.(com|cn|net|hk)$\",\"(.*\\\\.)?(zmxy\\\\.com\\\\.cn)$\",\"(.*\\\\.)?(zhimaxy\\\\.net)$\",\"(.*\\\\.)?(appsto\\\\.re)$\",\"^(search|buy|finance-app)[.]itunes[.]apple[.]com$\"],\"competitiveDownloadlist\":[\"pin-duo-duo/id1044283059\"],\"competitiveLinkList\":[],\"comptitiveDownloadWhiteList\":[\"id1025628019\",\"id387682726\",\"id518966501\",\"id453691481\",\"id566813949\",\"id333206289\",\"id554499054\",\"id950974306\",\"id950974306\",\"id899076006\",\"id350962117\",\"id930368978\",\"id987802929\",\"id529092160\",\"1037187236\",\"id336141475\",\"id336141475\"],\"schemeBlacklist\":[\"file\",\"youkuad\",\"weixin\"],\"schemeWhiteList\":[\"^hzmetro$\",\"^kwai$\",\"prefs-finance-script\",\"fleamarket\",\"youku\",\"ubicycle\",\"alpauto\",\"^aw$\",\"^metro$\",\"^zwfw$\",\"^amapuri$\",\"aliminipayauth\",\"mybank\",\"yulebao\",\"tbmovie\",\"momochs\",\"iosamap\",\"^maps$\",\"comgooglemaps\",\"botaoota\",\"lashou\",\"telprompt\",\"com.icbc.iphoneclient\",\"cn.12306\",\"mtxx\",\"^pp$\",\"TaobaoMoviePhoneClient\",\"taobaotravel\",\"afwealth\",\"javascript\",\"letvclient\",\"itms-services\",\"yoparking\",\"ifaex\",\"moneyshield\",\"mssdkscan\",\"xlIosSdkTestApp\",\"Xunleipay\",\"mssdkscan\",\"qiandun\",\"HanTing\",\"huazhu\",\"teamWorkShare\",\"ap2015121600990026\",\"everysafe\",\"sinaweibo\",\"sohunewsiphone\",\"sohunews\",\"alimusic\",\"snssdk141\",\"wdkhema\",\"dingtalk\",\"diditravel\",\"aladinfunplanetpigalipay\",\"hxgyappscheme\",\"uclink\",\"^wimetro$\"],\"urlWhiteList\":[\"^(https|itms-appss)://itunes[.]apple[.]com/app/apple-store/id440948110\"]}"
+  },
+  {
+    "key": "ta_appx_map_optimize",
+    "value": "1"
+  },
+  {
+    "key": "prefetch_script_config",
+    "value": "[\"2021001168604775\"]"
+  },
+  {
+    "key": "h5_inputBlurTimeOut",
+    "value": "yes"
+  },
+  {
+    "key": "prefetch_api_whitelist",
+    "value": "[\"getStartupParams\", \"getCurrentLocation\", \"getPrefetchSystemInfo\", \"amapGetUserInfo\", \"mtop\", \"aosRequest\", \"amapGetVehicleList\", \"callUserTrack\", \"setTinyLocalStorage\",\"getTinyLocalStorage\",\"removeTinyLocalStorage\",\"clearTinyLocalStorage\",\"getTinyLocalStorageInfo\"]"
+  },
+  {
+    "key": "h5_webViewConfig",
+    "value": "{\n  \"h5_enableExternalWebView\": \"YES\",\n  \"h5_externalWebViewUsageRule\": {\n    \"2014060400006303\": \"SYSTEM_BUILD_IN\",\n    \"2014010200002514\": \"SYSTEM_BUILD_IN\",\n    \"2014070700006871\": \"SYSTEM_BUILD_IN\",\n    \"2014042900005397\": \"SYSTEM_BUILD_IN\",\n    \"bizType_disableUC\": \"SYSTEM_BUILD_IN\",\n    \"bizType_laifeng\": \"SYSTEM_BUILD_IN\"\n  },\n  \"h5_externalWebViewSdkVersion\": {\n    \"min\": 11,\n    \"max\": 34\n  },\n  \"h5_externalWebView4UC\": [\n    {\n      \"appid\": \"66666784\"\n    },\n    {\n      \"entryUrl\": \"https://openauth.alipay.com/oauth2/publicAppAuthorize.htm?app_id=2016042601338846&scope=auth_userinfo&redirect_uri=http%3a%2f%2fjsfwpt.lsyypt.com%2fhkOrder%2fjshksqfwc&state=fwcljhk\"\n    },\n    {\n      \"entryUrl\": \"https://openauth.alipay.com/oauth2/publicAppAuthorize.htm?app_id=2016042601338846&scope=auth_userinfo&redirect_uri=http%3a%2f%2fjsfwpt.lsyypt.com%2fhkOrder%2fjshkjlfwc&state=fwchkjl\"\n    },\n    {\n      \"entryUrl\": \"https://openauth.alipay.com/oauth2/publicAppAuthorize.htm?app_id=2016042601338846&scope=auth_userinfo&redirect_uri=http%3A%2F%2Fjsfwpt.lsyypt.com%2FhkOrder%2Fjshksqcfw&state=csfw\"\n    },\n    {\n      \"entryUrl\": \"https://openauth.alipay.com/oauth2/publicAppAuthorize.htm?app_id=2014042900005397&auth_skip=true&scope=auth_base&redirect_uri=https%3A%2F%2Foauth.cc.cmbchina.com%2FOauthPortal%2Falipay%2Fcallback%3Foauth_id%3D20405188%26callback_uri%3Dhttps%3A%2F%2Fxyk.cmbchina.com%2FmyAccount%2Fonekeyquery%2Findex\"\n    }\n  ]\n}"
+  },
+  {
+    "key": "ta_snapshotWhiteList",
+    "value": "[\"2021001181683641\", \"2021001102652970\"]"
+  },
+  {
+    "key": "mtop_extparams_whitelist",
+    "value": "[\"2019103068708979\",\"2021001171673253\",\"2021001160658256\",\"2019092967862106\",\"2021001106630355\",\"2021001159667205\",\"2018072560844004\",\"2021002140643583\"]"
+  },
+  {
+    "key": "force_update_whitelist",
+    "value": "{\"2019092967964159\":{\"nativeVersion\":[\"10.65.*\"]}}"
+  },
+  {
+    "key": "keep_alive_config",
+    "value": "{\"whitelist\": [\"2019030563483138\"], \"max\": 3, \"timeout\": 300}"
+  },
+  {
+    "key": "uc_fallback_whitelist",
+    "value": "[\"2019030563483138\",\"2019103068708979\",\"2018102561769634\",\"2019092967862106\",\"2021001190652346\",\"2021001158648039\",\"2019083066712564\",\"2021001105650943\",\"2019041563938021\",\"2021001185689001\",\"2021002100608814\"]"
+  },
+  {
+    "key": "h5_disable_fire_urgent_once",
+    "value": "yes"
+  },
+  {
+    "key": "ta_map_rv_enable",
+    "value": "0"
+  },
+  {
+    "key": "ta_tinyModalMenu",
+    "value": "no"
+  },
+  {
+    "key": "h5_disablePkgPermissionCheck",
+    "value": "YES"
+  },
+  {
+    "key": "h5_EnableInpageInput",
+    "value": "NO"
+  },
+  {
+    "key": "key_use_camera2",
+    "value": "NO"
+  },
+  {
+    "key": "ta_webviewPluginWhiteList",
+    "value": "[\"2021001182673853\",\"2021001183611796\",\"2019082566411010\",\"2021001183614763\",\"2021002109687665\",\"2021001183600857\"]"
+  },
+  {
+    "key": "amap_ta_temp_fix_alive_crash",
+    "value": "1"
+  },
+  {
+    "key": "nebulax_force_update_ignore_res_pkg",
+    "value": "no"
+  },
+  {
+    "key": "h5_interceptSchemeForTiny",
+    "value": "no"
+  },
+  {
+    "key": "h5_ppConfig",
+    "value": "{\"jumpToPP\":\"NO\",\"h5_ppQueryUrl\":\"http://patriot.cs.pp.cn/api/resource.app.detect\"}"
+  },
+  {
+    "key": "ss_webview_allow_domain_by_wildcard",
+    "value": "yes"
+  },
+  {
+    "key": "h5_ucApolloConfig_temp",
+    "value": "{\"useApollo\":\"NO\"}"
+  },
+  {
+    "key": "amap_ta_and_fix_pagestack",
+    "value": "1"
+  },
+  {
+    "key": "amap_ta_and_fix_pagestack_life",
+    "value": "1"
+  },
+  {
+    "key": "amap_ta_pre_init_uc",
+    "value": "2"
+  },
+  {
+    "key": "amap_ta_openpage_config",
+    "value": "{\"navi\":\"amapuri://navi\", \"route_plan\":\"amapuri://route/plan\", \"search_around\":\"amapuri://search/around\", \"drive_taxi\":\"amapuri://drive/takeTaxi\", \"poi_detail\":\"amapuri://poi/detail\"}"
+  },
+  {
+    "key":"h5_ucEmbedSurfaceEnableList",
+    "value":"*,map,web-view,camera,ai-camera,rtc-room,video,live-player,ucdp,ajx-view"
+  },
+  {
+    "key": "amap_ta_force_preload_config",
+    "value": "{\"force_use_appxng\": [\"all\"],\"downgrade_whitelist\":[\"2019103068708979\"]}"
+  },
+  {
+    "key": "amap_ta_amap_action_third_party",
+    "value": "{\"2017061407487120\":{\"allowed_actions\":[\"openAppUrl\"],\"openAppUrl\":[\"weixin://\"]},\"2021003173695434\":{\"allowed_actions\":[\"openAppUrl\"],\"openAppUrl\":[\"weixin://\"]},\"2019102468561705\":{\"allowed_actions\":[\"openAppUrl\"],\"openAppUrl\":[\"weixin://\"]}}"
+  },
+  {
+    "key": "h5_startApplicationList",
+    "value": "{\"taobao\":\"手淘\",\"weixin\":\"微信\",\"alipay\":\"支付宝\"}"
+  },
+  {
+    "key": "ta_amap_myweb_disable_feature_models",
+    "value": "[\"RMX3687\", \"RMX3740\", \"24129PN74C\", \"2410DPN6CC\", \"24122RKC7C\", \"24117RK2CC\", \"23100RN82L\", \"23106RN0DA\", \"23108RN04Y\", \"23053RN02A\", \"CPH2599\", \"2310FPCA4G\", \"23053RN02Y\", \"2303CRA44A\", \"2409BRN2CC\", \"MOTO G15\", \"24049RN28L\", \"2404ARN45A\", \"CPH2603\", \"23053RN02L\", \"23030RAC7Y\", \"24076RP19G\", \"MOTO G15 POWER\", \"2303ERA42L\", \"2311DRN14I\", \"2312DRAABG\", \"2312DRAABI\", \"2311FRAFDC\", \"K6781V1_64\", \"2312DRAABC\", \"2312FRAFDI\", \"2310FPCA4I\", \"TB330FU\", \"24129RT7CC\", \"24127RK2CC\", \"25010PN30C\", \"K6853V1_64\", \"CPH2531\", \"CPH2577\", \"2404APC5FG\", \"24040RN64Y\", \"RMX3771\", \"RMX3686\", \"A401OP\", \"23053RN02I\", \"24075RP89G\", \"T626K\", \"M2012K10C\", \"RMX3867\", \"TB305XU\", \"TB305FU\", \"WP300\", \"MOTO G05\", \"SH-M27\", \"25078RA3EY\"]"
+  },
+  {
+    "key": "h5_swSyncJsApiConfig",
+    "value": "{\"added\":[\"addPkgRes\",\"getMenuButtonBoundingClientRect\",\"getLeftButtonsBoundingClientRect\"],\"black_list\":[\"\"]}"
+  },
+  {
+    "key": "ta_appxStartupConfigKeys",
+    "value": "[\"ta_appxStartupConfigItem4NG\",\"ta_appxStartupConfigItem4JKPZ\"]"
+  },
+  {
+    "key": "ta_appxStartupConfigItem4JKPZ",
+    "value": "{\"requestDataTypeDefaultJsonText\":[{\"value\":1}]}"
+  },
+  {
+    "key": "amap_ta_startapp_appid_list",
+    "value": "[\"all\"]"
+  },
+  {
+    "key": "amap_ta_jsapinonpage_appid_whitelist",
+    "value": "[\"2021002112631216\"]"
+  },
+  {
+    "key": "amap_ta_icu_polyfill_whitelist",
+    "value": "[\"all\"]"
+  },
+  {
+    "key": "amap_ta_getCurrentPagesWhenRedirect_whitelist",
+    "value": "[\"2021003147683125\"]"
+  },
+  {
+    "key": "amap_ta_tiny_storage_isolation",
+    "value": "2"
+  },
+  {
+    "key": "amap_ta_IsolateUserData_whitelist",
+    "value": "[\"all\"]"
+  },
+  {
+    "key": "ta_scene_cfg",
+    "value": "{\"ch_appcenter\":\"1000\",\"ch_alipaysearch\":\"1005\",\"ch_backfromtinyapp\":\"1038\",\"ch_carservice\":\"1202\",\"ch_cityservice\":\"1200\",\"ch_college\":\"1204\",\"ch_desktop\":\"1023\",\"ch_insurance\":\"1207\",\"ch_life\":\"1020\",\"ch_medicalservice\":\"1203\",\"ch_membership\":\"1209\",\"ch_messageservice\":\"1014\",\"ch_othertinyapp\":\"1037\",\"ch_scan\":\"1011\",\"ch_school\":\"1205\",\"ch_share\":\"1007\",\"ch_sharebike\":\"1206\",\"ch_tinycenter\":\"1001\",\"ch_tinylongpress\":\"1090\",\"ch_ttyl\":\"1208\",\"ch_zhima\":\"1201\",\"ch_outerUrl\":\"1300\",\"ch_appcollect\":\"1002\",\"ch_amapgroupby\":\"3002\"}"
+  },
+  {
+    "key": "h5_bizServiceConfig",
+    "value": "{\"deduct\":{\"appId\":\"60000157\",\"level\":\"level_low\"},\"zm-borrow\":{\"appId\":\"66666684\",\"level\":\"level_low\"},\"coupon-detail\":{\"appId\":\"66666746\",\"level\":\"level_low\"},\"ar-valentine-cn\":{\"appId\":\"66666760\",\"level\":\"level_low\"},\"ar-service\":{\"appId\":\"66666800\",\"level\":\"level_low\"},\"zm-service\":{\"appId\":\"66666808\",\"level\":\"level_low\"},\"add-card\":{\"appId\":\"66666896\",\"level\":\"level_low\"},\"shopping-address\":{\"appId\":\"20000714\",\"level\":\"level_none\"},\"credit-rent\":{\"appId\":\"68687032\",\"level\":\"level_low\"},\"rent-transition\":{\"appId\":\"68687032\",\"level\":\"level_low\"},\"invoice-title\":{\"appId\":\"68687039\",\"level\":\"level_none\"},\"zmep-freedeposit\":{\"appId\":\"68687044\",\"level\":\"level_low\"},\"creditAcceptance\":{\"appId\":\"68687167\",\"level\":\"level_none\"},\"blockchain-invoice-selector\":{\"appId\":\"20000920\",\"level\":\"level_none\"},\"promise-consume\":{\"appId\":\"68687246\",\"level\":\"level_low\"},\"open-certify\":{\"appId\":\"68687276\",\"level\":\"level_none\"},\"creditEpAcceptance\":{\"appId\":\"68687283\",\"level\":\"level_none\"},\"moses-camera\":{\"appId\":\"68687355\",\"level\":\"level_none\"}, \"tradepay-mo\":{\"appId\":\"85300012\",\"level\":\"level_none\"},\"xnn-ocr\":{\"appId\":\"2019071765855591\",\"level\":\"level_low\"},\"batch-auth\":{\"appId\":\"2060090000312170\",\"level\":\"level_none\"}}"
+  },
+  {
+    "key": "ta_request_enableCookie_wb",
+    "value": "{\"true\":[\"2021003103685139\"]}"
+  },
+  {
+    "key": "ta_disableAppContextIsolateSwitch",
+    "value": "{\"whitelist\":[\"2019091967586308\"]}"
+  },
+  {
+    "key": "ta_navigate_alipay_pages",
+    "value": "{\"schema\":[\"^alipays://platformapi/startapp\\\\?appId=20000193&url=/www/eBill.htm.*\",\"^alipays://platformapi/startapp\\\\?appId=20000003.*$\",\"^alipays://platformapi/startapp\\\\?appId=20000134.*$\",\"^alipays://platformapi/startapp\\\\?appId=60000155&chInfo=ch_+[0-9]{16}$\",\"^alipays://platformapi/startapp\\\\?appId=20000193&chInfo=ch_+[0-9]{16}$\",\"^alipays://platformapi/startapp\\\\?appId=60000125&chInfo=ch_+[0-9]{16}$\",\"^alipays://platformapi/startapp\\\\?appId=20000178&bizScenario.*$\",\"^alipays://platformapi/startapp\\\\?appId=68687143&url=/www/index.*$\",\"^alipays://platformapi/startapp\\\\?appId=200011235.*$\",\"^alipays://platformapi/startapp\\\\?appId=20000076.*$\",\"^alipays://platformapi/startapp\\\\?appId=60000148&appClearTop=false&sms=YES&so=NO&ttb=auto&ttta=YES&url=/www/shop.html.*$\",\"^alipays://platformapi/startapp\\\\?appId=77700.*$\",\"^alipays://platformapi/startapp\\\\?appId=68687233&url=/www/stockSelectTool.html.*$\",\"^alipays://platformapi/startapp\\\\?appId=10000009&url=/www/detail.*$\",\"^alipays://platformapi/startapp\\\\?appId=68687011&appClearTop=false&startMultApp=YES&bizPage=apply&sign_params=.*$\",\"^alipays://platformapi/startapp\\\\?appId=20000793&pullRefresh=NO&appClearTop=false&startMultApp=YES&url=/www/detail.*$\",\"^alipays://platformapi/startapp\\\\?appId=20000691&url=/www/src/.*$\",\"^alipays://platformapi/startapp\\\\?appId=68687015&url=/www/videoChat.html.*$\",\"^alipays://platformapi/startApp\\\\?appId=20000047&publicId=2017042106860739$\",\"^alipays://platformapi/startApp\\\\?appId=60000032&url=/www/.*$\",\"^alipays://platformapi/startapp\\\\?appId=20000241&url=/www/ap/orderDetail-v2.*$\",\"^alipays://platformapi/startapp\\\\?appId=68687059&url=/www/homeV4.html.*$\",\"^alipays://platformapi/startapp\\\\?appId=66666883&url=/www/index.html.*$\",\"^alipays://platformapi/startapp\\\\?appId=68687330&ZM_SOURCE_ID=\\\\d{1,32}$\",\"^alipays://platformapi/startapp\\\\?appId=68687330&url=/www/index.html.*$\",\"^alipays://platformapi/startapp\\\\?appId=68687143&url=/www/voucher.html.*$\",\"^alipays://platformapi/startapp\\\\?appId=68687345&transparentTitle=auto&transparentTitleTextAuto=YES&url=/www/brand.html.*$\",\"^alipays://platformapi/startapp\\\\?appId=68687432&url=/www/index.html.*$\",\"^alipays://platformapi/startapp\\\\?appId=68687451.*$\"],\"url\":[\"^https://render-pre.alipay.com/.*$\",\"^https://renthouse.alipay-eco.com.*$\",\"^https://psbp.alipay.com/ins/instInitPage.htm.*$\",\"^https://ebppprod.alipay.com/deduct/enterMobileicPayPassword.htm.*$\",\"^https://cschat.antcloud.com.cn/index.htm.*$\",\"^https://openapi.bangdao-tech.com/gateway.do.*$\",\"^https://t.bestsign.info.*$\",\"^https://qr.alipay.com/cpx0782934blhy7vzr8se8b$\",\"^https://qr.alipay.com/cpx09457f3iccmchza3lsca$\",\"^https://render.alipay.com/p/.*$\",\"^https://caprod.alipay.com/home/sign.*$\",\"^https://open.antfortune.com.*$\",\"^https://h5.mgzf.com/minisite/aliMini/index.html.*$\",\"^https://mybankloan.alipay.com/www/pages/index.htm.*$\",\"^https://openapi.alipay.com/gateway.do.*$\",\"^https://broccoli.uc.cn/apps/.*$\",\"^https://medicalinsprod.alipay-eco.com/medicalinsprod/.*$\",\"^https://medicalinsprodsit.alipay-eco.com/medicalinsprod/.*$\",\"^https://campus.alipay-eco.com/public/social-production.html.*$\",\"^https://market.m.taobao.com/markets/TaoBaoMovie.*$\",\"^https://act.xiami.com/wow/xiami/act/.*$\",\"^https://mobilecodec.alipay.com/client_download.htm\\\\?qrcode=pvx069389vjzz2wua8okob2$\",\"^https://h5.m.taobao.com/app/iarea/index.html\\\\?mallId=.*$\",\"^https://www.fujinjiazheng.com/templets/default/union/index.html$\",\"^https://mdeduct.alipay.com/customer/alipayApp/getUsageAgreementList.htm$\",\"^https://market.m.taopiaopiao.com/markets/TaoBaoMovie/.*$\",\"^https://zm.zmxy.com.cn/p/f/fd.*$\",\"^https://custweb.alipay.com/certify/.*\",\"^https://goveco.alipay.com/cityserv/.*\",\"^https://openauth.alipay.com/oauth2/publicAppAuthorize.htm\\\\?app_id=2016112803504802&scope=auth_base&redirect_uri=https://k12jiaofei.alipay-eco.com/.*\",\"^https://o2o.m.taobao.com/clmj/hybrid/miaojieWeex.*\",\"^https://pages.tmall.com/wow/alsc/mod/fe5f3b4b76eb98b22aa6008e.*\",\"^https://csmobile.alipay.com/mypa/generalRobot.htm.*\"]}"
+  },
+  {
+    "key": "permission_fortress_scene_permission_config",
+    "value": "{\"sceneList\":[{\"sceneCode\":\"3002\",\"permission_list\":{\"LBS\":{\"blocking\":false}}}]}"
+  },
+  {
+    "key": "permission_scene_list_config",
+    "value": "{\"sceneList\":[{\"sceneCode\":\"3002\",\"sceneName\":\"高德团购\"}]}"
+  },
+  {
+    "key": "h5_bizServiceConfig",
+    "value": "{\"deduct\":{\"appId\":\"60000157\",\"level\":\"level_low\"},\"zm-borrow\":{\"appId\":\"66666684\",\"level\":\"level_low\"},\"coupon-detail\":{\"appId\":\"66666746\",\"level\":\"level_low\"},\"ar-valentine-cn\":{\"appId\":\"66666760\",\"level\":\"level_low\"},\"ar-service\":{\"appId\":\"66666800\",\"level\":\"level_low\"},\"zm-service\":{\"appId\":\"66666808\",\"level\":\"level_low\"},\"add-card\":{\"appId\":\"66666896\",\"level\":\"level_low\"},\"shopping-address\":{\"appId\":\"20000714\",\"level\":\"level_none\"},\"credit-rent\":{\"appId\":\"68687032\",\"level\":\"level_low\"},\"rent-transition\":{\"appId\":\"68687032\",\"level\":\"level_low\"},\"invoice-title\":{\"appId\":\"68687039\",\"level\":\"level_none\"},\"zmep-freedeposit\":{\"appId\":\"68687044\",\"level\":\"level_low\"},\"creditAcceptance\":{\"appId\":\"68687167\",\"level\":\"level_none\"},\"blockchain-invoice-selector\":{\"appId\":\"20000920\",\"level\":\"level_none\"},\"promise-consume\":{\"appId\":\"68687246\",\"level\":\"level_low\"},\"open-certify\":{\"appId\":\"68687276\",\"level\":\"level_none\"},\"creditEpAcceptance\":{\"appId\":\"68687283\",\"level\":\"level_none\"},\"moses-camera\":{\"appId\":\"68687355\",\"level\":\"level_none\"}, \"tradepay-mo\":{\"appId\":\"85300012\",\"level\":\"level_none\"},\"xnn-ocr\":{\"appId\":\"2019071765855591\",\"level\":\"level_low\"},\"batch-auth\":{\"appId\":\"2060090000312170\",\"level\":\"level_none\"}}"
+  },
+  {
+    "key": "ta_scene_cfg",
+    "value": "{\"ch_appcenter\":\"1000\",\"ch_alipaysearch\":\"1005\",\"ch_backfromtinyapp\":\"1038\",\"ch_carservice\":\"1202\",\"ch_cityservice\":\"1200\",\"ch_college\":\"1204\",\"ch_desktop\":\"1023\",\"ch_insurance\":\"1207\",\"ch_life\":\"1020\",\"ch_medicalservice\":\"1203\",\"ch_membership\":\"1209\",\"ch_messageservice\":\"1014\",\"ch_othertinyapp\":\"1037\",\"ch_scan\":\"1011\",\"ch_school\":\"1205\",\"ch_share\":\"1007\",\"ch_sharebike\":\"1206\",\"ch_tinycenter\":\"1001\",\"ch_tinylongpress\":\"1090\",\"ch_ttyl\":\"1208\",\"ch_zhima\":\"1201\",\"ch_outerUrl\":\"1300\",\"ch_appcollect\":\"1002\",\"ch_amapgroupby\":\"3002\"}"
+  },
+  {
+    "key": "ta_min_appxng_version",
+    "value": "2.10.1"
+  },
+  {
+    "key": "myweb_update_web_content_size_switch_input",
+    "value": "false"
+  },
+  {
+    "key": "mg_enable_webgl2",
+    "value": "9999170000375112"
+  }
+
+]

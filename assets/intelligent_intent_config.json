@@ -1,0 +1,17 @@
+{
+  "intelligentIntents": [
+    {
+      "intentName": "Navigation.NotifyCruiseTrafficLightStatus",
+      "intentVersion": "1.0.0",
+      "device": [
+        "phone"
+      ],
+      "executeMode": "foreground",
+      "executeEntry": "amapuri://drive/CarCruisePage?from=trafficLight&sa=mfr_tri_free_card_aicar_oppo",
+      "executeSync": true,
+      "description": [
+        "巡航状态下红绿灯提醒"
+      ]
+    }
+  ]
+}

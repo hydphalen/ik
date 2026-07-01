@@ -1,0 +1,67 @@
+{
+  "version": "1.0",
+  "description": "多语言配置文件 - 支持基础语言和区域变体",
+  "languages": {
+    "europe": {
+      "description": "欧洲语言",
+      "west": {
+        "description": "西欧语言",
+        "codes": ["en","es", "pt", "fr", "de", "it", "nl", "da", "no", "sv", "fi", "is"]
+      },
+      "south": {
+        "description": "南欧语言",
+        "codes": ["ca", "gl", "eu", "sq", "el"]
+      },
+      "east": {
+        "description": "东欧语言",
+        "codes": ["ru", "pl", "cs", "sk", "uk", "be", "bg", "mk", "sr", "hr", "bs", "sl", "ro", "hu", "et", "lv", "lt"]
+      }
+    },
+    "asia": {
+      "description": "亚洲语言",
+      "east": {
+        "description": "东亚语言",
+        "codes": ["ja", "ko", "mn"]
+      },
+      "southeast": {
+        "description": "东南亚语言",
+        "codes": ["ms", "id", "vi", "fil", "tl", "km", "lo", "my","th"]
+      },
+      "south": {
+        "description": "南亚语言",
+        "codes": ["hi", "bn", "pa", "gu", "mr", "ta", "te", "kn", "ml", "si", "ne", "ur"]
+      }
+    },
+    "middle_east": {
+      "description": "中东语言",
+      "codes": ["ar", "tr", "he", "fa", "az", "hy", "ka", "ky", "uz", "kk"]
+    },
+    "africa": {
+      "description": "非洲语言",
+      "codes": ["af", "am", "sw", "zu"]
+    },
+    "variants": {
+      "description": "特定区域变体",
+      "spanish": {
+        "description": "西班牙语变体",
+        "codes": ["es-419", "es-AR", "es-MX"]
+      },
+      "french": {
+        "description": "法语变体",
+        "codes": ["fr-CA"]
+      },
+      "portuguese": {
+        "description": "葡萄牙语变体",
+        "codes": ["pt-BR"]
+      },
+      "serbian": {
+        "description": "塞尔维亚语变体",
+        "codes": ["sr-Cyrl", "sr-Latn"]
+      }
+    }
+  },
+  "metadata": {
+    "total_languages": 81,
+    "last_updated": "2026-03-04"
+  }
+}

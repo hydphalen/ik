@@ -1,0 +1,335 @@
+{
+  "id": "layout_routecommute_widget_parent",
+  "layout_width": "match_parent",
+  "layout_height": "match_parent",
+  "type": "constraint",
+  "package": "com.autonavi.minimap",
+  "child": [
+    {
+      "layout_width": "match_parent",
+      "layout_height": "156dp",
+      "background": "@drawable\/hiboard_desktop_widget_bg",
+      "padding": "@dimen\/hiboard_widget_padding",
+      "layout_constraintTop_toTopOf": "parent",
+      "layout_constraintBottom_toBottomOf": "parent",
+      "layout_constraintStart_toStartOf": "parent",
+      "layout_constraintEnd_toEndOf": "parent",
+      "type": "constraint",
+      "child": [
+        {
+          "id": "id_line1_layout",
+          "layout_width": "match_parent",
+          "layout_height": "wrap_content",
+          "layout_constraintTop_toTopOf": "parent",
+          "layout_constraintStart_toStartOf": "parent",
+          "layout_constraintEnd_toEndOf": "parent",
+          "type": "constraint",
+          "child": [
+            {
+              "id": "logo",
+              "layout_width": "@dimen\/hiboard_widget_app_icon_size",
+              "layout_height": "@dimen\/hiboard_widget_app_icon_size",
+              "src": "@drawable\/icon_hiboard_widget_logo",
+              "contentDescription": "ic_logo",
+              "layout_constraintTop_toTopOf": "parent",
+              "layout_constraintBottom_toBottomOf": "parent",
+              "layout_constraintStart_toStartOf": "parent",
+              "type": "image"
+            },
+            {
+              "id": "line1_title",
+              "layout_width": "wrap_content",
+              "layout_height": "wrap_content",
+              "layout_marginStart": "4dp",
+              "text": "@string\/desktop_widget_label",
+              "textColor": "@color\/hiboard_widget_app_title_text_color",
+              "textSize": "@dimen\/desktop_widget_app_title_text_size",
+              "layout_constraintBottom_toBottomOf": "parent",
+              "layout_constraintStart_toEndOf": "logo",
+              "layout_constraintTop_toTopOf": "parent",
+              "type": "text"
+            },
+            {
+              "id": "layout_refresh",
+              "layout_width": "wrap_content",
+              "layout_height": "wrap_content",
+              "orientation": "horizontal",
+              "layout_constraintTop_toTopOf": "parent",
+              "layout_constraintEnd_toEndOf": "parent",
+              "type": "constraint",
+              "child": [
+                {
+                  "id": "id_update_time",
+                  "layout_width": "wrap_content",
+                  "layout_height": "wrap_content",
+                  "layout_marginEnd": "4dp",
+                  "singleLine": true,
+                  "ellipsize": "end",
+                  "textColor": "@color\/widget_update_layout_text_color",
+                  "text": "@string\/bus_commute_updating",
+                  "textSize": "10dp",
+                  "layout_constraintTop_toTopOf": "parent",
+                  "layout_constraintBottom_toBottomOf": "parent",
+                  "layout_constraintStart_toStartOf": "parent",
+                  "layout_constraintEnd_toStartOf": "refresh_iv",
+                  "tools:text": "7月16日 11:54 更新",
+                  "type": "text"
+                },
+                {
+                  "id": "refresh_iv",
+                  "layout_width": "12dp",
+                  "layout_height": "12dp",
+                  "src": "@drawable\/ic_widget_refresh",
+                  "contentDescription": "ic_refresh",
+                  "layout_constraintTop_toTopOf": "parent",
+                  "layout_constraintBottom_toBottomOf": "parent",
+                  "layout_constraintStart_toEndOf": "id_update_time",
+                  "layout_constraintEnd_toEndOf": "parent",
+                  "type": "image"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "id_line2_layout",
+          "layout_marginTop": "20dp",
+          "layout_width": "match_parent",
+          "layout_height": "wrap_content",
+          "layout_constraintStart_toStartOf": "parent",
+          "layout_constraintEnd_toEndOf": "parent",
+          "layout_constraintTop_toBottomOf": "id_line1_layout",
+          "type": "constraint",
+          "child": [
+            {
+              "id": "id_main_content",
+              "textSize": "16dp",
+              "textColor": "@color\/hiboard_widget_primary_text_color",
+              "singleLine": true,
+              "ellipsize": "end",
+              "layout_weight": 1.74,
+              "layout_width": "0dp",
+              "layout_height": "24dp",
+              "layout_constraintTop_toTopOf": "parent",
+              "layout_constraintBottom_toBottomOf": "parent",
+              "layout_constraintStart_toStartOf": "parent",
+              "tools:text": "回家 预计17:44到达",
+              "type": "text"
+            },
+            {
+              "id": "id_btn_layout",
+              "layout_width": "64dp",
+              "layout_height": "24dp",
+              "background": "@drawable\/hiboard_desktop_widget_btn_bg",
+              "layout_constraintEnd_toEndOf": "parent",
+              "layout_constraintTop_toTopOf": "parent",
+              "layout_constraintBottom_toBottomOf": "parent",
+              "type": "constraint",
+              "child": [
+                {
+                  "id": "id_btn_label",
+                  "layout_gravity": "center",
+                  "textSize": "11.85dp",
+                  "textColor": "@color\/hiboard_widget_btn_text_color",
+                  "singleLine": true,
+                  "ellipsize": "end",
+                  "layout_width": "wrap_content",
+                  "layout_height": "wrap_content",
+                  "layout_constraintStart_toStartOf": "parent",
+                  "layout_constraintEnd_toEndOf": "parent",
+                  "layout_constraintTop_toTopOf": "parent",
+                  "layout_constraintBottom_toBottomOf": "parent",
+                  "text": "设置",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "id_line3_layout",
+          "layout_marginTop": "3.53dp",
+          "layout_width": "match_parent",
+          "layout_height": "wrap_content",
+          "layout_constraintStart_toStartOf": "parent",
+          "layout_constraintEnd_toEndOf": "parent",
+          "layout_constraintTop_toBottomOf": "id_line2_layout",
+          "type": "constraint",
+          "child": [
+            {
+              "id": "id_sub_content",
+              "textColor": "@color\/hiboard_widget_primary_text_color",
+              "textSize": "10dp",
+              "singleLine": true,
+              "ellipsize": "end",
+              "layout_marginTop": "2dp",
+              "layout_width": "wrap_content",
+              "layout_height": "wrap_content",
+              "layout_constraintStart_toStartOf": "parent",
+              "layout_constraintTop_toTopOf": "parent",
+              "layout_constraintBottom_toBottomOf": "parent",
+              "tools:text": "全程32公里，推荐走北四环",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "layout_width": "match_parent",
+          "layout_height": "wrap_content",
+          "layout_constraintBottom_toBottomOf": "parent",
+          "layout_constraintStart_toStartOf": "parent",
+          "layout_constraintEnd_toEndOf": "parent",
+          "type": "constraint",
+          "child": [
+            {
+              "id": "bottom_left_container",
+              "layout_width": "0dp",
+              "layout_height": "wrap_content",
+              "layout_marginEnd": "10dp",
+              "layout_constraintBottom_toBottomOf": "parent",
+              "layout_constraintHorizontal_bias": 0.5,
+              "layout_constraintHorizontal_chainStyle": "spread",
+              "layout_constraintStart_toStartOf": "parent",
+              "layout_constraintEnd_toStartOf": "bottom_divider",
+              "type": "constraint",
+              "child": [
+                {
+                  "layout_width": "match_parent",
+                  "layout_height": "match_parent",
+                  "layout_constraintBottom_toBottomOf": "parent",
+                  "layout_constraintEnd_toEndOf": "parent",
+                  "layout_constraintStart_toStartOf": "parent",
+                  "layout_constraintTop_toTopOf": "parent",
+                  "type": "constraint",
+                  "child": [
+                    {
+                      "id": "id_bottom_left_icon",
+                      "layout_width": "14dp",
+                      "layout_height": "14dp",
+                      "layout_constraintBottom_toBottomOf": "parent",
+                      "layout_constraintStart_toStartOf": "parent",
+                      "layout_constraintTop_toTopOf": "parent",
+                      "src": "@drawable\/route_commute_widget_home",
+                      "type": "image"
+                    },
+                    {
+                      "id": "id_bottom_left_label",
+                      "layout_marginStart": "7dp",
+                      "layout_centerVertical": true,
+                      "textSize": "14dp",
+                      "textColor": "@color\/hiboard_widget_secondary_text_color",
+                      "singleLine": true,
+                      "ellipsize": "end",
+                      "layout_width": "wrap_content",
+                      "layout_height": "wrap_content",
+                      "layout_constraintBottom_toBottomOf": "parent",
+                      "layout_constraintStart_toEndOf": "id_bottom_left_icon",
+                      "layout_constraintTop_toTopOf": "parent",
+                      "text": "回家",
+                      "type": "text"
+                    },
+                    {
+                      "id": "id_bottom_left_label2",
+                      "layout_alignParentRight": true,
+                      "layout_marginEnd": "7.62dp",
+                      "textSize": "10dp",
+                      "textColor": "@color\/hiboard_widget_text_color_3",
+                      "singleLine": true,
+                      "ellipsize": "end",
+                      "layout_width": "wrap_content",
+                      "layout_height": "wrap_content",
+                      "layout_constraintBottom_toBottomOf": "parent",
+                      "layout_constraintEnd_toEndOf": "parent",
+                      "layout_constraintTop_toTopOf": "parent",
+                      "tools:text": "1小时15分钟",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "bottom_right_container",
+              "layout_width": "0dp",
+              "layout_height": "wrap_content",
+              "layout_marginStart": "10dp",
+              "layout_constraintBottom_toBottomOf": "parent",
+              "layout_constraintStart_toEndOf": "bottom_divider",
+              "layout_constraintHorizontal_bias": 0.5,
+              "layout_constraintEnd_toEndOf": "parent",
+              "type": "constraint",
+              "child": [
+                {
+                  "layout_width": "match_parent",
+                  "layout_height": "match_parent",
+                  "layout_constraintBottom_toBottomOf": "parent",
+                  "layout_constraintEnd_toEndOf": "parent",
+                  "layout_constraintStart_toStartOf": "parent",
+                  "layout_constraintTop_toTopOf": "parent",
+                  "type": "constraint",
+                  "child": [
+                    {
+                      "id": "id_bottom_right_icon",
+                      "layout_width": "14.65dp",
+                      "layout_height": "14.57dp",
+                      "layout_constraintBottom_toBottomOf": "parent",
+                      "layout_constraintStart_toStartOf": "parent",
+                      "layout_constraintTop_toTopOf": "parent",
+                      "src": "@drawable\/route_commute_widget_company",
+                      "type": "image"
+                    },
+                    {
+                      "id": "id_bottom_right_label",
+                      "layout_marginStart": "7dp",
+                      "layout_centerVertical": true,
+                      "textSize": "14dp",
+                      "textColor": "@color\/hiboard_widget_secondary_text_color",
+                      "singleLine": true,
+                      "ellipsize": "end",
+                      "layout_width": "wrap_content",
+                      "layout_height": "wrap_content",
+                      "layout_constraintBottom_toBottomOf": "parent",
+                      "layout_constraintStart_toEndOf": "id_bottom_right_icon",
+                      "layout_constraintTop_toTopOf": "parent",
+                      "tools:text": "去公司",
+                      "text": "去公司",
+                      "type": "text"
+                    },
+                    {
+                      "id": "id_bottom_right_label2",
+                      "textSize": "10dp",
+                      "textColor": "@color\/hiboard_widget_text_color_3",
+                      "singleLine": true,
+                      "ellipsize": "end",
+                      "layout_width": "wrap_content",
+                      "layout_height": "wrap_content",
+                      "layout_constraintBottom_toBottomOf": "parent",
+                      "layout_constraintEnd_toEndOf": "parent",
+                      "layout_constraintTop_toTopOf": "parent",
+                      "tools:text": "在公司附近",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "bottom_divider",
+              "layout_width": "0.5dp",
+              "layout_height": "16dp",
+              "background": "@color\/hiboard_widget_divider_bg_color",
+              "layout_constraintTop_toTopOf": "parent",
+              "layout_constraintBottom_toBottomOf": "parent",
+              "layout_constraintEnd_toEndOf": "parent",
+              "layout_constraintHorizontal_bias": 0.5,
+              "layout_constraintStart_toEndOf": "bottom_left_container",
+              "layout_constraintEnd_toStartOf": "bottom_right_container",
+              "tools:ignore": "Suspicious0dp",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

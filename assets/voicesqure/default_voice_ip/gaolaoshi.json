@@ -1,0 +1,50 @@
+{
+  "3d_resource": "video",
+  "3d_support": 1,
+  "3d_tag_pic": "",
+  "bg_pic": [],
+  "danmu": [],
+  "data_type": 0,
+  "detail_flag": 1,
+  "download": {
+    "android": "ANDH>=120000",
+    "gray": 100,
+    "ios": "IOSH>=120000",
+    "md5": "9f018825fff9243ef70eebb82363df24",
+    "modelType": 2,
+    "publish_version": 1666074548623,
+    "realsize": "95537889",
+    "sdk_version": "V2.1.0",
+    "url": "https://voiceip.amap.com/voiceip/voiceip/daily/amap/V2.1.0/123/20241118164158/123_1666074548623.zip",
+    "zip_result": true
+  },
+  "dynamic_type": 1,
+  "example": [],
+  "id": 123,
+  "image": "https://mapdownload.autonavi.com/voiceip/voiceip/publish/platform/123/20250520131645/ipinfo/e48d148c50c13149a91de7c19b4c1f05.png",
+  "image_long": "",
+  "jump": "",
+  "large_card": {
+    "bg_pic": ""
+  },
+  "middle_card": {
+    "bg_pic": ""
+  },
+  "language":0,
+  "music_source": 0,
+  "name": "小高老师",
+  "priority": 11,
+  "publish_version": 1666074548623,
+  "share_flag": 1,
+  "shortname": "小高老师",
+  "src_code": "123",
+  "subname": "gaolaoshi",
+  "subtitle": "高德地图首位数字人，为你导航",
+  "support_3d_resource": 0,
+  "title": "绝美导航员小高老师",
+  "try_url": "",
+  "video_info": {
+    "file_url": "",
+    "pic": ""
+  }
+}

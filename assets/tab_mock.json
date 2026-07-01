@@ -1,0 +1,2585 @@
+{
+  "item_id": "clusterChildMaterial#clusterChildMaterial_停车场#3",
+  "item_type": "clusterChildMaterial",
+  "title": "停车指南MOCK",
+  "renderStyle": "column",
+  "tabBar": {
+    "card_id": "AggregationTabBar",
+    "data": {
+      "rolling_card_id": "clusterChildMaterial#clusterChildMaterial_停车场#3",
+      "unique_ids": "eJx10b1OwzAQAOAX6nA-_8QWi-tEjvNT0tImJX4bdobCwkAnBsTCABsI3qaR6FsQEqmVqHvjfbof3e2fNt39bff4qi8MAEyjisS1phomMaFAYQgmlOJAudSocYBoBI4cEQjlB5DiL09QASOCKXoAkGNFJAkHhsdWnA8gkTHgRMEABqy1aysb7HchoHdfd_uH9-7lbfexGdHldD4_g2W1bmoZxAwLn3nqz6CIbd6E25Z0Vpdw1QaxKKp2cenLIOakcm6V2PBMkzqV2WrE7mb78_3cbT8nwzeEYVQERWLmmlPpDzN1i2UbkjSa1fkyJC41iVmdSlGbyCfXgd36GoQ4-z_nF7T_4LE=",
+      "precise_poi_id": "B000A7O1CU",
+      "checked_tab_id": "test_id2",
+      "list": [
+        {
+          "title": "电子产品MOCK",
+          "tab_id": "test_id0",
+          "request_params": {
+            "rolling_card_tab_id": "test_id0"
+          }
+        },
+        {
+          "title": "服装鞋帽MOCK",
+          "tab_id": "test_id1",
+          "request_params": {
+            "rolling_card_tab_id": "test_id1"
+          }
+        },
+        {
+          "title": "珠宝首饰MOCK",
+          "tab_id": "test_id2",
+          "request_params": {
+            "rolling_card_tab_id": "test_id2"
+          }
+        }
+      ]
+    }
+  },
+  "listResult": {
+    "card_id": "ListResultContainer",
+    "data": {
+      "total": 6,
+      "list": [
+        {
+          "card_id": "PoiCardUniversal",
+          "data": {
+            "is_delete": false,
+            "openTime": "周一至周日 08:30-18:45",
+            "img_info": {
+              "img_src": "http://store.is.autonavi.com/showpic/90ac4dae69f54e4a93c42b8836ca5c17",
+              "video_src": "",
+              "ad_text_loc": 1,
+              "iconPosition": "left-top",
+              "detailMediaList": [
+                {
+                  "srcType": "USER",
+                  "dataType": "pic",
+                  "url": "http://store.is.autonavi.com/showpic/90ac4dae69f54e4a93c42b8836ca5c17",
+                  "srcHeight": "10000",
+                  "srcWidth": "10000"
+                }
+              ],
+              "img_type": "small"
+            },
+            "basic_info": {
+              "name": "颐和园景泰蓝",
+              "mainName": "",
+              "category": [
+                "民俗用品"
+              ],
+              "address_line": 1,
+              "name_style": {
+                "max_line_nums": 1
+              },
+              "open_tags": [],
+              "vip_tags": [],
+              "merchant_service_tags": [],
+              "poi_interests_tags": [],
+              "liveness": "18人收藏过",
+              "notice_info": [],
+              "name_tags": [],
+              "location": {
+                "land_mark": "颐和园内",
+                "distance": [
+                  "18.7公里"
+                ],
+                "longitude": 116.270143,
+                "latitude": 39.99781,
+                "adCode": "110108",
+                "ccode": "110000",
+                "pcdrInfo": {
+                  "nationName": "中华人民共和国",
+                  "rname": "",
+                  "pname": "北京市",
+                  "cname": "",
+                  "dname": "海淀区",
+                  "ccode": "110000"
+                }
+              },
+              "scoreType": "1",
+              "product_info": [],
+              "open_time_tags": [],
+              "hot_info_recommend": [],
+              "isHitVirtualShopTest": true,
+              "poiCardTags": [],
+              "bizIndustry": "shopping",
+              "creatUIInfo": {
+                "uiStyleValue": "1"
+              },
+              "deep_info": [],
+              "open_time_deep_info": {
+                "tag_status": "",
+                "tag_desc": "",
+                "status": ""
+              },
+              "name_highlight_info": {
+                "type": "blue",
+                "value": "颐和园景泰蓝",
+                "offsetInfo": [
+                  {
+                    "start": 0,
+                    "word": "颐和园"
+                  }
+                ]
+              },
+              "shopFlags": [],
+              "special_industry_tags": [],
+              "price_test_state": "right",
+              "eta_info": {
+                "is_open": true,
+                "logic_type": 1,
+                "logic_type_local": 1,
+                "description_type": 3,
+                "show_eta_distance": false,
+                "coordinate_info": {
+                  "start_x": 116.48991,
+                  "start_y": 40.002533,
+                  "start_adcode": "110000",
+                  "distance": 18748.100000000002,
+                  "is_nearby": false,
+                  "centerpoi_extra_params": '{"centerpoi_name":""}',
+                  "parentChild": {
+                    "endPoiExtension": "1",
+                    "parentName": "颐和园",
+                    "parentX": "116.275179",
+                    "parentY": "39.999617",
+                    "parentAtagCid": "621024;621025;621026|621024;621047;621049",
+                    "parent": "B000A7O1CU",
+                    "parent2": "",
+                    "parent3": "",
+                    "childType": "302",
+                    "parentType": "scenic",
+                    "parentTTagClass": "景点;景区;5A景区|景点;人文景观;文物古迹",
+                    "clkRatioRt": "",
+                    "parentGoodsTypes": [
+                      "ticket_yiheyuan_api",
+                      "ticket_fliggyapi_api",
+                      "ticket",
+                      "album",
+                      "ticket_zowoyoo_api",
+                      "wanle_ctrip_api",
+                      "h5ticket_ctrip_api",
+                      "ticket_ctrip_api",
+                      "ticket_newtour_api",
+                      "ticket_damai_h5",
+                      "ticket_ziwoyouriyou_api",
+                      "riyou_ctrip_api",
+                      "ticket_tongcheng_api"
+                    ]
+                  },
+                  "end_x": 116.270143,
+                  "end_y": 39.99781,
+                  "end_adcode": "110108",
+                  "city_center_distance": 15661,
+                  "is_local": true
+                },
+                "landmark_info": {
+                  "pcdr": {
+                    "nationName": "中华人民共和国",
+                    "rname": "",
+                    "pname": "北京市",
+                    "cname": "",
+                    "dname": "海淀区",
+                    "ccode": "110000",
+                    "commonAddress": "新建宫门路19号颐和园内颐和园-听鹂馆附近"
+                  },
+                  "city_center": {
+                    "name": "海淀区",
+                    "x": "116.310316",
+                    "y": "39.956074"
+                  },
+                  "business_area": "海淀区"
+                },
+                "eta_list": [],
+                "eta_ui_template": "",
+                "addressExperiment": true,
+                "lineInfoExperiment": 1,
+                "atag_cid": "621396;1106490"
+              },
+              "action_info": {
+                "data": [
+                  {
+                    "icon": "",
+                    "label": "路线",
+                    "type": "route"
+                  }
+                ]
+              },
+              "isTagStandardized": 1
+            },
+            "poiPrerenderData": {
+              "poiId": "B0FFLLAAO7",
+              "name": "颐和园景泰蓝",
+              "scoreInfo": {
+                "showRatingUpgrade": false
+              },
+              "structLabel": {
+                "struct_label_list": [
+                  {
+                    "opentimeStatus": "In_Business_Unknown",
+                    "desc": "周一至周日 08:30-18:45",
+                    "title": "营业时间",
+                    "title_type": "",
+                    "item_type": "open_time",
+                    "label_extra_data": {},
+                    "openTimeInfo": {
+                      "normalOpentime": "周一至周日 08:30-18:45"
+                    }
+                  }
+                ]
+              },
+              "noticeInfo": {
+                "notice_list": []
+              },
+              "poiTags": [],
+              "detailMediaMode": "default",
+              "reserveInfo": {
+                "canReserve": false,
+                "data": null
+              },
+              "goodsInfo": {
+                "hasGoods": false,
+                "data": null
+              },
+              "noShowRatingUpgrade": false,
+              "attractGalleryImgList": [
+                {
+                  "img_url": "http://store.is.autonavi.com/showpic/90ac4dae69f54e4a93c42b8836ca5c17",
+                  "height": 10000,
+                  "width": 10000,
+                  "schema": "amapuri://comment/gumdamNoteList?data=%7B%22lat%22%3A39.99781%2C%22lon%22%3A116.270143%2C%22name%22%3A%22%E9%A2%90%E5%92%8C%E5%9B%AD%E6%99%AF%E6%B3%B0%E8%93%9D%22%2C%22poiid%22%3A%22B0FFLLAAO7%22%2C%22adcode%22%3A%22110108%22%2C%22top_ids%22%3A%22%22%2C%22tabKey%22%3A%22photo%22%7D"
+                }
+              ]
+            },
+            "item_type": "poi",
+            "item_sub_type": "normal",
+            "poi": {
+              "id": "B0FFLLAAO7",
+              "name": "颐和园景泰蓝",
+              "longitude": "116.270143",
+              "latitude": "39.99781",
+              "industry": "shopping",
+              "typecode": "061200",
+              "adcode": "110108",
+              "address": "海淀区新建宫门路19号颐和园内颐和园-听鹂馆附近",
+              "t_tag": "购物|民俗用品",
+              "atag_cid": "621396;1106490",
+              "itype": "shopping",
+              "service_tag": "",
+              "review_total": "2",
+              "score": "",
+              "tag_display_std": "民俗用品",
+              "average_cost": "",
+              "trace_type": "sp",
+              "parent_name": "颐和园",
+              "towards_angle": "",
+              "f_nona": "",
+              "end_poi_extension": "1",
+              "distance": "18748",
+              "opentime": "周一至周日 08:30-18:45",
+              "cname": "北京市",
+              "childtype": "302",
+              "parent": "B000A7O1CU",
+              "ad_text": "",
+              "brand_desc": "shopping",
+              "rating": "",
+              "citycode": "010",
+              "brandcode": "",
+              "is_ad": "0",
+              "entrances": [
+                {
+                  "longitude": "116.270059",
+                  "latitude": "39.997777"
+                }
+              ],
+              "distance_display": "18.7千米",
+              "t_tag_class": "购物;民俗用品",
+              "isFakeHomeService": false,
+              "ad_brand_info": {},
+              "charging_log_params": {},
+              "item_info": {
+                "business": "shopping",
+                "gsid": "09033039142010176792977881800017164435090",
+                "testid": "76477_143824_138559_155217_159056_165255_165922_167367_168526_169629_158082_98181_173796_164897_165035_167071_168352_168869_169324_174601_167003_153697_154121_159919_160591_160700_161184_162202_165037_165193_165236_165869_166837_166961_169329_159729_152827_158939_159590_163049_163714_168229_168361_169336_161196_164281_164155_165697_165752_168814_134865_159851_164715_168732_174777_161200_165215_166856_20438_61954_125025_157013_163235_164722_166976_168241_168690_154717_160186_168302_168538_168788_169534_170559_170325_164998_158875_161288_161356_165714_165891_168380_2090_161963_164672_165716_168544_168908_168384_153469_156007_162037_162416_163593_164984_167154_168392_168548_119209_156567_165060_166785_168395_95170_154809_156818_164991_167091_167158_168676_169660_172402_115394_140500_164995_169364_170642_20207_161790_162978_165160_169558_125894_134960_141546_157714_159136_161898_165013_165156_165242_148824_160106_161908_163479_165159_165248_168518_169617_173534_160211_162045_164695_165175_167015_167189_168633_170346_161918_165163_167019_167202_167250_169316_170362_171085",
+                "industry": "shopping",
+                "t_tag": "购物|民俗用品",
+                "atag_cid": "621396;1106490",
+                "is_tel_ad": "0",
+                "is_ad": "0",
+                "lgb_urp_score": "",
+                "is_hotel_scenic_membership_hotel": 0,
+                "tips_rec": {
+                  "tips_rec_flag": 0,
+                  "around_search_score": 0,
+                  "back_params": {
+                    "poiid": "B0FFLLAAO7",
+                    "typecode": "061200",
+                    "industry": "shopping",
+                    "t_tag": "购物|民俗用品",
+                    "atag_cid": "621396;1106490"
+                  }
+                }
+              },
+              "item_type": "poi",
+              "item_sub_type": "normal"
+            },
+            "extra": {
+              "tip_scene_type": "",
+              "item_info": {
+                "id": "B0FFLLAAO7",
+                "business": "shopping",
+                "gsid": "09033039142010176792977881800017164435090",
+                "contentID": "",
+                "product_type": "",
+                "has_gift": "0",
+                "has_product": "0"
+              }
+            },
+            "req_meta": {
+              "is_structured_detail": "1",
+              "need_remove_half": false,
+              "is_mini_detail": "0",
+              "list_to_detail_half": false,
+              "operation": {
+                "type": "0",
+                "params": {
+                  "t_tag2": "购物|民俗用品",
+                  "mallCpt": "0",
+                  "structuredSecondReqFlag": "1",
+                  "coupon_new_req": "1",
+                  "adcode": "110108",
+                  "gas_src_type": "",
+                  "industry": "shopping",
+                  "user_loc": "116.48991,40.002533",
+                  "typecode": "061200",
+                  "atag_cid": "621396;1106490",
+                  "t_tag_class": "购物;民俗用品",
+                  "common_coupon_flag": "",
+                  "x": "116.270143",
+                  "y": "39.99781",
+                  "from": "tips",
+                  "testid": "76477_143824_138559_155217_159056_165255_165922_167367_168526_169629_158082_98181_173796_164897_165035_167071_168352_168869_169324_174601_167003_153697_154121_159919_160591_160700_161184_162202_165037_165193_165236_165869_166837_166961_169329_159729_152827_158939_159590_163049_163714_168229_168361_169336_161196_164281_164155_165697_165752_168814_134865_159851_164715_168732_174777_161200_165215_166856_20438_61954_125025_157013_163235_164722_166976_168241_168690_154717_160186_168302_168538_168788_169534_170559_170325_164998_158875_161288_161356_165714_165891_168380_2090_161963_164672_165716_168544_168908_168384_153469_156007_162037_162416_163593_164984_167154_168392_168548_119209_156567_165060_166785_168395_95170_154809_156818_164991_167091_167158_168676_169660_172402_115394_140500_164995_169364_170642_20207_161790_162978_165160_169558_125894_134960_141546_157714_159136_161898_165013_165156_165242_148824_160106_161908_163479_165159_165248_168518_169617_173534_160211_162045_164695_165175_167015_167189_168633_170346_161918_165163_167019_167202_167250_169316_170362_171085",
+                  "poiid": "B0FFLLAAO7",
+                  "superid": "a_02_06",
+                  "sp_gsid": "09033039142010176792977881800017164435090",
+                  "coupon_type": "",
+                  "scenic_goods_tip_flag": 0,
+                  "can_use_coupon": 0,
+                  "can_use_paid_coupon": 0
+                }
+              },
+              "needReqHook": {
+                "type": "1",
+                "params": {
+                  "t_tag2": "购物|民俗用品",
+                  "adcode": "110108",
+                  "atag_cid": "621396;1106490",
+                  "typecode": "061200",
+                  "t_tag_class": "购物;民俗用品",
+                  "mallCpt": "0",
+                  "superid": "a_02_06",
+                  "industry": "shopping",
+                  "poiid": "B0FFLLAAO7",
+                  "structuredSecondReqFlag": "1"
+                }
+              }
+            },
+            "DistanceReadabilityEnhancement": 1
+          }
+        },
+        {
+          "card_id": "PoiCardUniversal",
+          "data": {
+            "is_delete": false,
+            "openTime": "周一至周日 08:30-18:00",
+            "openStatus": "营业时间",
+            "img_info": {
+              "img_src": "http://store.is.autonavi.com/showpic/498ec3f8ce149b78b1cc8b4046d43fb6",
+              "ai_crop_img_info": {
+                "ai_crop_cover": {
+                  "1_1": [
+                    {
+                      "url": "http://store.is.autonavi.com/showpic/498ec3f8ce149b78b1cc8b4046d43fb6",
+                      "cut_info": "w375_h500|0,55_374,429"
+                    }
+                  ]
+                }
+              },
+              "video_src": "",
+              "ad_text_loc": 1,
+              "iconPosition": "left-top",
+              "detailMediaList": [
+                {
+                  "srcType": "USER",
+                  "dataType": "pic",
+                  "url": "http://store.is.autonavi.com/showpic/498ec3f8ce149b78b1cc8b4046d43fb6",
+                  "srcHeight": "10000",
+                  "srcWidth": "10000",
+                  "aestheticScore": "0.3258678913116455"
+                },
+                {
+                  "srcType": "USER",
+                  "dataType": "pic",
+                  "url": "http://store.is.autonavi.com/showpic/df39f83c082695124ac02b3b6e8108b0",
+                  "srcHeight": "10000",
+                  "srcWidth": "10000",
+                  "aestheticScore": "0.26753567159175875"
+                }
+              ],
+              "img_type": "small"
+            },
+            "basic_info": {
+              "name": "菜百首饰(颐和园店)",
+              "mainName": "菜百首饰",
+              "category": [
+                "珠宝首饰"
+              ],
+              "address_line": 1,
+              "name_style": {
+                "max_line_nums": 1
+              },
+              "open_tags": [],
+              "vip_tags": [],
+              "merchant_service_tags": [],
+              "poi_interests_tags": [],
+              "liveness": "10人收藏过",
+              "rating": "3.9",
+              "notice_info": [],
+              "name_tags": [],
+              "location": {
+                "land_mark": "颐和园内",
+                "distance": [
+                  "17.8公里"
+                ],
+                "longitude": 116.281055,
+                "latitude": 39.997566,
+                "adCode": "110108",
+                "ccode": "110000",
+                "pcdrInfo": {
+                  "nationName": "中华人民共和国",
+                  "rname": "昆明湖路",
+                  "pname": "北京市",
+                  "cname": "",
+                  "dname": "海淀区",
+                  "ccode": "110000"
+                }
+              },
+              "score": "3.9",
+              "score_tag": "分",
+              "scoreType": "1",
+              "product_info": [],
+              "open_time_tags": [],
+              "hot_info_recommend": [],
+              "isHitVirtualShopTest": true,
+              "poiCardTags": [],
+              "bizIndustry": "shopping",
+              "creatUIInfo": {
+                "uiStyleValue": "1"
+              },
+              "deep_info": [
+                "<font color=@Color_Text_Green><b>营业中</b></font> 周一至周日 08:30-18:00"
+              ],
+              "open_time_deep_info": {
+                "tag_status": "营业中",
+                "tag_desc": "周一至周日 08:30-18:00",
+                "status": "In_Business"
+              },
+              "name_highlight_info": {
+                "type": "blue",
+                "value": "菜百首饰(颐和园店)",
+                "offsetInfo": [
+                  {
+                    "start": 5,
+                    "word": "颐和园"
+                  }
+                ]
+              },
+              "shopFlags": [],
+              "special_industry_tags": [],
+              "price_test_state": "right",
+              "eta_info": {
+                "is_open": true,
+                "logic_type": 1,
+                "logic_type_local": 1,
+                "description_type": 3,
+                "show_eta_distance": false,
+                "coordinate_info": {
+                  "start_x": 116.48991,
+                  "start_y": 40.002533,
+                  "start_adcode": "110000",
+                  "distance": 17818.82,
+                  "is_nearby": false,
+                  "centerpoi_extra_params": '{"centerpoi_name":""}',
+                  "parentChild": {
+                    "endPoiExtension": "1",
+                    "parentName": "颐和园",
+                    "parentX": "116.275179",
+                    "parentY": "39.999617",
+                    "parentAtagCid": "621024;621025;621026|621024;621047;621049",
+                    "parent": "B000A7O1CU",
+                    "parent2": "",
+                    "parent3": "",
+                    "childType": "302",
+                    "parentType": "scenic",
+                    "parentTTagClass": "景点;景区;5A景区|景点;人文景观;文物古迹",
+                    "clkRatioRt": "",
+                    "parentGoodsTypes": [
+                      "ticket_yiheyuan_api",
+                      "ticket_fliggyapi_api",
+                      "ticket",
+                      "album",
+                      "ticket_zowoyoo_api",
+                      "wanle_ctrip_api",
+                      "h5ticket_ctrip_api",
+                      "ticket_ctrip_api",
+                      "ticket_newtour_api",
+                      "ticket_damai_h5",
+                      "ticket_ziwoyouriyou_api",
+                      "riyou_ctrip_api",
+                      "ticket_tongcheng_api"
+                    ]
+                  },
+                  "end_x": 116.281055,
+                  "end_y": 39.997566,
+                  "end_adcode": "110108",
+                  "city_center_distance": 14960,
+                  "is_local": true
+                },
+                "landmark_info": {
+                  "pcdr": {
+                    "nationName": "中华人民共和国",
+                    "rname": "昆明湖路",
+                    "pname": "北京市",
+                    "cname": "",
+                    "dname": "海淀区",
+                    "ccode": "110000",
+                    "commonAddress": "颐和园东宫门内"
+                  },
+                  "city_center": {
+                    "name": "海淀区",
+                    "x": "116.310316",
+                    "y": "39.956074"
+                  },
+                  "business_area": "海淀区"
+                },
+                "eta_list": [],
+                "eta_ui_template": "",
+                "addressExperiment": true,
+                "lineInfoExperiment": 1,
+                "atag_cid": "621396;621443"
+              },
+              "action_info": {
+                "data": [
+                  {
+                    "icon": "",
+                    "label": "路线",
+                    "type": "route"
+                  }
+                ]
+              },
+              "isTagStandardized": 1
+            },
+            "poiPrerenderData": {
+              "poiId": "B0JB9UZOZJ",
+              "name": "菜百首饰(颐和园店)",
+              "scoreInfo": {
+                "score": "3.9",
+                "score_tag": "分",
+                "scoreType": "1",
+                "showRatingUpgrade": false,
+                "schema": "amapuri://comment/ScoreDetail?data=%7B%22poiId%22%3A%22B0JB9UZOZJ%22%2C%22scoreType%22%3A%22%22%7D"
+              },
+              "structLabel": {
+                "struct_label_list": [
+                  {
+                    "opentimeStatus": "In_Business",
+                    "desc": "周一至周日 08:30-18:00",
+                    "title": "营业中",
+                    "title_type": "1",
+                    "item_type": "open_time",
+                    "label_extra_data": {
+                      "title": "营业时间"
+                    },
+                    "openTimeInfo": {
+                      "shortOpenTime": "08:30-18:00",
+                      "normalOpentime": "周一至周日 08:30-18:00"
+                    }
+                  }
+                ]
+              },
+              "noticeInfo": {
+                "notice_list": []
+              },
+              "poiTags": [],
+              "detailMediaMode": "default",
+              "reserveInfo": {
+                "canReserve": false,
+                "data": null
+              },
+              "goodsInfo": {
+                "hasGoods": false,
+                "data": null
+              },
+              "noShowRatingUpgrade": false,
+              "attractGalleryImgList": [
+                {
+                  "img_url": "http://store.is.autonavi.com/showpic/498ec3f8ce149b78b1cc8b4046d43fb6",
+                  "height": 10000,
+                  "width": 10000,
+                  "schema": "amapuri://comment/gumdamNoteList?data=%7B%22lat%22%3A39.997566%2C%22lon%22%3A116.281055%2C%22name%22%3A%22%E8%8F%9C%E7%99%BE%E9%A6%96%E9%A5%B0(%E9%A2%90%E5%92%8C%E5%9B%AD%E5%BA%97)%22%2C%22poiid%22%3A%22B0JB9UZOZJ%22%2C%22adcode%22%3A%22110108%22%2C%22top_ids%22%3A%22%22%2C%22tabKey%22%3A%22photo%22%7D",
+                  "ai_crop_img_info": {
+                    "1_1": [
+                      {
+                        "url": "http://store.is.autonavi.com/showpic/498ec3f8ce149b78b1cc8b4046d43fb6",
+                        "cut_info": "w375_h500|0,55_374,429"
+                      }
+                    ],
+                    "2_1": [
+                      {
+                        "url": "http://store.is.autonavi.com/showpic/498ec3f8ce149b78b1cc8b4046d43fb6",
+                        "cut_info": "w375_h500|1,97_373,283"
+                      }
+                    ],
+                    "3_4": [
+                      {
+                        "url": "http://store.is.autonavi.com/showpic/498ec3f8ce149b78b1cc8b4046d43fb6",
+                        "cut_info": "w375_h500|0,0_375,500"
+                      },
+                      {
+                        "url": "http://store.is.autonavi.com/showpic/df39f83c082695124ac02b3b6e8108b0",
+                        "cut_info": "w375_h500|0,0_374,499"
+                      }
+                    ],
+                    "4_3": [
+                      {
+                        "url": "http://store.is.autonavi.com/showpic/498ec3f8ce149b78b1cc8b4046d43fb6",
+                        "cut_info": "w375_h500|0,49_373,329"
+                      }
+                    ],
+                    "16_9": [
+                      {
+                        "url": "http://store.is.autonavi.com/showpic/498ec3f8ce149b78b1cc8b4046d43fb6",
+                        "cut_info": "w375_h500|0,84_373,294"
+                      },
+                      {
+                        "url": "http://store.is.autonavi.com/showpic/df39f83c082695124ac02b3b6e8108b0",
+                        "cut_info": "w375_h500|1,127_374,337"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "img_url": "http://store.is.autonavi.com/showpic/df39f83c082695124ac02b3b6e8108b0",
+                  "height": 10000,
+                  "width": 10000,
+                  "schema": "amapuri://comment/gumdamNoteList?data=%7B%22lat%22%3A39.997566%2C%22lon%22%3A116.281055%2C%22name%22%3A%22%E8%8F%9C%E7%99%BE%E9%A6%96%E9%A5%B0(%E9%A2%90%E5%92%8C%E5%9B%AD%E5%BA%97)%22%2C%22poiid%22%3A%22B0JB9UZOZJ%22%2C%22adcode%22%3A%22110108%22%2C%22top_ids%22%3A%22%22%2C%22tabKey%22%3A%22photo%22%7D"
+                }
+              ]
+            },
+            "item_type": "poi",
+            "item_sub_type": "normal",
+            "poi": {
+              "id": "B0JB9UZOZJ",
+              "name": "菜百首饰(颐和园店)",
+              "longitude": "116.281055",
+              "latitude": "39.997566",
+              "industry": "shopping",
+              "typecode": "061202",
+              "adcode": "110108",
+              "address": "海淀区颐和园东宫门内",
+              "t_tag": "购物|珠宝首饰",
+              "atag_cid": "621396;621443",
+              "itype": "shopping",
+              "service_tag": "",
+              "review_total": "",
+              "score": "3.9",
+              "tag_display_std": "珠宝首饰",
+              "average_cost": "",
+              "trace_type": "sp",
+              "parent_name": "颐和园",
+              "towards_angle": "",
+              "f_nona": "",
+              "end_poi_extension": "1",
+              "distance": "17819",
+              "opentime": "周一至周日 08:30-18:00",
+              "cname": "北京市",
+              "childtype": "302",
+              "parent": "B000A7O1CU",
+              "ad_text": "",
+              "brand_desc": "shopping",
+              "rating": "3.9",
+              "citycode": "010",
+              "brandcode": "041631372",
+              "is_ad": "0",
+              "entrances": [
+                {
+                  "longitude": "116.281075",
+                  "latitude": "39.997455"
+                }
+              ],
+              "distance_display": "17.8千米",
+              "t_tag_class": "购物;珠宝首饰",
+              "isFakeHomeService": false,
+              "ad_brand_info": {},
+              "charging_log_params": {},
+              "item_info": {
+                "business": "shopping",
+                "gsid": "09033039142010176792977881800017164435090",
+                "testid": "76477_143824_138559_155217_159056_165255_165922_167367_168526_169629_158082_98181_173796_164897_165035_167071_168352_168869_169324_174601_167003_153697_154121_159919_160591_160700_161184_162202_165037_165193_165236_165869_166837_166961_169329_159729_152827_158939_159590_163049_163714_168229_168361_169336_161196_164281_164155_165697_165752_168814_134865_159851_164715_168732_174777_161200_165215_166856_20438_61954_125025_157013_163235_164722_166976_168241_168690_154717_160186_168302_168538_168788_169534_170559_170325_164998_158875_161288_161356_165714_165891_168380_2090_161963_164672_165716_168544_168908_168384_153469_156007_162037_162416_163593_164984_167154_168392_168548_119209_156567_165060_166785_168395_95170_154809_156818_164991_167091_167158_168676_169660_172402_115394_140500_164995_169364_170642_20207_161790_162978_165160_169558_125894_134960_141546_157714_159136_161898_165013_165156_165242_148824_160106_161908_163479_165159_165248_168518_169617_173534_160211_162045_164695_165175_167015_167189_168633_170346_161918_165163_167019_167202_167250_169316_170362_171085",
+                "industry": "shopping",
+                "t_tag": "购物|珠宝首饰",
+                "atag_cid": "621396;621443",
+                "is_tel_ad": "0",
+                "is_ad": "0",
+                "lgb_urp_score": "",
+                "is_hotel_scenic_membership_hotel": 0,
+                "tips_rec": {
+                  "tips_rec_flag": 0,
+                  "around_search_score": 0,
+                  "back_params": {
+                    "poiid": "B0JB9UZOZJ",
+                    "typecode": "061202",
+                    "industry": "shopping",
+                    "t_tag": "购物|珠宝首饰",
+                    "atag_cid": "621396;621443"
+                  }
+                }
+              },
+              "item_type": "poi",
+              "item_sub_type": "normal"
+            },
+            "extra": {
+              "tip_scene_type": "",
+              "item_info": {
+                "id": "B0JB9UZOZJ",
+                "business": "shopping",
+                "gsid": "09033039142010176792977881800017164435090",
+                "contentID": "",
+                "product_type": "",
+                "has_gift": "0",
+                "has_product": "0"
+              }
+            },
+            "req_meta": {
+              "is_structured_detail": "1",
+              "need_remove_half": false,
+              "is_mini_detail": "0",
+              "list_to_detail_half": false,
+              "operation": {
+                "type": "0",
+                "params": {
+                  "t_tag2": "购物|珠宝首饰",
+                  "mallCpt": "0",
+                  "structuredSecondReqFlag": "1",
+                  "coupon_new_req": "1",
+                  "adcode": "110108",
+                  "gas_src_type": "",
+                  "industry": "shopping",
+                  "user_loc": "116.48991,40.002533",
+                  "typecode": "061202",
+                  "atag_cid": "621396;621443",
+                  "t_tag_class": "购物;珠宝首饰",
+                  "common_coupon_flag": "",
+                  "x": "116.281055",
+                  "y": "39.997566",
+                  "from": "tips",
+                  "testid": "76477_143824_138559_155217_159056_165255_165922_167367_168526_169629_158082_98181_173796_164897_165035_167071_168352_168869_169324_174601_167003_153697_154121_159919_160591_160700_161184_162202_165037_165193_165236_165869_166837_166961_169329_159729_152827_158939_159590_163049_163714_168229_168361_169336_161196_164281_164155_165697_165752_168814_134865_159851_164715_168732_174777_161200_165215_166856_20438_61954_125025_157013_163235_164722_166976_168241_168690_154717_160186_168302_168538_168788_169534_170559_170325_164998_158875_161288_161356_165714_165891_168380_2090_161963_164672_165716_168544_168908_168384_153469_156007_162037_162416_163593_164984_167154_168392_168548_119209_156567_165060_166785_168395_95170_154809_156818_164991_167091_167158_168676_169660_172402_115394_140500_164995_169364_170642_20207_161790_162978_165160_169558_125894_134960_141546_157714_159136_161898_165013_165156_165242_148824_160106_161908_163479_165159_165248_168518_169617_173534_160211_162045_164695_165175_167015_167189_168633_170346_161918_165163_167019_167202_167250_169316_170362_171085",
+                  "poiid": "B0JB9UZOZJ",
+                  "superid": "a_02_06",
+                  "sp_gsid": "09033039142010176792977881800017164435090",
+                  "coupon_type": "",
+                  "scenic_goods_tip_flag": 0,
+                  "can_use_coupon": 0,
+                  "can_use_paid_coupon": 0
+                }
+              },
+              "needReqHook": {
+                "type": "1",
+                "params": {
+                  "t_tag2": "购物|珠宝首饰",
+                  "adcode": "110108",
+                  "atag_cid": "621396;621443",
+                  "typecode": "061202",
+                  "t_tag_class": "购物;珠宝首饰",
+                  "mallCpt": "0",
+                  "superid": "a_02_06",
+                  "industry": "shopping",
+                  "poiid": "B0JB9UZOZJ",
+                  "structuredSecondReqFlag": "1"
+                }
+              }
+            },
+            "DistanceReadabilityEnhancement": 1
+          }
+        },
+        {
+          "card_id": "PoiCardUniversal",
+          "data": {
+            "is_delete": false,
+            "openTime": "",
+            "img_info": {
+              "img_src": "http://store.is.autonavi.com/showpic/824faabc0cd0110bd54c6dc082eb468a",
+              "ai_crop_img_info": {
+                "ai_crop_cover": {
+                  "1_1": [
+                    {
+                      "url": "http://store.is.autonavi.com/showpic/824faabc0cd0110bd54c6dc082eb468a",
+                      "cut_info": "w283_h500|0,72_279,351"
+                    }
+                  ]
+                }
+              },
+              "video_src": "",
+              "ad_text_loc": 1,
+              "iconPosition": "left-top",
+              "detailMediaList": [
+                {
+                  "srcType": "USER",
+                  "dataType": "pic",
+                  "url": "http://store.is.autonavi.com/showpic/824faabc0cd0110bd54c6dc082eb468a",
+                  "srcHeight": "500",
+                  "srcWidth": "283",
+                  "aestheticScore": "0.23690304160118104"
+                },
+                {
+                  "srcType": "USER",
+                  "dataType": "pic",
+                  "url": "http://store.is.autonavi.com/showpic/fbf632d8417fb666659fb080fa2ba824",
+                  "srcHeight": "375",
+                  "srcWidth": "500",
+                  "aestheticScore": "0.21322721242904664"
+                }
+              ],
+              "img_type": "small"
+            },
+            "basic_info": {
+              "name": "北京礼物(颐和园店)",
+              "mainName": "北京礼物",
+              "category": [
+                "礼品店"
+              ],
+              "address_line": 1,
+              "name_style": {
+                "max_line_nums": 1
+              },
+              "open_tags": [],
+              "vip_tags": [],
+              "merchant_service_tags": [],
+              "poi_interests_tags": [],
+              "liveness": "52人收藏过",
+              "rating": "3.8",
+              "notice_info": [],
+              "name_tags": [],
+              "location": {
+                "land_mark": "颐和园内",
+                "distance": [
+                  "17.7公里"
+                ],
+                "longitude": 116.282759,
+                "latitude": 39.998673,
+                "adCode": "110108",
+                "ccode": "110000",
+                "pcdrInfo": {
+                  "nationName": "中华人民共和国",
+                  "rname": "宫门前街",
+                  "pname": "北京市",
+                  "cname": "",
+                  "dname": "海淀区",
+                  "ccode": "110000"
+                }
+              },
+              "score": "3.8",
+              "score_tag": "分",
+              "scoreType": "1",
+              "product_info": [],
+              "open_time_tags": [],
+              "hot_info_recommend": [],
+              "isHitVirtualShopTest": true,
+              "poiCardTags": [],
+              "bizIndustry": "shopping",
+              "creatUIInfo": {
+                "uiStyleValue": "1"
+              },
+              "deep_info": [],
+              "open_time_deep_info": {
+                "tag_status": "",
+                "tag_desc": "",
+                "status": ""
+              },
+              "name_highlight_info": {
+                "type": "blue",
+                "value": "北京礼物(颐和园店)",
+                "offsetInfo": [
+                  {
+                    "start": 5,
+                    "word": "颐和园"
+                  }
+                ]
+              },
+              "shopFlags": [],
+              "special_industry_tags": [],
+              "price_test_state": "right",
+              "eta_info": {
+                "is_open": true,
+                "logic_type": 1,
+                "logic_type_local": 1,
+                "description_type": 3,
+                "show_eta_distance": false,
+                "coordinate_info": {
+                  "start_x": 116.48991,
+                  "start_y": 40.002533,
+                  "start_adcode": "110000",
+                  "distance": 17670.010000000002,
+                  "is_nearby": false,
+                  "centerpoi_extra_params": '{"centerpoi_name":""}',
+                  "parentChild": {
+                    "endPoiExtension": "1",
+                    "parentName": "颐和园",
+                    "parentX": "116.275179",
+                    "parentY": "39.999617",
+                    "parentAtagCid": "621024;621025;621026|621024;621047;621049",
+                    "parent": "B000A7O1CU",
+                    "parent2": "",
+                    "parent3": "",
+                    "childType": "302",
+                    "parentType": "scenic",
+                    "parentTTagClass": "景点;景区;5A景区|景点;人文景观;文物古迹",
+                    "clkRatioRt": "",
+                    "parentGoodsTypes": [
+                      "ticket_yiheyuan_api",
+                      "ticket_fliggyapi_api",
+                      "ticket",
+                      "album",
+                      "ticket_zowoyoo_api",
+                      "wanle_ctrip_api",
+                      "h5ticket_ctrip_api",
+                      "ticket_ctrip_api",
+                      "ticket_newtour_api",
+                      "ticket_damai_h5",
+                      "ticket_ziwoyouriyou_api",
+                      "riyou_ctrip_api",
+                      "ticket_tongcheng_api"
+                    ]
+                  },
+                  "end_x": 116.282759,
+                  "end_y": 39.998673,
+                  "end_adcode": "110108",
+                  "city_center_distance": 14942,
+                  "is_local": true
+                },
+                "landmark_info": {
+                  "pcdr": {
+                    "nationName": "中华人民共和国",
+                    "rname": "宫门前街",
+                    "pname": "北京市",
+                    "cname": "",
+                    "dname": "海淀区",
+                    "ccode": "110000",
+                    "commonAddress": "新建宫门路19号颐和园内(东侧)"
+                  },
+                  "city_center": {
+                    "name": "海淀区",
+                    "x": "116.310316",
+                    "y": "39.956074"
+                  },
+                  "business_area": "西苑"
+                },
+                "eta_list": [],
+                "eta_ui_template": "",
+                "addressExperiment": true,
+                "lineInfoExperiment": 1,
+                "atag_cid": "621396;621577"
+              },
+              "action_info": {
+                "data": [
+                  {
+                    "icon": "",
+                    "label": "路线",
+                    "type": "route"
+                  }
+                ]
+              },
+              "isTagStandardized": 1
+            },
+            "poiPrerenderData": {
+              "poiId": "B000AAA5CS",
+              "name": "北京礼物(颐和园店)",
+              "scoreInfo": {
+                "score": "3.8",
+                "score_tag": "分",
+                "scoreType": "1",
+                "showRatingUpgrade": false,
+                "schema": "amapuri://comment/ScoreDetail?data=%7B%22poiId%22%3A%22B000AAA5CS%22%2C%22scoreType%22%3A%22%22%7D"
+              },
+              "structLabel": {
+                "struct_label_list": [
+                  {
+                    "desc": "去补充",
+                    "title": "暂无营业时间",
+                    "item_type": "upload_open_time",
+                    "label_extra_data": {},
+                    "editInfo": {
+                      "btnName": "编辑",
+                      "editSchema": "amapuri://feedback/router?pageKey=dynamicForm&feedbackParam=%7B%22dfPageId%22%3A%22poiTimeWiki%22%2C%22sourcePage%22%3A%22192%22%2C%22poi%22%3A%7B%22poiid%22%3A%22B000AAA5CS%22%2C%22name%22%3A%22%E5%8C%97%E4%BA%AC%E7%A4%BC%E7%89%A9(%E9%A2%90%E5%92%8C%E5%9B%AD%E5%BA%97)%22%2C%22lon%22%3A%22116.282759%22%2C%22lat%22%3A%2239.998673%22%2C%22new_type%22%3A%22061209%22%2C%22address%22%3A%22%E6%B5%B7%E6%B7%80%E5%8C%BA%E6%96%B0%E5%BB%BA%E5%AE%AB%E9%97%A8%E8%B7%AF19%E5%8F%B7%E9%A2%90%E5%92%8C%E5%9B%AD%E5%86%85(%E4%B8%9C%E4%BE%A7)%22%2C%22adcode%22%3A%22110108%22%7D%7D"
+                    },
+                    "schema": "amapuri://feedback/router?pageKey=dynamicForm&feedbackParam=%7B%22dfPageId%22%3A%22poiTimeWiki%22%2C%22sourcePage%22%3A%22192%22%2C%22poi%22%3A%7B%22poiid%22%3A%22B000AAA5CS%22%2C%22name%22%3A%22%E5%8C%97%E4%BA%AC%E7%A4%BC%E7%89%A9(%E9%A2%90%E5%92%8C%E5%9B%AD%E5%BA%97)%22%2C%22lon%22%3A%22116.282759%22%2C%22lat%22%3A%2239.998673%22%2C%22new_type%22%3A%22061209%22%2C%22address%22%3A%22%E6%B5%B7%E6%B7%80%E5%8C%BA%E6%96%B0%E5%BB%BA%E5%AE%AB%E9%97%A8%E8%B7%AF19%E5%8F%B7%E9%A2%90%E5%92%8C%E5%9B%AD%E5%86%85(%E4%B8%9C%E4%BE%A7)%22%2C%22adcode%22%3A%22110108%22%7D%7D"
+                  }
+                ]
+              },
+              "noticeInfo": {
+                "notice_list": []
+              },
+              "poiTags": [],
+              "detailMediaMode": "default",
+              "reserveInfo": {
+                "canReserve": false,
+                "data": null
+              },
+              "goodsInfo": {
+                "hasGoods": false,
+                "data": null
+              },
+              "noShowRatingUpgrade": false,
+              "attractGalleryImgList": [
+                {
+                  "img_url": "http://store.is.autonavi.com/showpic/824faabc0cd0110bd54c6dc082eb468a",
+                  "height": 500,
+                  "width": 283,
+                  "schema": "amapuri://comment/gumdamNoteList?data=%7B%22lat%22%3A39.998673%2C%22lon%22%3A116.282759%2C%22name%22%3A%22%E5%8C%97%E4%BA%AC%E7%A4%BC%E7%89%A9(%E9%A2%90%E5%92%8C%E5%9B%AD%E5%BA%97)%22%2C%22poiid%22%3A%22B000AAA5CS%22%2C%22adcode%22%3A%22110108%22%2C%22top_ids%22%3A%22%22%2C%22tabKey%22%3A%22photo%22%7D",
+                  "ai_crop_img_info": {
+                    "1_1": [
+                      {
+                        "url": "http://store.is.autonavi.com/showpic/824faabc0cd0110bd54c6dc082eb468a",
+                        "cut_info": "w283_h500|0,72_279,351"
+                      }
+                    ],
+                    "2_1": [
+                      {
+                        "url": "http://store.is.autonavi.com/showpic/824faabc0cd0110bd54c6dc082eb468a",
+                        "cut_info": "w283_h500|1,117_275,254"
+                      }
+                    ],
+                    "4_3": [
+                      {
+                        "url": "http://store.is.autonavi.com/showpic/824faabc0cd0110bd54c6dc082eb468a",
+                        "cut_info": "w283_h500|0,95_278,303"
+                      }
+                    ],
+                    "3_4": [
+                      {
+                        "url": "http://store.is.autonavi.com/showpic/824faabc0cd0110bd54c6dc082eb468a",
+                        "cut_info": "w283_h500|0,24_279,396"
+                      },
+                      {
+                        "url": "http://store.is.autonavi.com/showpic/fbf632d8417fb666659fb080fa2ba824",
+                        "cut_info": "w500_h375|99,0_376,369"
+                      }
+                    ],
+                    "16_9": [
+                      {
+                        "url": "http://store.is.autonavi.com/showpic/824faabc0cd0110bd54c6dc082eb468a",
+                        "cut_info": "w283_h500|0,107_279,263"
+                      },
+                      {
+                        "url": "http://store.is.autonavi.com/showpic/fbf632d8417fb666659fb080fa2ba824",
+                        "cut_info": "w500_h375|0,0_492,277"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "img_url": "http://store.is.autonavi.com/showpic/fbf632d8417fb666659fb080fa2ba824",
+                  "height": 375,
+                  "width": 500,
+                  "schema": "amapuri://comment/gumdamNoteList?data=%7B%22lat%22%3A39.998673%2C%22lon%22%3A116.282759%2C%22name%22%3A%22%E5%8C%97%E4%BA%AC%E7%A4%BC%E7%89%A9(%E9%A2%90%E5%92%8C%E5%9B%AD%E5%BA%97)%22%2C%22poiid%22%3A%22B000AAA5CS%22%2C%22adcode%22%3A%22110108%22%2C%22top_ids%22%3A%22%22%2C%22tabKey%22%3A%22photo%22%7D"
+                }
+              ]
+            },
+            "item_type": "poi",
+            "item_sub_type": "normal",
+            "poi": {
+              "id": "B000AAA5CS",
+              "name": "北京礼物(颐和园店)",
+              "longitude": "116.282759",
+              "latitude": "39.998673",
+              "industry": "shopping",
+              "typecode": "061209",
+              "adcode": "110108",
+              "address": "海淀区新建宫门路19号颐和园内(东侧)",
+              "t_tag": "购物|礼品店",
+              "atag_cid": "621396;621577",
+              "itype": "shopping",
+              "service_tag": "",
+              "review_total": "",
+              "score": "3.8",
+              "tag_display_std": "礼品店",
+              "average_cost": "",
+              "trace_type": "sp",
+              "parent_name": "颐和园",
+              "towards_angle": "175.3",
+              "f_nona": "",
+              "end_poi_extension": "1",
+              "distance": "17670",
+              "opentime": "",
+              "cname": "北京市",
+              "childtype": "302",
+              "parent": "B000A7O1CU",
+              "ad_text": "",
+              "brand_desc": "",
+              "rating": "3.8",
+              "citycode": "010",
+              "brandcode": "",
+              "is_ad": "0",
+              "entrances": [
+                {
+                  "longitude": "116.282853",
+                  "latitude": "39.998555"
+                }
+              ],
+              "distance_display": "17.7千米",
+              "t_tag_class": "购物;礼品店",
+              "isFakeHomeService": false,
+              "ad_brand_info": {},
+              "charging_log_params": {},
+              "item_info": {
+                "business": "shopping",
+                "gsid": "09033039142010176792977881800017164435090",
+                "testid": "76477_143824_138559_155217_159056_165255_165922_167367_168526_169629_158082_98181_173796_164897_165035_167071_168352_168869_169324_174601_167003_153697_154121_159919_160591_160700_161184_162202_165037_165193_165236_165869_166837_166961_169329_159729_152827_158939_159590_163049_163714_168229_168361_169336_161196_164281_164155_165697_165752_168814_134865_159851_164715_168732_174777_161200_165215_166856_20438_61954_125025_157013_163235_164722_166976_168241_168690_154717_160186_168302_168538_168788_169534_170559_170325_164998_158875_161288_161356_165714_165891_168380_2090_161963_164672_165716_168544_168908_168384_153469_156007_162037_162416_163593_164984_167154_168392_168548_119209_156567_165060_166785_168395_95170_154809_156818_164991_167091_167158_168676_169660_172402_115394_140500_164995_169364_170642_20207_161790_162978_165160_169558_125894_134960_141546_157714_159136_161898_165013_165156_165242_148824_160106_161908_163479_165159_165248_168518_169617_173534_160211_162045_164695_165175_167015_167189_168633_170346_161918_165163_167019_167202_167250_169316_170362_171085",
+                "industry": "shopping",
+                "t_tag": "购物|礼品店",
+                "atag_cid": "621396;621577",
+                "is_tel_ad": "0",
+                "is_ad": "0",
+                "lgb_urp_score": "",
+                "is_hotel_scenic_membership_hotel": 0,
+                "tips_rec": {
+                  "tips_rec_flag": 0,
+                  "around_search_score": 0,
+                  "back_params": {
+                    "poiid": "B000AAA5CS",
+                    "typecode": "061209",
+                    "industry": "",
+                    "t_tag": "购物|礼品店",
+                    "atag_cid": "621396;621577"
+                  }
+                }
+              },
+              "item_type": "poi",
+              "item_sub_type": "normal"
+            },
+            "extra": {
+              "tip_scene_type": "",
+              "item_info": {
+                "id": "B000AAA5CS",
+                "business": "",
+                "gsid": "09033039142010176792977881800017164435090",
+                "contentID": "",
+                "product_type": "",
+                "has_gift": "0",
+                "has_product": "0"
+              }
+            },
+            "req_meta": {
+              "is_structured_detail": "1",
+              "need_remove_half": false,
+              "is_mini_detail": "0",
+              "list_to_detail_half": false,
+              "operation": {
+                "type": "0",
+                "params": {
+                  "t_tag2": "购物|礼品店",
+                  "mallCpt": "0",
+                  "structuredSecondReqFlag": "1",
+                  "coupon_new_req": "1",
+                  "adcode": "110108",
+                  "gas_src_type": "",
+                  "industry": "",
+                  "user_loc": "116.48991,40.002533",
+                  "typecode": "061209",
+                  "atag_cid": "621396;621577",
+                  "t_tag_class": "购物;礼品店",
+                  "common_coupon_flag": "",
+                  "x": "116.282759",
+                  "y": "39.998673",
+                  "from": "tips",
+                  "testid": "76477_143824_138559_155217_159056_165255_165922_167367_168526_169629_158082_98181_173796_164897_165035_167071_168352_168869_169324_174601_167003_153697_154121_159919_160591_160700_161184_162202_165037_165193_165236_165869_166837_166961_169329_159729_152827_158939_159590_163049_163714_168229_168361_169336_161196_164281_164155_165697_165752_168814_134865_159851_164715_168732_174777_161200_165215_166856_20438_61954_125025_157013_163235_164722_166976_168241_168690_154717_160186_168302_168538_168788_169534_170559_170325_164998_158875_161288_161356_165714_165891_168380_2090_161963_164672_165716_168544_168908_168384_153469_156007_162037_162416_163593_164984_167154_168392_168548_119209_156567_165060_166785_168395_95170_154809_156818_164991_167091_167158_168676_169660_172402_115394_140500_164995_169364_170642_20207_161790_162978_165160_169558_125894_134960_141546_157714_159136_161898_165013_165156_165242_148824_160106_161908_163479_165159_165248_168518_169617_173534_160211_162045_164695_165175_167015_167189_168633_170346_161918_165163_167019_167202_167250_169316_170362_171085",
+                  "poiid": "B000AAA5CS",
+                  "superid": "a_02_06",
+                  "sp_gsid": "09033039142010176792977881800017164435090",
+                  "coupon_type": "",
+                  "scenic_goods_tip_flag": 0,
+                  "can_use_coupon": 0,
+                  "can_use_paid_coupon": 0
+                }
+              },
+              "needReqHook": {
+                "type": "1",
+                "params": {
+                  "t_tag2": "购物|礼品店",
+                  "adcode": "110108",
+                  "atag_cid": "621396;621577",
+                  "typecode": "061209",
+                  "t_tag_class": "购物;礼品店",
+                  "mallCpt": "0",
+                  "superid": "a_02_06",
+                  "industry": "shopping",
+                  "poiid": "B000AAA5CS",
+                  "structuredSecondReqFlag": "1"
+                }
+              }
+            },
+            "DistanceReadabilityEnhancement": 1
+          }
+        },
+        {
+          "card_id": "PoiCardUniversal",
+          "data": {
+            "is_delete": false,
+            "openTime": "周一至周日 08:00-17:30",
+            "img_info": {
+              "img_src": "http://store.is.autonavi.com/showpic/c17f2043ff5742e092c6a174eb4a253d",
+              "video_src": "",
+              "ad_text_loc": 1,
+              "iconPosition": "left-top",
+              "detailMediaList": [
+                {
+                  "srcType": "USER",
+                  "dataType": "pic",
+                  "url": "http://store.is.autonavi.com/showpic/c17f2043ff5742e092c6a174eb4a253d",
+                  "srcHeight": "375",
+                  "srcWidth": "500",
+                  "aestheticScore": "0.46849052608013155"
+                },
+                {
+                  "srcType": "USER",
+                  "dataType": "pic",
+                  "url": "http://store.is.autonavi.com/showpic/fc7bf2230ea483afe377fd7470853c65",
+                  "srcHeight": "500",
+                  "srcWidth": "375",
+                  "aestheticScore": "0.17093807458877564"
+                },
+                {
+                  "srcType": "USER",
+                  "dataType": "pic",
+                  "url": "http://store.is.autonavi.com/showpic/a7c847e7b5a34585b713b91c96be64da",
+                  "srcHeight": "375",
+                  "srcWidth": "500",
+                  "aestheticScore": "0.23212558031082154"
+                }
+              ],
+              "img_type": "small"
+            },
+            "basic_info": {
+              "name": "颐和园文化产品专卖店(南侧)",
+              "mainName": "颐和园文化产品专卖店",
+              "category": [
+                "礼品店"
+              ],
+              "address_line": 1,
+              "name_style": {
+                "max_line_nums": 1
+              },
+              "open_tags": [
+                {
+                  "type": "newbluegray",
+                  "tag": "方便停车"
+                }
+              ],
+              "vip_tags": [],
+              "merchant_service_tags": [],
+              "poi_interests_tags": [],
+              "liveness": "75人收藏过",
+              "rating": "3.8",
+              "notice_info": [],
+              "name_tags": [],
+              "location": {
+                "land_mark": "颐和园内",
+                "distance": [
+                  "17.9公里"
+                ],
+                "longitude": 116.279975,
+                "latitude": 39.996875,
+                "adCode": "110108",
+                "ccode": "110000",
+                "pcdrInfo": {
+                  "nationName": "中华人民共和国",
+                  "rname": "昆明湖路",
+                  "pname": "北京市",
+                  "cname": "",
+                  "dname": "海淀区",
+                  "ccode": "110000"
+                }
+              },
+              "score": "3.8",
+              "score_tag": "分",
+              "scoreType": "1",
+              "product_info": [],
+              "open_time_tags": [],
+              "hot_info_recommend": [],
+              "isHitVirtualShopTest": true,
+              "poiCardTags": [
+                {
+                  "tagType": "open",
+                  "content": "方便停车"
+                }
+              ],
+              "bizIndustry": "shopping",
+              "creatUIInfo": {
+                "uiStyleValue": "1"
+              },
+              "deep_info": [],
+              "open_time_deep_info": {
+                "tag_status": "",
+                "tag_desc": "",
+                "status": ""
+              },
+              "name_highlight_info": {
+                "type": "blue",
+                "value": "颐和园文化产品专卖店(南侧)",
+                "offsetInfo": [
+                  {
+                    "start": 0,
+                    "word": "颐和园"
+                  }
+                ]
+              },
+              "shopFlags": [],
+              "special_industry_tags": [],
+              "price_test_state": "right",
+              "eta_info": {
+                "is_open": true,
+                "logic_type": 1,
+                "logic_type_local": 1,
+                "description_type": 3,
+                "show_eta_distance": false,
+                "coordinate_info": {
+                  "start_x": 116.48991,
+                  "start_y": 40.002533,
+                  "start_adcode": "110000",
+                  "distance": 17913.5,
+                  "is_nearby": false,
+                  "centerpoi_extra_params": '{"centerpoi_name":""}',
+                  "parentChild": {
+                    "endPoiExtension": "1",
+                    "parentName": "颐和园",
+                    "parentX": "116.275179",
+                    "parentY": "39.999617",
+                    "parentAtagCid": "621024;621025;621026|621024;621047;621049",
+                    "parent": "B000A7O1CU",
+                    "parent2": "",
+                    "parent3": "",
+                    "childType": "302",
+                    "parentType": "scenic",
+                    "parentTTagClass": "景点;景区;5A景区|景点;人文景观;文物古迹",
+                    "clkRatioRt": "",
+                    "parentGoodsTypes": [
+                      "ticket_yiheyuan_api",
+                      "ticket_fliggyapi_api",
+                      "ticket",
+                      "album",
+                      "ticket_zowoyoo_api",
+                      "wanle_ctrip_api",
+                      "h5ticket_ctrip_api",
+                      "ticket_ctrip_api",
+                      "ticket_newtour_api",
+                      "ticket_damai_h5",
+                      "ticket_ziwoyouriyou_api",
+                      "riyou_ctrip_api",
+                      "ticket_tongcheng_api"
+                    ]
+                  },
+                  "end_x": 116.279975,
+                  "end_y": 39.996875,
+                  "end_adcode": "110108",
+                  "city_center_distance": 14973,
+                  "is_local": true
+                },
+                "landmark_info": {
+                  "pcdr": {
+                    "nationName": "中华人民共和国",
+                    "rname": "昆明湖路",
+                    "pname": "北京市",
+                    "cname": "",
+                    "dname": "海淀区",
+                    "ccode": "110000",
+                    "commonAddress": "新建宫门路19号颐和园内(东侧)"
+                  },
+                  "city_center": {
+                    "name": "海淀区",
+                    "x": "116.310316",
+                    "y": "39.956074"
+                  },
+                  "business_area": "海淀区"
+                },
+                "eta_list": [],
+                "eta_ui_template": "",
+                "addressExperiment": true,
+                "lineInfoExperiment": 1,
+                "atag_cid": "621396;621577"
+              },
+              "action_info": {
+                "data": [
+                  {
+                    "icon": "",
+                    "label": "路线",
+                    "type": "route"
+                  }
+                ]
+              },
+              "isTagStandardized": 1
+            },
+            "poiPrerenderData": {
+              "poiId": "B0FFFHJ0LV",
+              "name": "颐和园文化产品专卖店(南侧)",
+              "scoreInfo": {
+                "score": "3.8",
+                "score_tag": "分",
+                "scoreType": "1",
+                "showRatingUpgrade": false,
+                "schema": "amapuri://comment/ScoreDetail?data=%7B%22poiId%22%3A%22B0FFFHJ0LV%22%2C%22scoreType%22%3A%22%22%7D"
+              },
+              "structLabel": {
+                "struct_label_list": [
+                  {
+                    "opentimeStatus": "In_Business_Unknown",
+                    "desc": "周一至周日 08:00-17:30",
+                    "title": "营业时间",
+                    "title_type": "",
+                    "item_type": "open_time",
+                    "label_extra_data": {},
+                    "openTimeInfo": {
+                      "normalOpentime": "周一至周日 08:00-17:30"
+                    }
+                  }
+                ]
+              },
+              "noticeInfo": {
+                "notice_list": []
+              },
+              "poiTags": [
+                {
+                  "tag": "方便停车",
+                  "type": "gray",
+                  "tagMark": "POI_OPEN"
+                }
+              ],
+              "detailMediaMode": "default",
+              "reserveInfo": {
+                "canReserve": false,
+                "data": null
+              },
+              "goodsInfo": {
+                "hasGoods": false,
+                "data": null
+              },
+              "noShowRatingUpgrade": false,
+              "attractGalleryImgList": [
+                {
+                  "img_url": "http://store.is.autonavi.com/showpic/c17f2043ff5742e092c6a174eb4a253d",
+                  "height": 375,
+                  "width": 500,
+                  "schema": "amapuri://comment/gumdamNoteList?data=%7B%22lat%22%3A39.996875%2C%22lon%22%3A116.279975%2C%22name%22%3A%22%E9%A2%90%E5%92%8C%E5%9B%AD%E6%96%87%E5%8C%96%E4%BA%A7%E5%93%81%E4%B8%93%E5%8D%96%E5%BA%97(%E5%8D%97%E4%BE%A7)%22%2C%22poiid%22%3A%22B0FFFHJ0LV%22%2C%22adcode%22%3A%22110108%22%2C%22top_ids%22%3A%22%22%2C%22tabKey%22%3A%22photo%22%7D"
+                },
+                {
+                  "img_url": "http://store.is.autonavi.com/showpic/fc7bf2230ea483afe377fd7470853c65",
+                  "height": 500,
+                  "width": 375,
+                  "schema": "amapuri://comment/gumdamNoteList?data=%7B%22lat%22%3A39.996875%2C%22lon%22%3A116.279975%2C%22name%22%3A%22%E9%A2%90%E5%92%8C%E5%9B%AD%E6%96%87%E5%8C%96%E4%BA%A7%E5%93%81%E4%B8%93%E5%8D%96%E5%BA%97(%E5%8D%97%E4%BE%A7)%22%2C%22poiid%22%3A%22B0FFFHJ0LV%22%2C%22adcode%22%3A%22110108%22%2C%22top_ids%22%3A%22%22%2C%22tabKey%22%3A%22photo%22%7D"
+                },
+                {
+                  "img_url": "http://store.is.autonavi.com/showpic/a7c847e7b5a34585b713b91c96be64da",
+                  "height": 375,
+                  "width": 500,
+                  "schema": "amapuri://comment/gumdamNoteList?data=%7B%22lat%22%3A39.996875%2C%22lon%22%3A116.279975%2C%22name%22%3A%22%E9%A2%90%E5%92%8C%E5%9B%AD%E6%96%87%E5%8C%96%E4%BA%A7%E5%93%81%E4%B8%93%E5%8D%96%E5%BA%97(%E5%8D%97%E4%BE%A7)%22%2C%22poiid%22%3A%22B0FFFHJ0LV%22%2C%22adcode%22%3A%22110108%22%2C%22top_ids%22%3A%22%22%2C%22tabKey%22%3A%22photo%22%7D"
+                }
+              ]
+            },
+            "item_type": "poi",
+            "item_sub_type": "normal",
+            "poi": {
+              "id": "B0FFFHJ0LV",
+              "name": "颐和园文化产品专卖店(南侧)",
+              "longitude": "116.279975",
+              "latitude": "39.996875",
+              "industry": "shopping",
+              "typecode": "061209",
+              "adcode": "110108",
+              "address": "海淀区新建宫门路19号颐和园内(东侧)",
+              "t_tag": "购物|礼品店",
+              "atag_cid": "621396;621577",
+              "itype": "shopping",
+              "service_tag": "",
+              "review_total": "",
+              "score": "3.8",
+              "tag_display_std": "礼品店",
+              "average_cost": "",
+              "trace_type": "sp",
+              "parent_name": "颐和园",
+              "towards_angle": "",
+              "f_nona": "",
+              "end_poi_extension": "1",
+              "distance": "17914",
+              "opentime": "周一至周日 08:00-17:30",
+              "cname": "北京市",
+              "childtype": "302",
+              "parent": "B000A7O1CU",
+              "ad_text": "",
+              "brand_desc": "shopping",
+              "rating": "3.8",
+              "citycode": "010",
+              "brandcode": "",
+              "is_ad": "0",
+              "entrances": [
+                {
+                  "longitude": "",
+                  "latitude": ""
+                }
+              ],
+              "distance_display": "17.9千米",
+              "t_tag_class": "购物;礼品店",
+              "isFakeHomeService": false,
+              "ad_brand_info": {},
+              "charging_log_params": {},
+              "item_info": {
+                "business": "shopping",
+                "gsid": "09033039142010176792977881800017164435090",
+                "testid": "76477_143824_138559_155217_159056_165255_165922_167367_168526_169629_158082_98181_173796_164897_165035_167071_168352_168869_169324_174601_167003_153697_154121_159919_160591_160700_161184_162202_165037_165193_165236_165869_166837_166961_169329_159729_152827_158939_159590_163049_163714_168229_168361_169336_161196_164281_164155_165697_165752_168814_134865_159851_164715_168732_174777_161200_165215_166856_20438_61954_125025_157013_163235_164722_166976_168241_168690_154717_160186_168302_168538_168788_169534_170559_170325_164998_158875_161288_161356_165714_165891_168380_2090_161963_164672_165716_168544_168908_168384_153469_156007_162037_162416_163593_164984_167154_168392_168548_119209_156567_165060_166785_168395_95170_154809_156818_164991_167091_167158_168676_169660_172402_115394_140500_164995_169364_170642_20207_161790_162978_165160_169558_125894_134960_141546_157714_159136_161898_165013_165156_165242_148824_160106_161908_163479_165159_165248_168518_169617_173534_160211_162045_164695_165175_167015_167189_168633_170346_161918_165163_167019_167202_167250_169316_170362_171085",
+                "industry": "shopping",
+                "t_tag": "购物|礼品店",
+                "atag_cid": "621396;621577",
+                "is_tel_ad": "0",
+                "is_ad": "0",
+                "lgb_urp_score": "",
+                "is_hotel_scenic_membership_hotel": 0,
+                "opentagshow": "1",
+                "tips_rec": {
+                  "tips_rec_flag": 0,
+                  "around_search_score": 0,
+                  "back_params": {
+                    "poiid": "B0FFFHJ0LV",
+                    "typecode": "061209",
+                    "industry": "shopping",
+                    "t_tag": "购物|礼品店",
+                    "atag_cid": "621396;621577"
+                  }
+                }
+              },
+              "item_type": "poi",
+              "item_sub_type": "normal",
+              "openTags": [
+                "方便停车"
+              ]
+            },
+            "extra": {
+              "tip_scene_type": "",
+              "item_info": {
+                "id": "B0FFFHJ0LV",
+                "business": "shopping",
+                "gsid": "09033039142010176792977881800017164435090",
+                "contentID": "",
+                "product_type": "",
+                "has_gift": "0",
+                "has_product": "0"
+              }
+            },
+            "req_meta": {
+              "is_structured_detail": "1",
+              "need_remove_half": false,
+              "is_mini_detail": "0",
+              "list_to_detail_half": false,
+              "operation": {
+                "type": "0",
+                "params": {
+                  "t_tag2": "购物|礼品店",
+                  "mallCpt": "0",
+                  "structuredSecondReqFlag": "1",
+                  "coupon_new_req": "1",
+                  "adcode": "110108",
+                  "gas_src_type": "",
+                  "industry": "shopping",
+                  "user_loc": "116.48991,40.002533",
+                  "typecode": "061209",
+                  "atag_cid": "621396;621577",
+                  "t_tag_class": "购物;礼品店",
+                  "common_coupon_flag": "",
+                  "x": "116.279975",
+                  "y": "39.996875",
+                  "from": "tips",
+                  "testid": "76477_143824_138559_155217_159056_165255_165922_167367_168526_169629_158082_98181_173796_164897_165035_167071_168352_168869_169324_174601_167003_153697_154121_159919_160591_160700_161184_162202_165037_165193_165236_165869_166837_166961_169329_159729_152827_158939_159590_163049_163714_168229_168361_169336_161196_164281_164155_165697_165752_168814_134865_159851_164715_168732_174777_161200_165215_166856_20438_61954_125025_157013_163235_164722_166976_168241_168690_154717_160186_168302_168538_168788_169534_170559_170325_164998_158875_161288_161356_165714_165891_168380_2090_161963_164672_165716_168544_168908_168384_153469_156007_162037_162416_163593_164984_167154_168392_168548_119209_156567_165060_166785_168395_95170_154809_156818_164991_167091_167158_168676_169660_172402_115394_140500_164995_169364_170642_20207_161790_162978_165160_169558_125894_134960_141546_157714_159136_161898_165013_165156_165242_148824_160106_161908_163479_165159_165248_168518_169617_173534_160211_162045_164695_165175_167015_167189_168633_170346_161918_165163_167019_167202_167250_169316_170362_171085",
+                  "poiid": "B0FFFHJ0LV",
+                  "superid": "a_02_06",
+                  "sp_gsid": "09033039142010176792977881800017164435090",
+                  "coupon_type": "",
+                  "scenic_goods_tip_flag": 0,
+                  "can_use_coupon": 0,
+                  "can_use_paid_coupon": 0
+                }
+              },
+              "needReqHook": {
+                "type": "1",
+                "params": {
+                  "t_tag2": "购物|礼品店",
+                  "adcode": "110108",
+                  "atag_cid": "621396;621577",
+                  "typecode": "061209",
+                  "t_tag_class": "购物;礼品店",
+                  "mallCpt": "0",
+                  "superid": "a_02_06",
+                  "industry": "shopping",
+                  "poiid": "B0FFFHJ0LV",
+                  "structuredSecondReqFlag": "1"
+                }
+              }
+            },
+            "DistanceReadabilityEnhancement": 1
+          }
+        },
+        {
+          "card_id": "PoiCardUniversal",
+          "data": {
+            "is_delete": false,
+            "openTime": "周一至周日 08:30-17:00",
+            "openStatus": "营业时间",
+            "img_info": {
+              "img_src": "http://store.is.autonavi.com/showpic/d0c52dec35c6203350b08fe83573adbf",
+              "ai_crop_img_info": {
+                "ai_crop_cover": {
+                  "1_1": [
+                    {
+                      "url": "http://store.is.autonavi.com/showpic/d0c52dec35c6203350b08fe83573adbf",
+                      "cut_info": "w375_h500|0,46_374,420"
+                    }
+                  ]
+                }
+              },
+              "video_src": "",
+              "ad_text_loc": 1,
+              "iconPosition": "left-top",
+              "detailMediaList": [
+                {
+                  "srcType": "USER",
+                  "dataType": "pic",
+                  "url": "http://store.is.autonavi.com/showpic/d0c52dec35c6203350b08fe83573adbf",
+                  "srcHeight": "1440",
+                  "srcWidth": "1080",
+                  "aestheticScore": "0.14638707041740416"
+                },
+                {
+                  "srcType": "USER",
+                  "dataType": "pic",
+                  "url": "http://store.is.autonavi.com/showpic/1d77e012aa4a678a88ee7271c0828e03",
+                  "srcHeight": "2000",
+                  "srcWidth": "1500",
+                  "aestheticScore": "0.26848432421684267"
+                },
+                {
+                  "srcType": "USER",
+                  "dataType": "pic",
+                  "url": "http://store.is.autonavi.com/showpic/609cd9cdd1427f5c34c0c43f4b9bea96",
+                  "srcHeight": "2000",
+                  "srcWidth": "1500",
+                  "aestheticScore": "0.2171359360218048"
+                },
+                {
+                  "srcType": "USER",
+                  "dataType": "pic",
+                  "url": "http://store.is.autonavi.com/showpic/7fb2bdb353e34a14836bb8654d3f6813",
+                  "srcHeight": "375",
+                  "srcWidth": "500",
+                  "aestheticScore": "0.3225252777338028"
+                },
+                {
+                  "srcType": "USER",
+                  "dataType": "pic",
+                  "url": "https://aos-comment.amap.com/B0FFKHK32O/comment/0b5d2d01fdbd8d4873d9a965c0756e53_2048_2048_80.jpg",
+                  "srcHeight": "1512",
+                  "srcWidth": "2016",
+                  "aestheticScore": "0.213914692401886"
+                },
+                {
+                  "srcType": "USER",
+                  "dataType": "pic",
+                  "url": "http://store.is.autonavi.com/showpic/ce5bba0679f226bac7decadff59ac606",
+                  "srcHeight": "2000",
+                  "srcWidth": "1500",
+                  "aestheticScore": "0.2219654619693756"
+                },
+                {
+                  "srcType": "USER",
+                  "dataType": "pic",
+                  "url": "http://store.is.autonavi.com/showpic/0c0a7c67d29f4e3ed4a3bd7498dc7abd",
+                  "srcHeight": "2000",
+                  "srcWidth": "1500",
+                  "aestheticScore": "0.2490701675415039"
+                },
+                {
+                  "srcType": "USER",
+                  "dataType": "pic",
+                  "url": "https://aos-comment.amap.com/B0FFKHK32O/comment/b13bbbd697b11d17a708e1a05ef2d450_2048_2048_80.jpg",
+                  "srcHeight": "2000",
+                  "srcWidth": "1500",
+                  "aestheticScore": "0.10649138689041138"
+                },
+                {
+                  "srcType": "USER",
+                  "dataType": "pic",
+                  "url": "https://aos-comment.amap.com/B0FFKHK32O/comment/fd8207283cfb98a50c39a9685ac9f13d_2048_2048_80.jpg",
+                  "srcHeight": "2000",
+                  "srcWidth": "1500",
+                  "aestheticScore": "0.1910245418548584"
+                },
+                {
+                  "srcType": "USER",
+                  "dataType": "pic",
+                  "url": "http://store.is.autonavi.com/showpic/8d7d0b9e7907e0a474881630c9132239",
+                  "srcHeight": "2000",
+                  "srcWidth": "1500",
+                  "aestheticScore": "0.26253220438957217"
+                }
+              ],
+              "img_type": "small"
+            },
+            "basic_info": {
+              "name": "颐和园文化产品专卖店(北)",
+              "mainName": "颐和园文化产品专卖店",
+              "category": [
+                "礼品店"
+              ],
+              "address_line": 1,
+              "name_style": {
+                "max_line_nums": 1
+              },
+              "open_tags": [],
+              "vip_tags": [],
+              "merchant_service_tags": [],
+              "poi_interests_tags": [],
+              "liveness": "129人收藏过",
+              "rating": "4.1",
+              "notice_info": [],
+              "name_tags": [],
+              "location": {
+                "land_mark": "颐和园内",
+                "distance": [
+                  "17.9公里"
+                ],
+                "longitude": 116.280332,
+                "latitude": 39.998065,
+                "adCode": "110108",
+                "ccode": "110000",
+                "pcdrInfo": {
+                  "nationName": "中华人民共和国",
+                  "rname": "昆明湖路",
+                  "pname": "北京市",
+                  "cname": "",
+                  "dname": "海淀区",
+                  "ccode": "110000"
+                }
+              },
+              "score": "4.1",
+              "score_tag": "好",
+              "scoreType": "1",
+              "product_info": [],
+              "open_time_tags": [],
+              "hot_info_recommend": [],
+              "isHitVirtualShopTest": true,
+              "poiCardTags": [],
+              "bizIndustry": "shopping",
+              "creatUIInfo": {
+                "uiStyleValue": "1"
+              },
+              "deep_info": [
+                "<font color=@Color_Text_Green><b>营业中</b></font> 周一至周日 08:30-17:00"
+              ],
+              "open_time_deep_info": {
+                "tag_status": "营业中",
+                "tag_desc": "周一至周日 08:30-17:00",
+                "status": "In_Business"
+              },
+              "name_highlight_info": {
+                "type": "blue",
+                "value": "颐和园文化产品专卖店(北)",
+                "offsetInfo": [
+                  {
+                    "start": 0,
+                    "word": "颐和园"
+                  }
+                ]
+              },
+              "shopFlags": [],
+              "special_industry_tags": [],
+              "price_test_state": "right",
+              "eta_info": {
+                "is_open": true,
+                "logic_type": 1,
+                "logic_type_local": 1,
+                "description_type": 3,
+                "show_eta_distance": false,
+                "coordinate_info": {
+                  "start_x": 116.48991,
+                  "start_y": 40.002533,
+                  "start_adcode": "110000",
+                  "distance": 17878.74,
+                  "is_nearby": false,
+                  "centerpoi_extra_params": '{"centerpoi_name":""}',
+                  "parentChild": {
+                    "endPoiExtension": "1",
+                    "parentName": "颐和园",
+                    "parentX": "116.275179",
+                    "parentY": "39.999617",
+                    "parentAtagCid": "621024;621025;621026|621024;621047;621049",
+                    "parent": "B000A7O1CU",
+                    "parent2": "",
+                    "parent3": "",
+                    "childType": "302",
+                    "parentType": "scenic",
+                    "parentTTagClass": "景点;景区;5A景区|景点;人文景观;文物古迹",
+                    "clkRatioRt": "",
+                    "parentGoodsTypes": [
+                      "ticket_yiheyuan_api",
+                      "ticket_fliggyapi_api",
+                      "ticket",
+                      "album",
+                      "ticket_zowoyoo_api",
+                      "wanle_ctrip_api",
+                      "h5ticket_ctrip_api",
+                      "ticket_ctrip_api",
+                      "ticket_newtour_api",
+                      "ticket_damai_h5",
+                      "ticket_ziwoyouriyou_api",
+                      "riyou_ctrip_api",
+                      "ticket_tongcheng_api"
+                    ]
+                  },
+                  "end_x": 116.280332,
+                  "end_y": 39.998065,
+                  "end_adcode": "110108",
+                  "city_center_distance": 15043,
+                  "is_local": true
+                },
+                "landmark_info": {
+                  "pcdr": {
+                    "nationName": "中华人民共和国",
+                    "rname": "昆明湖路",
+                    "pname": "北京市",
+                    "cname": "",
+                    "dname": "海淀区",
+                    "ccode": "110000",
+                    "commonAddress": "新建宫门路19号颐和园内(东侧)"
+                  },
+                  "city_center": {
+                    "name": "海淀区",
+                    "x": "116.310316",
+                    "y": "39.956074"
+                  },
+                  "business_area": "海淀区"
+                },
+                "eta_list": [],
+                "eta_ui_template": "",
+                "addressExperiment": true,
+                "lineInfoExperiment": 1,
+                "atag_cid": "621396;621577"
+              },
+              "action_info": {
+                "data": [
+                  {
+                    "icon": "",
+                    "label": "路线",
+                    "type": "route"
+                  }
+                ]
+              },
+              "isTagStandardized": 1
+            },
+            "poiPrerenderData": {
+              "poiId": "B0FFKHK32O",
+              "name": "颐和园文化产品专卖店(北)",
+              "scoreInfo": {
+                "score": "4.1",
+                "score_tag": "好",
+                "scoreType": "1",
+                "showRatingUpgrade": false,
+                "schema": "amapuri://comment/ScoreDetail?data=%7B%22poiId%22%3A%22B0FFKHK32O%22%2C%22scoreType%22%3A%22%22%7D"
+              },
+              "structLabel": {
+                "struct_label_list": [
+                  {
+                    "opentimeStatus": "In_Business",
+                    "desc": "周一至周日 08:30-17:00",
+                    "title": "营业中",
+                    "title_type": "1",
+                    "item_type": "open_time",
+                    "label_extra_data": {
+                      "title": "营业时间"
+                    },
+                    "openTimeInfo": {
+                      "shortOpenTime": "08:30-17:00",
+                      "normalOpentime": "周一至周日 08:30-17:00"
+                    }
+                  }
+                ]
+              },
+              "noticeInfo": {
+                "notice_list": []
+              },
+              "poiTags": [],
+              "detailMediaMode": "default",
+              "reserveInfo": {
+                "canReserve": false,
+                "data": null
+              },
+              "goodsInfo": {
+                "hasGoods": false,
+                "data": null
+              },
+              "noShowRatingUpgrade": false,
+              "attractGalleryImgList": [
+                {
+                  "img_url": "http://store.is.autonavi.com/showpic/d0c52dec35c6203350b08fe83573adbf",
+                  "height": 1440,
+                  "width": 1080,
+                  "schema": "amapuri://comment/gumdamNoteList?data=%7B%22lat%22%3A39.998065%2C%22lon%22%3A116.280332%2C%22name%22%3A%22%E9%A2%90%E5%92%8C%E5%9B%AD%E6%96%87%E5%8C%96%E4%BA%A7%E5%93%81%E4%B8%93%E5%8D%96%E5%BA%97(%E5%8C%97)%22%2C%22poiid%22%3A%22B0FFKHK32O%22%2C%22adcode%22%3A%22110108%22%2C%22top_ids%22%3A%22%22%2C%22tabKey%22%3A%22photo%22%7D",
+                  "ai_crop_img_info": {
+                    "1_1": [
+                      {
+                        "url": "http://store.is.autonavi.com/showpic/d0c52dec35c6203350b08fe83573adbf",
+                        "cut_info": "w375_h500|0,46_374,420"
+                      }
+                    ],
+                    "2_1": [
+                      {
+                        "url": "http://store.is.autonavi.com/showpic/d0c52dec35c6203350b08fe83573adbf",
+                        "cut_info": "w375_h500|2,48_374,234"
+                      }
+                    ],
+                    "3_4": [
+                      {
+                        "url": "http://store.is.autonavi.com/showpic/d0c52dec35c6203350b08fe83573adbf",
+                        "cut_info": "w375_h500|0,0_374,499"
+                      },
+                      {
+                        "url": "http://store.is.autonavi.com/showpic/7fb2bdb353e34a14836bb8654d3f6813",
+                        "cut_info": "w500_h375|103,1_383,375"
+                      },
+                      {
+                        "url": "https://aos-comment.amap.com/B0FFKHK32O/comment/0b5d2d01fdbd8d4873d9a965c0756e53_2048_2048_80.jpg",
+                        "cut_info": "w2016_h1512|488,0_1620,1509"
+                      },
+                      {
+                        "url": "http://store.is.autonavi.com/showpic/1d77e012aa4a678a88ee7271c0828e03",
+                        "cut_info": "w375_h500|1,0_373,496"
+                      },
+                      {
+                        "url": "http://store.is.autonavi.com/showpic/609cd9cdd1427f5c34c0c43f4b9bea96",
+                        "cut_info": "w375_h500|1,0_373,496"
+                      }
+                    ],
+                    "4_3": [
+                      {
+                        "url": "http://store.is.autonavi.com/showpic/d0c52dec35c6203350b08fe83573adbf",
+                        "cut_info": "w375_h500|1,1_374,281"
+                      }
+                    ],
+                    "16_9": [
+                      {
+                        "url": "http://store.is.autonavi.com/showpic/d0c52dec35c6203350b08fe83573adbf",
+                        "cut_info": "w375_h500|1,36_374,246"
+                      },
+                      {
+                        "url": "http://store.is.autonavi.com/showpic/7fb2bdb353e34a14836bb8654d3f6813",
+                        "cut_info": "w500_h375|0,60_494,338"
+                      },
+                      {
+                        "url": "https://aos-comment.amap.com/B0FFKHK32O/comment/0b5d2d01fdbd8d4873d9a965c0756e53_2048_2048_80.jpg",
+                        "cut_info": "w2016_h1512|0,263_2012,1395"
+                      },
+                      {
+                        "url": "http://store.is.autonavi.com/showpic/1d77e012aa4a678a88ee7271c0828e03",
+                        "cut_info": "w375_h500|1,37_374,247"
+                      },
+                      {
+                        "url": "http://store.is.autonavi.com/showpic/609cd9cdd1427f5c34c0c43f4b9bea96",
+                        "cut_info": "w375_h500|1,46_374,256"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "img_url": "http://store.is.autonavi.com/showpic/1d77e012aa4a678a88ee7271c0828e03",
+                  "height": 2000,
+                  "width": 1500,
+                  "schema": "amapuri://comment/gumdamNoteList?data=%7B%22lat%22%3A39.998065%2C%22lon%22%3A116.280332%2C%22name%22%3A%22%E9%A2%90%E5%92%8C%E5%9B%AD%E6%96%87%E5%8C%96%E4%BA%A7%E5%93%81%E4%B8%93%E5%8D%96%E5%BA%97(%E5%8C%97)%22%2C%22poiid%22%3A%22B0FFKHK32O%22%2C%22adcode%22%3A%22110108%22%2C%22top_ids%22%3A%22%22%2C%22tabKey%22%3A%22photo%22%7D"
+                },
+                {
+                  "img_url": "http://store.is.autonavi.com/showpic/609cd9cdd1427f5c34c0c43f4b9bea96",
+                  "height": 2000,
+                  "width": 1500,
+                  "schema": "amapuri://comment/gumdamNoteList?data=%7B%22lat%22%3A39.998065%2C%22lon%22%3A116.280332%2C%22name%22%3A%22%E9%A2%90%E5%92%8C%E5%9B%AD%E6%96%87%E5%8C%96%E4%BA%A7%E5%93%81%E4%B8%93%E5%8D%96%E5%BA%97(%E5%8C%97)%22%2C%22poiid%22%3A%22B0FFKHK32O%22%2C%22adcode%22%3A%22110108%22%2C%22top_ids%22%3A%22%22%2C%22tabKey%22%3A%22photo%22%7D"
+                }
+              ]
+            },
+            "item_type": "poi",
+            "item_sub_type": "normal",
+            "poi": {
+              "id": "B0FFKHK32O",
+              "name": "颐和园文化产品专卖店(北)",
+              "longitude": "116.280332",
+              "latitude": "39.998065",
+              "industry": "shopping",
+              "typecode": "061209",
+              "adcode": "110108",
+              "address": "海淀区新建宫门路19号颐和园内(东侧)",
+              "t_tag": "购物|礼品店",
+              "atag_cid": "621396;621577",
+              "itype": "shopping",
+              "service_tag": "",
+              "review_total": "6",
+              "score": "4.1",
+              "tag_display_std": "礼品店",
+              "average_cost": "",
+              "trace_type": "sp",
+              "parent_name": "颐和园",
+              "towards_angle": "",
+              "f_nona": "",
+              "end_poi_extension": "1",
+              "distance": "17879",
+              "opentime": "周一至周日 08:30-17:00",
+              "cname": "北京市",
+              "childtype": "302",
+              "parent": "B000A7O1CU",
+              "ad_text": "",
+              "brand_desc": "shopping",
+              "rating": "4.1",
+              "citycode": "010",
+              "brandcode": "",
+              "is_ad": "0",
+              "entrances": [
+                {
+                  "longitude": "",
+                  "latitude": ""
+                }
+              ],
+              "distance_display": "17.9千米",
+              "t_tag_class": "购物;礼品店",
+              "isFakeHomeService": false,
+              "ad_brand_info": {},
+              "charging_log_params": {},
+              "item_info": {
+                "business": "shopping",
+                "gsid": "09033039142010176792977881800017164435090",
+                "testid": "76477_143824_138559_155217_159056_165255_165922_167367_168526_169629_158082_98181_173796_164897_165035_167071_168352_168869_169324_174601_167003_153697_154121_159919_160591_160700_161184_162202_165037_165193_165236_165869_166837_166961_169329_159729_152827_158939_159590_163049_163714_168229_168361_169336_161196_164281_164155_165697_165752_168814_134865_159851_164715_168732_174777_161200_165215_166856_20438_61954_125025_157013_163235_164722_166976_168241_168690_154717_160186_168302_168538_168788_169534_170559_170325_164998_158875_161288_161356_165714_165891_168380_2090_161963_164672_165716_168544_168908_168384_153469_156007_162037_162416_163593_164984_167154_168392_168548_119209_156567_165060_166785_168395_95170_154809_156818_164991_167091_167158_168676_169660_172402_115394_140500_164995_169364_170642_20207_161790_162978_165160_169558_125894_134960_141546_157714_159136_161898_165013_165156_165242_148824_160106_161908_163479_165159_165248_168518_169617_173534_160211_162045_164695_165175_167015_167189_168633_170346_161918_165163_167019_167202_167250_169316_170362_171085",
+                "industry": "shopping",
+                "t_tag": "购物|礼品店",
+                "atag_cid": "621396;621577",
+                "is_tel_ad": "0",
+                "is_ad": "0",
+                "lgb_urp_score": "",
+                "is_hotel_scenic_membership_hotel": 0,
+                "tips_rec": {
+                  "tips_rec_flag": 0,
+                  "around_search_score": 0,
+                  "back_params": {
+                    "poiid": "B0FFKHK32O",
+                    "typecode": "061209",
+                    "industry": "shopping",
+                    "t_tag": "购物|礼品店",
+                    "atag_cid": "621396;621577"
+                  }
+                }
+              },
+              "item_type": "poi",
+              "item_sub_type": "normal"
+            },
+            "extra": {
+              "tip_scene_type": "",
+              "item_info": {
+                "id": "B0FFKHK32O",
+                "business": "shopping",
+                "gsid": "09033039142010176792977881800017164435090",
+                "contentID": "",
+                "product_type": "",
+                "has_gift": "0",
+                "has_product": "0"
+              }
+            },
+            "req_meta": {
+              "is_structured_detail": "1",
+              "need_remove_half": false,
+              "is_mini_detail": "0",
+              "list_to_detail_half": false,
+              "operation": {
+                "type": "0",
+                "params": {
+                  "t_tag2": "购物|礼品店",
+                  "mallCpt": "0",
+                  "structuredSecondReqFlag": "1",
+                  "coupon_new_req": "1",
+                  "adcode": "110108",
+                  "gas_src_type": "",
+                  "industry": "shopping",
+                  "user_loc": "116.48991,40.002533",
+                  "typecode": "061209",
+                  "atag_cid": "621396;621577",
+                  "t_tag_class": "购物;礼品店",
+                  "common_coupon_flag": "",
+                  "x": "116.280332",
+                  "y": "39.998065",
+                  "from": "tips",
+                  "testid": "76477_143824_138559_155217_159056_165255_165922_167367_168526_169629_158082_98181_173796_164897_165035_167071_168352_168869_169324_174601_167003_153697_154121_159919_160591_160700_161184_162202_165037_165193_165236_165869_166837_166961_169329_159729_152827_158939_159590_163049_163714_168229_168361_169336_161196_164281_164155_165697_165752_168814_134865_159851_164715_168732_174777_161200_165215_166856_20438_61954_125025_157013_163235_164722_166976_168241_168690_154717_160186_168302_168538_168788_169534_170559_170325_164998_158875_161288_161356_165714_165891_168380_2090_161963_164672_165716_168544_168908_168384_153469_156007_162037_162416_163593_164984_167154_168392_168548_119209_156567_165060_166785_168395_95170_154809_156818_164991_167091_167158_168676_169660_172402_115394_140500_164995_169364_170642_20207_161790_162978_165160_169558_125894_134960_141546_157714_159136_161898_165013_165156_165242_148824_160106_161908_163479_165159_165248_168518_169617_173534_160211_162045_164695_165175_167015_167189_168633_170346_161918_165163_167019_167202_167250_169316_170362_171085",
+                  "poiid": "B0FFKHK32O",
+                  "superid": "a_02_06",
+                  "sp_gsid": "09033039142010176792977881800017164435090",
+                  "coupon_type": "",
+                  "scenic_goods_tip_flag": 0,
+                  "can_use_coupon": 0,
+                  "can_use_paid_coupon": 0
+                }
+              },
+              "needReqHook": {
+                "type": "1",
+                "params": {
+                  "t_tag2": "购物|礼品店",
+                  "adcode": "110108",
+                  "atag_cid": "621396;621577",
+                  "typecode": "061209",
+                  "t_tag_class": "购物;礼品店",
+                  "mallCpt": "0",
+                  "superid": "a_02_06",
+                  "industry": "shopping",
+                  "poiid": "B0FFKHK32O",
+                  "structuredSecondReqFlag": "1"
+                }
+              }
+            },
+            "DistanceReadabilityEnhancement": 1
+          }
+        },
+        {
+          "card_id": "PoiCardUniversal",
+          "data": {
+            "is_delete": false,
+            "openTime": "",
+            "img_info": {
+              "img_src": "https://store.is.autonavi.com/showpic/347bdd1148996f9b6910a35d193a2d31",
+              "ai_crop_img_info": {
+                "ai_crop_cover": {
+                  "1_1": [
+                    {
+                      "url": "https://store.is.autonavi.com/showpic/347bdd1148996f9b6910a35d193a2d31",
+                      "cut_info": "w375_h500|0,0_375,375"
+                    }
+                  ]
+                }
+              },
+              "video_src": "",
+              "ad_text_loc": 1,
+              "iconPosition": "left-top",
+              "detailMediaList": [
+                {
+                  "srcType": "USER",
+                  "dataType": "pic",
+                  "url": "https://store.is.autonavi.com/showpic/347bdd1148996f9b6910a35d193a2d31",
+                  "srcHeight": "1500",
+                  "srcWidth": "1125",
+                  "aestheticScore": "0.1747657060623169"
+                },
+                {
+                  "srcType": "USER",
+                  "dataType": "pic",
+                  "url": "https://aos-comment.amap.com/B0JAJ713XL/comment/2025-12-13-16-48-22%2BE0D153F6-8129-402E-BFF4-1A5C5FFFDC6_1765615709143_12852697.jpg",
+                  "aestheticScore": "0.2084411382675171"
+                }
+              ],
+              "img_type": "small"
+            },
+            "basic_info": {
+              "name": "Summer便利店(颐和园东门店)",
+              "mainName": "Summer便利店",
+              "category": [
+                "便利店"
+              ],
+              "address_line": 1,
+              "name_style": {
+                "max_line_nums": 1
+              },
+              "open_tags": [],
+              "vip_tags": [],
+              "merchant_service_tags": [],
+              "poi_interests_tags": [],
+              "arrive_info": "53人去过",
+              "liveness": "53人浏览过",
+              "rating": "4.1",
+              "notice_info": [],
+              "name_tags": [],
+              "location": {
+                "land_mark": "颐和园内",
+                "distance": [
+                  "17.7公里"
+                ],
+                "longitude": 116.281912,
+                "latitude": 39.99854,
+                "adCode": "110108",
+                "ccode": "110000",
+                "pcdrInfo": {
+                  "nationName": "中华人民共和国",
+                  "rname": "宫门前街",
+                  "pname": "北京市",
+                  "cname": "",
+                  "dname": "海淀区",
+                  "ccode": "110000"
+                }
+              },
+              "score": "4.1",
+              "score_tag": "好",
+              "scoreType": "1",
+              "product_info": [],
+              "open_time_tags": [],
+              "hot_info_recommend": [],
+              "isHitVirtualShopTest": true,
+              "poiCardTags": [],
+              "bizIndustry": "shopping",
+              "creatUIInfo": {
+                "uiStyleValue": "1"
+              },
+              "deep_info": [],
+              "open_time_deep_info": {
+                "tag_status": "",
+                "tag_desc": "",
+                "status": ""
+              },
+              "name_highlight_info": {
+                "type": "blue",
+                "value": "Summer便利店(颐和园东门店)",
+                "offsetInfo": [
+                  {
+                    "start": 10,
+                    "word": "颐和园"
+                  }
+                ]
+              },
+              "shopFlags": [],
+              "special_industry_tags": [],
+              "price_test_state": "right",
+              "eta_info": {
+                "is_open": true,
+                "logic_type": 1,
+                "logic_type_local": 1,
+                "description_type": 3,
+                "show_eta_distance": false,
+                "coordinate_info": {
+                  "start_x": 116.48991,
+                  "start_y": 40.002533,
+                  "start_adcode": "110000",
+                  "distance": 17742.6,
+                  "is_nearby": false,
+                  "centerpoi_extra_params": '{"centerpoi_name":""}',
+                  "parentChild": {
+                    "endPoiExtension": "1",
+                    "parentName": "颐和园",
+                    "parentX": "116.275179",
+                    "parentY": "39.999617",
+                    "parentAtagCid": "621024;621025;621026|621024;621047;621049",
+                    "parent": "B000A7O1CU",
+                    "parent2": "",
+                    "parent3": "",
+                    "childType": "302",
+                    "parentType": "scenic",
+                    "parentTTagClass": "景点;景区;5A景区|景点;人文景观;文物古迹",
+                    "clkRatioRt": "",
+                    "parentGoodsTypes": [
+                      "ticket_yiheyuan_api",
+                      "ticket_fliggyapi_api",
+                      "ticket",
+                      "album",
+                      "ticket_zowoyoo_api",
+                      "wanle_ctrip_api",
+                      "h5ticket_ctrip_api",
+                      "ticket_ctrip_api",
+                      "ticket_newtour_api",
+                      "ticket_damai_h5",
+                      "ticket_ziwoyouriyou_api",
+                      "riyou_ctrip_api",
+                      "ticket_tongcheng_api"
+                    ]
+                  },
+                  "end_x": 116.281912,
+                  "end_y": 39.99854,
+                  "end_adcode": "110108",
+                  "city_center_distance": 14983,
+                  "is_local": true
+                },
+                "landmark_info": {
+                  "pcdr": {
+                    "nationName": "中华人民共和国",
+                    "rname": "宫门前街",
+                    "pname": "北京市",
+                    "cname": "",
+                    "dname": "海淀区",
+                    "ccode": "110000",
+                    "commonAddress": "宫门前街15号"
+                  },
+                  "city_center": {
+                    "name": "海淀区",
+                    "x": "116.310316",
+                    "y": "39.956074"
+                  },
+                  "business_area": "海淀区"
+                },
+                "eta_list": [],
+                "eta_ui_template": "",
+                "addressExperiment": true,
+                "lineInfoExperiment": 1,
+                "atag_cid": "621396;621601;621602"
+              },
+              "action_info": {
+                "data": [
+                  {
+                    "icon": "",
+                    "label": "路线",
+                    "type": "route"
+                  }
+                ]
+              },
+              "isTagStandardized": 1
+            },
+            "poiPrerenderData": {
+              "poiId": "B0JAJ713XL",
+              "name": "Summer便利店(颐和园东门店)",
+              "scoreInfo": {
+                "score": "4.1",
+                "score_tag": "好",
+                "scoreType": "1",
+                "showRatingUpgrade": false,
+                "schema": "amapuri://comment/ScoreDetail?data=%7B%22poiId%22%3A%22B0JAJ713XL%22%2C%22scoreType%22%3A%22%22%7D"
+              },
+              "structLabel": {
+                "struct_label_list": [
+                  {
+                    "desc": "去补充",
+                    "title": "暂无营业时间",
+                    "item_type": "upload_open_time",
+                    "label_extra_data": {},
+                    "editInfo": {
+                      "btnName": "编辑",
+                      "editSchema": "amapuri://feedback/router?pageKey=dynamicForm&feedbackParam=%7B%22dfPageId%22%3A%22poiTimeWiki%22%2C%22sourcePage%22%3A%22192%22%2C%22poi%22%3A%7B%22poiid%22%3A%22B0JAJ713XL%22%2C%22name%22%3A%22Summer%E4%BE%BF%E5%88%A9%E5%BA%97(%E9%A2%90%E5%92%8C%E5%9B%AD%E4%B8%9C%E9%97%A8%E5%BA%97)%22%2C%22lon%22%3A%22116.281912%22%2C%22lat%22%3A%2239.99854%22%2C%22new_type%22%3A%22060200%22%2C%22address%22%3A%22%E6%B5%B7%E6%B7%80%E5%8C%BA%E5%AE%AB%E9%97%A8%E5%89%8D%E8%A1%9715%E5%8F%B7%22%2C%22adcode%22%3A%22110108%22%7D%7D"
+                    },
+                    "schema": "amapuri://feedback/router?pageKey=dynamicForm&feedbackParam=%7B%22dfPageId%22%3A%22poiTimeWiki%22%2C%22sourcePage%22%3A%22192%22%2C%22poi%22%3A%7B%22poiid%22%3A%22B0JAJ713XL%22%2C%22name%22%3A%22Summer%E4%BE%BF%E5%88%A9%E5%BA%97(%E9%A2%90%E5%92%8C%E5%9B%AD%E4%B8%9C%E9%97%A8%E5%BA%97)%22%2C%22lon%22%3A%22116.281912%22%2C%22lat%22%3A%2239.99854%22%2C%22new_type%22%3A%22060200%22%2C%22address%22%3A%22%E6%B5%B7%E6%B7%80%E5%8C%BA%E5%AE%AB%E9%97%A8%E5%89%8D%E8%A1%9715%E5%8F%B7%22%2C%22adcode%22%3A%22110108%22%7D%7D"
+                  }
+                ]
+              },
+              "noticeInfo": {
+                "notice_list": []
+              },
+              "poiTags": [],
+              "detailMediaMode": "default",
+              "reserveInfo": {
+                "canReserve": false,
+                "data": null
+              },
+              "goodsInfo": {
+                "hasGoods": false,
+                "data": null
+              },
+              "noShowRatingUpgrade": false,
+              "attractGalleryImgList": [
+                {
+                  "img_url": "https://store.is.autonavi.com/showpic/347bdd1148996f9b6910a35d193a2d31",
+                  "height": 1500,
+                  "width": 1125,
+                  "schema": "amapuri://comment/gumdamNoteList?data=%7B%22lat%22%3A39.99854%2C%22lon%22%3A116.281912%2C%22name%22%3A%22Summer%E4%BE%BF%E5%88%A9%E5%BA%97(%E9%A2%90%E5%92%8C%E5%9B%AD%E4%B8%9C%E9%97%A8%E5%BA%97)%22%2C%22poiid%22%3A%22B0JAJ713XL%22%2C%22adcode%22%3A%22110108%22%2C%22top_ids%22%3A%22%22%2C%22tabKey%22%3A%22photo%22%7D",
+                  "ai_crop_img_info": {
+                    "1_1": [
+                      {
+                        "url": "https://store.is.autonavi.com/showpic/347bdd1148996f9b6910a35d193a2d31",
+                        "cut_info": "w375_h500|0,0_375,375"
+                      }
+                    ],
+                    "2_1": [
+                      {
+                        "url": "https://store.is.autonavi.com/showpic/347bdd1148996f9b6910a35d193a2d31",
+                        "cut_info": "w375_h500|2,54_374,240"
+                      }
+                    ],
+                    "3_4": [
+                      {
+                        "url": "https://store.is.autonavi.com/showpic/347bdd1148996f9b6910a35d193a2d31",
+                        "cut_info": "w375_h500|1,0_373,497"
+                      },
+                      {
+                        "url": "https://aos-comment.amap.com/B0JAJ713XL/comment/2025-12-13-16-48-22%2BE0D153F6-8129-402E-BFF4-1A5C5FFFDC6_1765615709143_12852697.jpg",
+                        "cut_info": "w1080_h1920|0,69_1078,1507"
+                      }
+                    ],
+                    "4_3": [
+                      {
+                        "url": "https://store.is.autonavi.com/showpic/347bdd1148996f9b6910a35d193a2d31",
+                        "cut_info": "w375_h500|0,6_375,287"
+                      }
+                    ],
+                    "16_9": [
+                      {
+                        "url": "https://store.is.autonavi.com/showpic/347bdd1148996f9b6910a35d193a2d31",
+                        "cut_info": "w375_h500|0,42_373,252"
+                      },
+                      {
+                        "url": "https://aos-comment.amap.com/B0JAJ713XL/comment/2025-12-13-16-48-22%2BE0D153F6-8129-402E-BFF4-1A5C5FFFDC6_1765615709143_12852697.jpg",
+                        "cut_info": "w1080_h1920|0,486_1073,1090"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "img_url": "https://aos-comment.amap.com/B0JAJ713XL/comment/2025-12-13-16-48-22%2BE0D153F6-8129-402E-BFF4-1A5C5FFFDC6_1765615709143_12852697.jpg",
+                  "schema": "amapuri://comment/gumdamNoteList?data=%7B%22lat%22%3A39.99854%2C%22lon%22%3A116.281912%2C%22name%22%3A%22Summer%E4%BE%BF%E5%88%A9%E5%BA%97(%E9%A2%90%E5%92%8C%E5%9B%AD%E4%B8%9C%E9%97%A8%E5%BA%97)%22%2C%22poiid%22%3A%22B0JAJ713XL%22%2C%22adcode%22%3A%22110108%22%2C%22top_ids%22%3A%22%22%2C%22tabKey%22%3A%22photo%22%7D"
+                }
+              ]
+            },
+            "item_type": "poi",
+            "item_sub_type": "normal",
+            "poi": {
+              "id": "B0JAJ713XL",
+              "name": "Summer便利店(颐和园东门店)",
+              "longitude": "116.281912",
+              "latitude": "39.99854",
+              "industry": "shopping",
+              "typecode": "060200",
+              "adcode": "110108",
+              "address": "海淀区宫门前街15号",
+              "t_tag": "购物|便利店|购物|超市",
+              "atag_cid": "621396;621601;621602",
+              "itype": "shopping",
+              "service_tag": "",
+              "review_total": "2",
+              "score": "4.1",
+              "tag_display_std": "便利店",
+              "average_cost": "",
+              "trace_type": "sp",
+              "parent_name": "颐和园",
+              "towards_angle": "",
+              "f_nona": "",
+              "end_poi_extension": "1",
+              "distance": "17743",
+              "opentime": "",
+              "cname": "北京市",
+              "childtype": "302",
+              "parent": "B000A7O1CU",
+              "ad_text": "",
+              "brand_desc": "",
+              "rating": "4.1",
+              "citycode": "010",
+              "brandcode": "",
+              "is_ad": "0",
+              "entrances": [
+                {
+                  "longitude": "116.281983",
+                  "latitude": "39.998439"
+                }
+              ],
+              "distance_display": "17.7千米",
+              "t_tag_class": "购物;超市;便利店",
+              "isFakeHomeService": false,
+              "ad_brand_info": {},
+              "charging_log_params": {},
+              "item_info": {
+                "business": "shopping",
+                "gsid": "09033039142010176792977881800017164435090",
+                "testid": "76477_143824_138559_155217_159056_165255_165922_167367_168526_169629_158082_98181_173796_164897_165035_167071_168352_168869_169324_174601_167003_153697_154121_159919_160591_160700_161184_162202_165037_165193_165236_165869_166837_166961_169329_159729_152827_158939_159590_163049_163714_168229_168361_169336_161196_164281_164155_165697_165752_168814_134865_159851_164715_168732_174777_161200_165215_166856_20438_61954_125025_157013_163235_164722_166976_168241_168690_154717_160186_168302_168538_168788_169534_170559_170325_164998_158875_161288_161356_165714_165891_168380_2090_161963_164672_165716_168544_168908_168384_153469_156007_162037_162416_163593_164984_167154_168392_168548_119209_156567_165060_166785_168395_95170_154809_156818_164991_167091_167158_168676_169660_172402_115394_140500_164995_169364_170642_20207_161790_162978_165160_169558_125894_134960_141546_157714_159136_161898_165013_165156_165242_148824_160106_161908_163479_165159_165248_168518_169617_173534_160211_162045_164695_165175_167015_167189_168633_170346_161918_165163_167019_167202_167250_169316_170362_171085",
+                "industry": "shopping",
+                "t_tag": "购物|便利店|购物|超市",
+                "atag_cid": "621396;621601;621602",
+                "is_tel_ad": "0",
+                "is_ad": "0",
+                "lgb_urp_score": "",
+                "is_hotel_scenic_membership_hotel": 0,
+                "tips_rec": {
+                  "tips_rec_flag": 0,
+                  "around_search_score": 0,
+                  "back_params": {
+                    "poiid": "B0JAJ713XL",
+                    "typecode": "060200",
+                    "industry": "",
+                    "t_tag": "购物|便利店|购物|超市",
+                    "atag_cid": "621396;621601;621602"
+                  }
+                }
+              },
+              "item_type": "poi",
+              "item_sub_type": "normal"
+            },
+            "extra": {
+              "tip_scene_type": "",
+              "item_info": {
+                "id": "B0JAJ713XL",
+                "business": "",
+                "gsid": "09033039142010176792977881800017164435090",
+                "contentID": "",
+                "product_type": "",
+                "has_gift": "0",
+                "has_product": "0"
+              }
+            },
+            "req_meta": {
+              "is_structured_detail": "1",
+              "need_remove_half": false,
+              "is_mini_detail": "0",
+              "list_to_detail_half": false,
+              "operation": {
+                "type": "0",
+                "params": {
+                  "t_tag2": "购物|便利店|购物|超市",
+                  "mallCpt": "0",
+                  "structuredSecondReqFlag": "1",
+                  "coupon_new_req": "1",
+                  "adcode": "110108",
+                  "gas_src_type": "",
+                  "industry": "",
+                  "user_loc": "116.48991,40.002533",
+                  "typecode": "060200",
+                  "atag_cid": "621396;621601;621602",
+                  "t_tag_class": "购物;超市;便利店",
+                  "common_coupon_flag": "",
+                  "x": "116.281912",
+                  "y": "39.99854",
+                  "from": "tips",
+                  "testid": "76477_143824_138559_155217_159056_165255_165922_167367_168526_169629_158082_98181_173796_164897_165035_167071_168352_168869_169324_174601_167003_153697_154121_159919_160591_160700_161184_162202_165037_165193_165236_165869_166837_166961_169329_159729_152827_158939_159590_163049_163714_168229_168361_169336_161196_164281_164155_165697_165752_168814_134865_159851_164715_168732_174777_161200_165215_166856_20438_61954_125025_157013_163235_164722_166976_168241_168690_154717_160186_168302_168538_168788_169534_170559_170325_164998_158875_161288_161356_165714_165891_168380_2090_161963_164672_165716_168544_168908_168384_153469_156007_162037_162416_163593_164984_167154_168392_168548_119209_156567_165060_166785_168395_95170_154809_156818_164991_167091_167158_168676_169660_172402_115394_140500_164995_169364_170642_20207_161790_162978_165160_169558_125894_134960_141546_157714_159136_161898_165013_165156_165242_148824_160106_161908_163479_165159_165248_168518_169617_173534_160211_162045_164695_165175_167015_167189_168633_170346_161918_165163_167019_167202_167250_169316_170362_171085",
+                  "poiid": "B0JAJ713XL",
+                  "superid": "a_02_06",
+                  "sp_gsid": "09033039142010176792977881800017164435090",
+                  "coupon_type": "",
+                  "scenic_goods_tip_flag": 0,
+                  "can_use_coupon": 0,
+                  "can_use_paid_coupon": 0
+                }
+              },
+              "needReqHook": {
+                "type": "1",
+                "params": {
+                  "t_tag2": "购物|便利店|购物|超市",
+                  "adcode": "110108",
+                  "atag_cid": "621396;621601;621602",
+                  "typecode": "060200",
+                  "t_tag_class": "购物;超市;便利店",
+                  "mallCpt": "0",
+                  "superid": "a_02_06",
+                  "industry": "shopping",
+                  "poiid": "B0JAJ713XL",
+                  "structuredSecondReqFlag": "1"
+                }
+              }
+            },
+            "DistanceReadabilityEnhancement": 1
+          }
+        }
+      ]
+    }
+  },
+  "dynamicData": {},
+  "bizData": {
+    "item_id": "clusterChildMaterial#clusterChildMaterial_停车场#3",
+    "item_type": "clusterChildMaterial",
+    "title": "停车指南",
+    "count": 8,
+    "biz_industry": "parking",
+    "render_style": "column"
+  },
+  "DistanceReadabilityEnhancement": 1
+}

@@ -1,0 +1,125 @@
+{
+  "id": "id_layout_common_card_parent",
+  "layout_width": "match_parent",
+  "layout_height": "match_parent",
+  "type": "constraint",
+  "package": "com.autonavi.minimap",
+  "child": [
+    {
+      "id": "id_layout_common_card_bg",
+      "layout_width": "match_parent",
+      "layout_height": "match_parent",
+      "src": "@drawable\/hiboard_desktop_widget_bg",
+      "scaleType": "centerCrop",
+      "type": "image"
+    },
+    {
+      "id": "layout_common_card",
+      "layout_width": "match_parent",
+      "layout_height": "156dp",
+      "background": "@drawable\/hiboard_desktop_widget_bg",
+      "padding": "@dimen\/hiboard_widget_padding",
+      "layout_constraintBottom_toBottomOf": "parent",
+      "layout_constraintEnd_toEndOf": "parent",
+      "layout_constraintStart_toStartOf": "parent",
+      "layout_constraintTop_toTopOf": "parent",
+      "tools:layout_height": "156dp",
+      "tools:layout_width": "324dp",
+      "type": "constraint",
+      "child": [
+        {
+          "id": "id_common_card_line1_layout",
+          "layout_width": "match_parent",
+          "layout_height": "wrap_content",
+          "layout_constraintEnd_toEndOf": "parent",
+          "layout_constraintStart_toStartOf": "parent",
+          "layout_constraintTop_toTopOf": "parent",
+          "type": "constraint",
+          "child": [
+            {
+              "id": "id_common_card_logo",
+              "layout_width": "18dp",
+              "layout_height": "18dp",
+              "contentDescription": "ic_logo",
+              "src": "@drawable\/icon_hiboard_widget_logo",
+              "layout_constraintBottom_toBottomOf": "parent",
+              "layout_constraintStart_toStartOf": "parent",
+              "layout_constraintTop_toTopOf": "parent",
+              "type": "image"
+            },
+            {
+              "id": "id_common_card_line1_title",
+              "layout_width": "wrap_content",
+              "layout_height": "wrap_content",
+              "layout_marginStart": "4dp",
+              "text": "@string\/desktop_widget_label",
+              "textColor": "@color\/hiboard_widget_app_title_text_color",
+              "textSize": "12dp",
+              "layout_constraintBottom_toBottomOf": "parent",
+              "layout_constraintStart_toEndOf": "id_common_card_logo",
+              "layout_constraintTop_toTopOf": "parent",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "id": "id_common_card_line3_layout",
+          "layout_width": "match_parent",
+          "layout_height": "wrap_content",
+          "layout_marginTop": "20dp",
+          "layout_constraintEnd_toEndOf": "parent",
+          "layout_constraintStart_toStartOf": "parent",
+          "layout_constraintTop_toBottomOf": "id_common_card_line1_layout",
+          "type": "constraint",
+          "child": [
+            {
+              "id": "id_common_card_sub_content",
+              "layout_width": "wrap_content",
+              "layout_height": "wrap_content",
+              "ellipsize": "end",
+              "textColor": "@color\/hiboard_widget_common_card_title_text_color",
+              "textSize": "12dp",
+              "layout_constraintBottom_toBottomOf": "parent",
+              "layout_constraintEnd_toEndOf": "parent",
+              "layout_constraintStart_toStartOf": "parent",
+              "layout_constraintTop_toTopOf": "parent",
+              "tools:text": "@string\/hiboard_widget_permission_location_req_des",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "id": "id_common_btn_layout",
+          "layout_width": "wrap_content",
+          "layout_height": "24dp",
+          "background": "@drawable\/hiboard_desktop_widget_btn_bg",
+          "paddingStart": "20dp",
+          "paddingEnd": "20dp",
+          "layout_marginTop": "20dp",
+          "layout_constraintTop_toBottomOf": "id_common_card_line3_layout",
+          "layout_constraintEnd_toEndOf": "parent",
+          "layout_constraintStart_toStartOf": "parent",
+          "type": "constraint",
+          "child": [
+            {
+              "id": "id_common_card_btn_label",
+              "layout_width": "wrap_content",
+              "layout_height": "wrap_content",
+              "layout_gravity": "center",
+              "ellipsize": "end",
+              "singleLine": true,
+              "text": "@string\/hiboard_widget_action_tips",
+              "textColor": "@color\/hiboard_widget_btn_text_color",
+              "textSize": "11.85dp",
+              "layout_constraintBottom_toBottomOf": "parent",
+              "layout_constraintEnd_toEndOf": "parent",
+              "layout_constraintStart_toStartOf": "parent",
+              "layout_constraintTop_toTopOf": "parent",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

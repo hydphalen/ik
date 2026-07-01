@@ -1,0 +1,499 @@
+{
+  "components": [
+    {
+      "id": "root",
+      "component": "Tabs",
+      "tabs": [
+        {
+          "title": "@placeholder(tabTitle0)",
+          "child": "tab_content_0"
+        },
+        {
+          "title": "@placeholder(tabTitle1)",
+          "child": "tab_content_1"
+        },
+        {
+          "title": "@placeholder(tabTitle2)",
+          "child": "tab_content_2"
+        },
+        {
+          "title": "@placeholder(tabTitle3)",
+          "child": "tab_content_3"
+        }
+      ],
+      "selectedIndex": "@placeholder(selectedIndex)",
+      "textColor": {
+        "call": "resolveToken",
+        "args": { "token": "@Color_Text_L2" }
+      },
+      "selectedTextColor": {
+        "call": "resolveToken",
+        "args": { "token": "@Color_Text_Brand" }
+      },
+      "styles": {
+          "background-color": {
+            "call": "resolveToken",
+            "args": { "token": "@Color_BG_L2" }
+          },
+          "border-radius" : "16px",
+          "width" : "100%",
+          "color": {
+             "call": "resolveToken",
+            "args": { "token": "@Color_Text_L2" }
+          },
+          "tab-font-color": {
+            "call": "resolveToken",
+            "args": { "token": "@Color_Text_L2" }
+          },
+          "tab-font-color-selected": {
+            "call": "resolveToken",
+            "args": { "token": "@Color_Text_L1" }
+          }
+      }
+    },
+    {
+      "id": "tab_content_0",
+      "component": "Row",
+      "justify": "spaceBetween",
+      "align": "start",
+      "styles": {
+        "padding": "16px 16px 16px 16px"
+      },
+      "children": [
+        "icon_container_0",
+        "info_col_0",
+        "nav_button_0"
+      ]
+    },
+    {
+      "id": "icon_container_0",
+      "component": "Row",
+      "justify": "center",
+      "align": "start",
+      "styles": {
+        "width": "84px",
+        "height": "84px",
+        "margin-right": "24px",
+        "flex-shrink": "0"
+      },
+      "children": ["icon_0"]
+    },
+    {
+      "id": "icon_0",
+      "component": "Image",
+      "url": "@placeholder(icon0)",
+      "styles": {
+        "width": "84px",
+        "height": "84px",
+        "border-width": "0",
+        "aspect-ratio": "1"
+      }
+    },
+    {
+      "id": "info_col_0",
+      "component": "Column",
+      "styles": {
+        "flex-grow": 1
+      },
+      "children": ["title_0", "details_0"]
+    },
+    {
+      "id": "title_0",
+      "component": "Text",
+      "text": "@placeholder(title0)",
+      "variant": "h3",
+       "styles": {
+        "color": {
+          "call":"resolveToken",
+          "args": { "token": "@Color_Text_L1" }
+        }
+      }
+    },
+    {
+      "id": "details_0",
+      "component": "Text",
+      "text": "@placeholder(subTitle0)",
+      "variant": "body",
+      "styles": {
+        "color": {
+          "call":"resolveToken",
+          "args": { "token": "@Color_Text_L2" }
+        }
+      }
+    },
+    {
+      "id": "nav_button_0",
+      "component": "Button",
+      "child": "button_text_0",
+      "styles": {
+        "background-color": "rgba(34, 115, 247, 0.14)",
+        "border-color": "rgba(34, 115, 247, 0.14)",
+        "border-radius": "8px",
+        "padding": "12px 24px"
+      },
+      "action": {
+        "functionCall": {
+          "call": "openUrl",
+          "args": {
+            "url": "@placeholder(schema0)"
+          }
+        }
+      },
+      "accessibility": {
+        "label": "导航"
+      }
+    },
+    {
+      "id": "button_text_0",
+      "component": "Text",
+      "text": "@placeholder(buttonText0)",
+      "styles": {
+        "color": {
+          "call": "resolveToken",
+          "args": { "token": "@Color_Text_Brand" }
+        }
+      }
+    },
+    {
+      "id": "tab_content_1",
+      "component": "Row",
+      "justify": "spaceBetween",
+      "align": "start",
+      "styles": {
+        "padding": "16px 16px 16px 16px"
+      },
+      "children": [
+        "icon_container_1",
+        "info_col_1",
+        "nav_button_1"
+      ]
+    },
+    {
+      "id": "icon_container_1",
+      "component": "Row",
+      "justify": "center",
+      "align": "center",
+      "styles": {
+        "width": "84px",
+        "height": "84px",
+        "margin-right": "24px",
+        "flex-shrink": "0"
+      },
+      "children": ["icon_1"]
+    },
+    {
+      "id": "icon_1",
+      "component": "Image",
+      "url": "@placeholder(icon1)",
+      "styles": {
+        "width": "84px",
+        "height": "84px",
+        "border-width": "0",
+        "aspect-ratio": "1"
+      }
+    },
+    {
+      "id": "info_col_1",
+      "component": "Column",
+      "styles": {
+        "flex-grow": 1,
+        "flex-shrink": 1
+      },
+      "children": ["title_1", "details_1", "bus_line_row"]
+    },
+    {
+      "id": "bus_line_row",
+      "component": "Row",
+      "styles": {
+        "margin-top": "4px",
+        "flex-wrap": "wrap"
+      },
+      "children": {
+        "componentId": "bus_line_item",
+        "path": "@placeholder(busLineList)"
+      }
+    },
+    {
+      "id": "bus_line_item",
+      "component": "Text",
+      "variant": "h3",
+      "text": {
+        "path": "bus_key_name"
+      },
+      "styles": {
+        "font-weight": "bold",
+        "border-radius": "8px",
+        "padding": "4px 12px",
+        "color": "#FFFFFF",
+        "font-size": "24px",
+        "margin": "8px 8px 0 0",
+        "background-color":"#999999"
+      }
+    },
+    {
+      "id": "title_1",
+      "component": "Text",
+      "text": "@placeholder(title1)",
+      "variant": "h3",
+      "styles": {
+        "color": {
+          "call":"resolveToken",
+          "args": { "token": "@Color_Text_L1" }
+        }
+      }
+    },
+    {
+      "id": "details_1",
+      "component": "Text",
+      "text": "@placeholder(subTitle1)",
+      "variant": "body",
+      "styles": {
+        "color": {
+          "call":"resolveToken",
+          "args": { "token": "@Color_Text_L2" }
+        }
+      }
+    },
+    {
+      "id": "nav_button_1",
+      "component": "Button",
+      "child": "button_text_1",
+      "styles": {
+        "background-color": "rgba(34, 115, 247, 0.14)",
+        "border-color": "rgba(34, 115, 247, 0.14)",
+        "border-radius": "8px",
+        "padding": "12px 24px",
+        "flex-shrink": "0",
+        "margin-left": "16px"
+      },
+      "action": {
+        "functionCall": {
+          "call": "openUrl",
+          "args": {
+            "url": "@placeholder(schema1)"
+          }
+        }
+      },
+      "accessibility": {
+        "label": "导航"
+      }
+    },
+    {
+      "id": "button_text_1",
+      "component": "Text",
+      "text": "@placeholder(buttonText1)",
+      "styles": {
+        "color": {
+          "call": "resolveToken",
+          "args": { "token": "@Color_Text_Brand" }
+        }
+      }
+    },
+    {
+      "id": "tab_content_2",
+      "component": "Row",
+      "justify": "spaceBetween",
+      "align": "start",
+      "styles": {
+        "padding": "16px 16px 16px 16px"
+      },
+      "children": [
+        "icon_container_2",
+        "info_col_2",
+        "nav_button_2"
+      ]
+    },
+    {
+      "id": "icon_container_2",
+      "component": "Row",
+      "justify": "center",
+      "align": "center",
+      "styles": {
+        "width": "84px",
+        "height": "84px",
+        "margin-right": "24px",
+        "flex-shrink": "0"
+      },
+      "children": ["icon_2"]
+    },
+    {
+      "id": "icon_2",
+      "component": "Image",
+      "url": "@placeholder(icon2)",
+      "styles": {
+        "width": "84px",
+        "height": "84px",
+        "border-width": "0",
+        "aspect-ratio": "1"
+      }
+    },
+    {
+      "id": "info_col_2",
+      "component": "Column",
+      "styles": {
+        "flex-grow": 1
+      },
+      "children": ["title_2", "details_2"]
+    },
+    {
+      "id": "title_2",
+      "component": "Text",
+      "text": "@placeholder(title2)",
+      "variant": "h3",
+      "styles": {
+        "color": {
+          "call": "resolveToken",
+          "args": { "token": "@Color_Text_L1" }
+        }
+      }
+    },
+    {
+      "id": "details_2",
+      "component": "Text",
+      "text": "@placeholder(subTitle2)",
+      "variant": "body",
+      "styles": {
+        "color": {
+          "call": "resolveToken",
+          "args": { "token": "@Color_Text_L2" }
+        }
+      }
+    },
+    {
+      "id": "nav_button_2",
+      "component": "Button",
+      "child": "button_text_2",
+      "styles": {
+        "background-color": "rgba(34, 115, 247, 0.14)",
+        "border-color": "rgba(34, 115, 247, 0.14)",
+        "border-radius": "8px",
+        "padding": "12px 24px"
+      },
+      "action": {
+        "functionCall": {
+          "call": "openUrl",
+          "args": {
+            "url": "@placeholder(schema2)"
+          }
+        }
+      },
+      "accessibility": {
+        "label": "导航"
+      }
+    },
+    {
+      "id": "button_text_2",
+      "component": "Text",
+      "text": "@placeholder(buttonText2)",
+      "styles": {
+        "color": {
+          "call": "resolveToken",
+          "args": { "token": "@Color_Text_Brand" }
+        }
+      }
+    },
+    {
+      "id": "tab_content_3",
+      "component": "Row",
+      "justify": "spaceBetween",
+      "align": "start",
+      "styles": {
+        "padding": "16px 16px 16px 16px"
+      },
+      "children": [
+        "icon_container_3",
+        "info_col_3",
+        "nav_button_3"
+      ]
+    },
+    {
+      "id": "icon_container_3",
+      "component": "Row",
+      "justify": "center",
+      "align": "center",
+      "styles": {
+        "width": "84px",
+        "height": "84px",
+        "margin-right": "24px",
+        "flex-shrink": "0"
+      },
+      "children": ["icon_3"]
+    },
+    {
+      "id": "icon_3",
+      "component": "Image",
+      "url": "@placeholder(icon3)",
+      "styles": {
+        "width": "84px",
+        "height": "84px",
+        "border-width": "0",
+        "aspect-ratio": "1"
+      }
+    },
+    {
+      "id": "info_col_3",
+      "component": "Column",
+      "styles": {
+        "flex-grow": 1
+      },
+      "children": ["title_3", "details_3"]
+    },
+    {
+      "id": "title_3",
+      "component": "Text",
+      "text": "@placeholder(title3)",
+      "variant": "h3",
+      "styles": {
+        "color": {
+          "call": "resolveToken",
+          "args": { "token": "@Color_Text_L1" }
+        }
+      }
+    },
+    {
+      "id": "details_3",
+      "component": "Text",
+      "text": "@placeholder(subTitle3)",
+      "variant": "body",
+      "styles": {
+        "color": {
+          "call": "resolveToken",
+          "args": { "token": "@Color_Text_L2" }
+        }
+      }
+    },
+    {
+      "id": "nav_button_3",
+      "component": "Button",
+      "child": "button_text_3",
+      "styles": {
+        "background-color": "rgba(34, 115, 247, 0.14)",
+        "border-color": "rgba(34, 115, 247, 0.14)",
+        "border-radius": "8px",
+        "padding": "12px 24px"
+      },
+      "action": {
+        "functionCall": {
+          "call": "openUrl",
+          "args": {
+            "url": "@placeholder(schema3)"
+          }
+        }
+      },
+      "accessibility": {
+        "label": "导航"
+      }
+    },
+    {
+      "id": "button_text_3",
+      "component": "Text",
+      "text": "@placeholder(buttonText3)",
+      "styles": {
+        "color": {
+          "call": "resolveToken",
+          "args": { "token": "@Color_Text_Brand" }
+        }
+      }
+    }
+  ]
+}

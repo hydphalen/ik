@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <title>!!!!</title>
+    <style type="text/css">
+        body, img, div, p {
+          margin: 0;
+          padding: 0;
+        }
+        body {
+          background-color: #FFF;
+        }
+
+        .noselect {
+          -webkit-user-select: none;
+          user-select: none;
+        }
+
+        .am-page-result {
+        }
+
+        .am-page-result .am-page-result-pic {
+          width: 58.7%;
+          margin: 0 auto;
+        }
+
+        .am-page-result .am-page-result-lottie {
+          width: 100%;
+          height: 220px;
+        }
+
+        .am-page-result .am-page-result-pic img {
+          width: 100%;
+          height: 100%;
+        }
+
+        .am-page-result p {
+          margin: 6.67% 0 0;
+          font-size: 20px;
+          color: #333;
+          text-align: center;
+        }
+
+        .am-page-result-sub-title {
+          margin: 4% 10px 0;
+          font-size: 14px;
+          color: #999;
+          text-align: center;
+        }
+
+        .am-page-result-bottom {
+          position: absolute;
+          width: 100%;
+          bottom: 45px;
+          z-index: 10;
+        }
+
+        .am-page-result-btn {
+          color: #108ee9;
+          font-size: 18px;
+          line-height: 28px;
+          text-align: center;
+          margin: 15px 0;
+          overflow: hidden;
+        }
+
+        .am-page-info-text {
+          color: #FFFCFC;
+          font-size: 16px;
+          line-height: 22px;
+          overflow: hidden;
+          word-break: break-all;
+        }
+
+        .am-page-info-text-black {
+          color: #DC143C;
+          font-size: 16px;
+          line-height: 22px;
+          overflow: hidden;
+          word-break: break-all;
+        }
+    </style>
+<body>
+<div class="am-page-result">
+
+    ^^^^
+
+    <p>&&&&</p>
+
+    <div class="am-page-result-sub-title">
+        **##
+    </div>
+
+    <div class="am-page-info-text noselect" id="infoText">
+
+        ````
+    </div>
+
+    <div class="am-page-result-bottom noselect">
+        <div class="am-page-result-btn" id="refresh">####
+        </div>
+        <div class="am-page-result-btn" id="repair">****
+        </div>
+    </div>
+</div>
+</body>
+<script>
+      var messenger = window.__alipayConsole__ || window.console;
+      var log = messenger.log;
+      var postMessage = function (name, inParam) {
+        var clientId = '' + new Date().getTime() + (Math.random());
+        var invokeMsg = JSON.stringify({
+            func: name,
+            param: inParam,
+            msgType: 'call',
+            clientId: clientId
+        });
+        log.call(messenger, "h5container.message: " + invokeMsg);
+      };
+      var reloadPage = function (type) {
+        if (window.AlipayJSBridge && window.AlipayJSBridge.startupParams
+          && !window.AlipayJSBridge.startupParams.showOptionMenu) {
+            postMessage('hideOptionMenu');
+        } else {
+            postMessage('setOptionMenu', {reset: true});
+        }
+        // UC 使用 h5PageReload 防止产生访问历史记录
+        // 系统WebView 使用 location.reload()，防止证书错误下点击刷新后，toolbar点击事件前端接收不到
+        if (~navigator.userAgent.indexOf('UCBS')) {
+            console.log('uc webview');
+            postMessage('h5PageReload', {loadType: type});
+        } else {
+            console.log('system webview');
+            location.reload();
+        }
+      };
+
+      var refresh = document.querySelector('#refresh');
+      if (refresh) {
+        refresh.addEventListener('touchend', function() {
+            reloadPage(3);
+        });
+      }
+      var networkCheck = document.querySelector('#repair');
+      if (networkCheck) {
+        networkCheck.addEventListener('touchend', function() {
+            postMessage('startRepair', {statusCode: '~~~~'});
+        });
+      }
+
+      var feedbackStr = '&&@@';
+      console.log('feedbackStr : ' + feedbackStr);
+
+      if (feedbackStr == 'show') {
+        postMessage('setOptionMenu', {title: '@@@@'});
+        //必须强制调用一把刷新界面
+        postMessage('showOptionMenu');
+        //监听反馈点击事件
+        document.addEventListener('optionMenu', function (e) {
+          console.log('optionMenu event');
+          postMessage('startFeedBack');
+        }, false);
+      } else if (feedbackStr == 'pop') {
+          postMessage('setOptionMenu', {icontype: 'more'});
+          //必须强制调用一把刷新界面
+          postMessage('showOptionMenu');
+          document.addEventListener('optionMenu', function (e) {
+            postMessage('showPopMenu', {
+              menus:[
+                { name: "@@@@", icon: "UklGRjYDAABXRUJQVlA4TCoDAAAvWUAWEGehoG0byXvxDNXx16FR0LaN5L14hur46xAoaNtG8l48Q3X8dQgUR5KU4P8Lk2xJgu8d7hJg772PhYONhY2DiYmEAsRAiIiFgYaFgYWOjYKBjhIRAIgIj4IdERspIgxkd+fdPf//BoeMjAm8OwtHsm2lESQQT7u7K/tfYPjpLzDrSUT/HbhtG0mavc9MJ4k6fYL6Q22XSW0TUzTTS2zchqnubY/mGBXHQv/ckklE7K3GtoGLha3p/U5h+pf6Hsnvw8f54qbUdV72HsbBG+xCe+uFMYcfX8bADB+bTebJLuG5GsKgn3IweOFpdccLy8F14oPZB/8vMOJXNJqppwpNBbKEmk3zsMx1x1sROPiXslvQNuXTLzmQIhr6XR2FZMQoxrP1+3oMxynpsGdOeX3C8dEdM0XEPX1Qq2AdUHc8HS+q0nHhjcaWEVfjw5qKQSnDhnX0U3D0+ZCzLj0hSrvRMjYAA1ApaBq2v4/nLfca2shzeHjL3H6T4xm6AFqTp9YdC6QRUHr2y4eyk2YHmjaWKZTetX90FHdZ7oU/dHs+6utjGcsy1h1fJcDFdJiruBrNRQI1AcIUV+NEiXAv+MIkJ4QAagmEGUCNJBjClFYjDYYwZdVIhCFMWTVSYQhTUo1kGMKUVCMZhjAF1UiHIUxBNdJhCFNOjQx4whRQowxEYQqoUQ6CMPlqFIQgTL4aBREU5g72SzmowmSpURCqMFlqZDgZD4ssTJ4aydsTnXqQhclQI4eVKdD6Zggz/JxFTJhVgHNtMWHuQswNqcLM0eF2BTh74zb212fmJObNE1JXGHC97HN2KDHXzxylKUCH8itU4G5BiPapImANYiOIZhIDqvBeueOaW7MFWoCzUvZMFJcsWJU68+cpw/FGYFqOm9h4f6ootoVGE9eXlomDOV41hvtE/CRliL+8j4IWf7mNZlXxZvChWWhsfhN4ice637awoPzCc0zAO5QjrkcuMMtMUxzsXuBSTjbh1kB3o94i8AwvbNtfL7fFU34rLPht8ury1uootnRMG8dXDNRUtbhJHhjT7DgNej36lDaV52HLVzNcOfWv2RQ=", tag: "feedback"}
+              ]
+            });
+          }, false);
+
+          document.addEventListener('popMenuClick', function(e) {
+            console.log(JSON.stringify(e.data));
+            if (e.data.tag == 'feedback') {
+              postMessage('startFeedBack');
+            }
+          }, false);
+      } else {
+        //隐藏反馈
+        postMessage('hideOptionMenu');
+      }
+
+      //监听网络变化
+      document.addEventListener('h5NetworkChange', function (e) {
+        reloadPage(1);
+      }, false);
+
+      // 连续点击五次错误图片，显示出错误信息
+      var errorImg = document.querySelector('#errorImg');
+      var clickCount = 0;
+      var showErrorInfo = function() {
+        clickCount ++;
+        if (clickCount >= 5) {
+          var infoText = document.querySelector('#infoText');
+          if (infoText) {
+            infoText.className = "am-page-info-text-black";
+          }
+        }
+      }
+
+      if (errorImg) {
+        errorImg.addEventListener('touchend', function() {
+          showErrorInfo();
+        });
+      }
+
+      document.addEventListener('lottieViewClick', function (e) {
+        showErrorInfo();
+      }, false);
+
+      window.H5ISLOADERRORHTML = true;
+
+</script>
+</html>

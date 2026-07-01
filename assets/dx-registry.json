@@ -1,0 +1,299 @@
+{
+  "search_result_list": {
+    "SearchNaviBar": {
+      "cardType": "dxTemplate",
+      "templateName": "amap_search_filter_bar_next"
+    },
+    "uncorrelated_divide": {
+      "cardType": "dxTemplate",
+      "templateName": "amap_uncorrelated_divide"
+    },
+    "PoiCardUniversal": {
+      "cardType": "dxTemplate",
+      "templateName": "amap_poi_card_universal",
+      "propsData": {
+        "hoverType":1
+      }
+    },
+    "MainPOICardAiUi": {
+      "cardType": "dxTemplate",
+      "templateName": "amap_poicard_main_nextsearch",
+      "propsData": {
+        "nonRefresh": true
+      }
+    },
+    "FeedRandCardAiUi": {
+      "cardType": "dxTemplate",
+      "templateName": "amap_poicard_rank_nextsearch"
+    },
+    "FeedSingleCardAiUi": {
+      "cardType": "dxTemplate",
+      "templateName": "amap_poicard_feed_nextsearch"
+    },
+    "ListSwipeCardAiUi": {
+      "cardType": "dxTemplate",
+      "templateName": "amap_poicard_swipe_nextsearch"
+    },
+    "bus_line": {
+      "cardType": "dxTemplate",
+      "templateName": "amap_busline_card",
+      "propsData": {
+        "cardGroupName":"bus_line_card_group"
+      }
+    },
+    "bus_line_more": {
+      "cardType": "dxTemplate",
+      "templateName": "amap_busline_card_more",
+      "propsData": {
+        "cardGroupName":"bus_line_card_group"
+      }
+    },
+    "filterResultsSelectorCard": {
+      "cardType": "dxTemplate",
+      "templateName": "amap_filter_result_selector_card"
+    },
+    "NplRatingCardA": {
+      "cardType": "dxTemplate",
+      "templateName": "amap_npl_rating_card_a"
+    },
+    "miniPortal": {
+      "cardType": "dxTemplate",
+      "templateName": "amap_search_navi_bar_mini_portal",
+      "propsData": {
+        "relatedAnimation": {
+          "height": {
+            "to": 0
+          },
+          "alpha": {
+            "to": 0
+          },
+          "rangeType": "1"
+        }
+      }
+    },
+    "IndustryPromotionCard": {
+      "cardType": "dxTemplate",
+      "templateName": "amap_industry_promotion_card",
+      "propsData": {}
+    },
+    "aggregation_title": {
+      "cardType": "dxTemplate",
+      "templateName": "amap_next_search_aggregation_title",
+      "propsData": {}
+    },
+    "AggregationTabBar": {
+      "cardType": "dxTemplate",
+      "templateName": "amap_next_search_tab_bar",
+      "propsData": {}
+    },
+    "CustomerServiceAdEntrances": {
+      "cardType": "nativeComponent",
+      "nativeComponent": "C3NativeCommonAjxCard",
+      "propsData": {
+        "pagePath": "path://amap_bundle_search/src/next2/pages/SearchResultPageNext2.page.js",
+        "defaultHeight": 301,
+        "relatedAnimation": {
+          "rangeType": "1",
+          "alpha" : {
+            "to": 0
+          },
+          "height": {
+            "to": 0
+          }
+        }
+      }
+    },
+    "SearchBrandFocusCard": {
+      "cardType": "nativeComponent",
+      "nativeComponent": "C3NativeCommonAjxCard",
+      "propsData": {
+        "pagePath": "path://amap_bundle_search/src/next2/pages/SearchResultPageNext2.page.js",
+        "defaultHeight": 292,
+        "relatedAnimation": {
+          "rangeType": "2",
+          "alpha" : {
+            "to": 0
+          },
+          "height": {
+            "to": 0
+          }
+        }
+      }
+    },
+    "BrandBannerCard": {
+      "cardType": "nativeComponent",
+      "nativeComponent": "C3NativeCommonAjxCard",
+      "propsData": {
+        "pagePath": "path://amap_bundle_search/src/next2/pages/SearchResultPageNext2.page.js",
+        "defaultHeight": 460,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "needNavibarBg": true,
+        "hideDragbarStatus": ["top", "middle", "bottom"],
+        "navibarBgAnimations": [
+          {
+            "rangeType": "1",
+            "alpha" : {
+              "to": 0
+            }
+          }
+        ],
+        "relatedAnimations": [
+          {
+            "rangeType": "1",
+            "observerTranslateY": true
+          },
+          {
+            "rangeType": "2",
+            "alpha" : {
+              "to": 0
+            },
+            "height": {
+              "to": 0
+            }
+          }
+        ]
+      }
+    },
+    "ExpressEntryCard": {
+      "cardType": "nativeComponent",
+      "nativeComponent": "C3NativeCommonAjxCard",
+      "propsData": {
+        "pagePath": "path://amap_bundle_search/src/next2/pages/SearchResultPageNext2.page.js",
+        "defaultHeight": 224,
+        "relatedAnimation": {
+          "rangeType": "2",
+          "alpha" : {
+            "to": 0
+          },
+          "height": {
+            "to": 0
+          }
+        }
+      }
+    },
+    "MovieHotListCard": {
+      "cardType": "nativeComponent",
+      "nativeComponent": "C3NativeCommonAjxCard",
+      "propsData": {
+        "pagePath": "path://amap_bundle_search/src/next2/pages/SearchResultPageNext2.page.js",
+        "defaultHeight": 357,
+        "relatedAnimation": {
+          "rangeType": "1",
+          "alpha" : {
+            "to": 0
+          },
+          "height": {
+            "to": 0
+          }
+        }
+      }
+    },
+    "RentalPicker": {
+      "cardType": "nativeComponent",
+      "nativeComponent": "C3NativeCommonAjxCard",
+      "propsData": {
+        "pagePath": "path://amap_bundle_search/src/next2/pages/SearchResultPageNext2.page.js",
+        "defaultHeight": 368,
+        "relatedAnimation": {
+          "rangeType": "1",
+          "alpha" : {
+            "to": 0
+          },
+          "height": {
+            "to": 0
+          }
+        }
+      }
+    },
+    "commonHkfMiniPortal": {
+      "cardType": "nativeComponent",
+      "nativeComponent": "C3NativeCommonAjxCard",
+      "propsData": {
+        "pagePath": "path://amap_bundle_search/src/next2/pages/SearchResultPageNext2.page.js",
+        "defaultHeight": 208,
+        "relatedAnimation": {
+          "rangeType": "2",
+          "alpha" : {
+            "to": 0
+          },
+          "height": {
+            "to": 0
+          }
+        }
+      }
+    },
+    "RescueEnteranceTelCard": {
+      "cardType": "nativeComponent",
+      "nativeComponent": "C3NativeCommonAjxCard",
+      "propsData": {
+        "pagePath": "path://amap_bundle_search/src/next2/pages/SearchResultPageNext2.page.js",
+        "defaultHeight": 378,
+        "relatedAnimation": {
+          "rangeType": "1",
+          "alpha" : {
+            "to": 0
+          },
+          "height": {
+            "to": 0
+          }
+        }
+      }
+    },
+    "pageStateView": {
+      "cardType": "nativeComponent",
+      "nativeComponent": "SearchPageStateView"
+    },
+    "classify": {
+      "cardType": "nativeComponent",
+      "nativeComponent": "ListOperationFilterLabel",
+      "propsData": {
+        "isSticky": true
+      }
+    },
+    "HeaderTipSection": {
+      "cardType": "nativeComponent",
+      "nativeComponent": "HeaderTipSectionView",
+      "propsData": {
+        "relatedAnimation": {
+          "height": {
+            "to": 0
+          },
+          "alpha": {
+            "to": 0
+          },
+          "rangeType": "1"
+        }
+      }
+    },
+    "AiCard": {
+      "cardType": "nativeComponent",
+      "nativeComponent": "C3AiCardView"
+    },
+    "DistanceSliderWrapper": {
+      "cardType": "nativeComponent",
+      "nativeComponent": "DistanceSliderView",
+      "propsData": {
+        "relatedAnimation": {
+          "height": {
+            "to": 0
+          },
+          "alpha": {
+            "to": 0
+          },
+          "rangeType": "1"
+        }
+      }
+    },
+    "PoiAggregationCard": {
+      "cardType": "nativeComponent",
+      "nativeComponent": "PoiAggregationCard",
+      "propsData": {}
+    },
+    "ListRankCardAiUi": {
+      "cardType": "dxTemplate",
+      "templateName": "amap_list_rank_card_ai_ui",
+      "propsData": {}
+    }
+  }
+}

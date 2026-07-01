@@ -1,0 +1,48 @@
+{
+  "code": "1",
+  "version": "aone",
+  "timestamp": 0,
+  "srvUnit": "CENTER_UNIT.center",
+  "srvEnv": "prod",
+  "message": "success",
+  "result": true,
+  "statusCode": 1,
+  "data": {
+    "template": "distributionListStandard",
+    "meta": {
+      "isGbfDTO": "1",
+      "isBffDTO": "1"
+    },
+    "regions": {
+      "header": [
+        "searchNaviBar"
+      ],
+      "footer": [
+        "pageStateView"
+      ]
+    },
+    "modules": {
+      "searchNaviBar": {
+        "card_id": "SearchNaviBar",
+        "data": {
+          "showAlime": 0,
+          "showCityPicker": 0,
+          "showDatePicker": 0,
+          "isIndustryHotel": 0,
+          "useCityPickerV2": 0,
+          "useDatePickerV2": 0,
+          "isLocalMockData": 1,
+          "log_param": {
+            "log_param_sign": ""
+          }
+        }
+      },
+      "pageStateView": {
+        "card_id": "pageStateView",
+        "data": {
+          "state": "loading"
+        }
+      }
+    }
+  }
+}

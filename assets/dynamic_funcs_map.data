@@ -1,0 +1,7 @@
+s=BundleInterfaceImpl
+com.amap.bundle.ossservice.api.IGDOSSService ossservice
+com.amap.bundle.account.google.IGoogleIdService googleid
+com.amap.bundle.pay.douyin.IDouyinPayService douyinpay
+com.amap.qqmusic.api.IQQMusicService qqmusic
+s=ajx
+natives.user carlogo
