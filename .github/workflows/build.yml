@@ -19,25 +19,20 @@ jobs:
       with:
         java-version: '11'
         distribution: 'temurin'
-        cache: gradle
     
-    - name: Grant execute permission for gradlew
-      run: chmod +x gradlew
+    - name: Make gradlew executable
+      run: chmod +x ./gradlew
     
-    - name: Build Release APK
-      run: ./gradlew :app:assembleRelease
+    - name: Build with Gradle
+      run: ./gradlew clean :app:assembleRelease --stacktrace
     
-    - name: Upload Release APK
+    - name: Check build output
+      run: ls -la app/build/outputs/apk/release/
+    
+    - name: Upload APK
       uses: actions/upload-artifact@v4
+      if: success()
       with:
-        name: app-release
+        name: app-release-apk
         path: app/build/outputs/apk/release/app-release.apk
         retention-days: 30
-    
-    - name: Upload to Release
-      if: startsWith(github.ref, 'refs/tags/')
-      uses: softprops/action-gh-release@v1
-      with:
-        files: app/build/outputs/apk/release/app-release.apk
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
